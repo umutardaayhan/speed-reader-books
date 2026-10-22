@@ -1,0 +1,12 @@
+{
+  "name": "speed-reader-books",
+  "private": true,
+  "type": "module",
+  "description": "Public-domain books and the catalog for Aesthetic Speed Reader's bookstore",
+  "scripts": {
+    "build": "node tools/build.mjs"
+  },
+  "devDependencies": {
+    "fflate": "0.8.3"
+  }
+}

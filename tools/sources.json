@@ -1,0 +1,133 @@
+{
+  "authors": [
+    {
+      "id": "omer-seyfettin",
+      "name": "Ömer Seyfettin",
+      "born": 1884,
+      "died": 1920,
+      "about": {
+        "tr": "Türk öykücülüğünün öncülerinden. Sade bir Türkçeyle yazdığı, çoğu çocukluk anılarına ve tarihe dayanan yüzlerce hikâyesiyle tanınır.",
+        "en": "One of the founders of the modern Turkish short story, known for hundreds of tales in plain Turkish, many drawn from childhood memories and history."
+      }
+    },
+    {
+      "id": "dostoyevsky",
+      "name": "Fyodor Dostoyevsky",
+      "born": 1821,
+      "died": 1881,
+      "about": {
+        "tr": "Rus romancı. İnsan ruhunun karanlık köşelerini, inancı ve vicdanı işleyen romanlarıyla dünya edebiyatının en büyüklerinden sayılır.",
+        "en": "Russian novelist whose books on conscience, faith and the darker sides of the mind made him one of the great writers of world literature."
+      }
+    },
+    {
+      "id": "tolstoy",
+      "name": "Leo Tolstoy",
+      "born": 1828,
+      "died": 1910,
+      "about": {
+        "tr": "Rus romancı. Savaş ve Barış ile Anna Karenina, gerçekçi romanın doruklarından kabul edilir.",
+        "en": "Russian novelist; War and Peace and Anna Karenina are counted among the peaks of the realist novel."
+      }
+    }
+  ],
+  "books": [
+    {
+      "id": "omer-seyfettin-kasagi",
+      "title": "Kaşağı ve Diğer Hikâyeler",
+      "authorId": "omer-seyfettin",
+      "language": "tr",
+      "source": "wikisource",
+      "pages": [
+        "Kaşağı",
+        "Forsa",
+        "Pembe İncili Kaftan",
+        "Başını Vermeyen Şehit",
+        "Diyet",
+        "Kesik Bıyık",
+        "Yüksek Ökçeler",
+        "Falaka",
+        "Topuz",
+        "Kurbağa Duası",
+        "Perili Köşk",
+        "İlk Namaz",
+        "Ferman",
+        "Vire"
+      ],
+      "about": {
+        "tr": "Kaşağı, Forsa, Pembe İncili Kaftan ve Başını Vermeyen Şehit dahil, Ömer Seyfettin'in en çok okunan hikâyelerinden on dördü.",
+        "en": "Fourteen of Ömer Seyfettin's best-loved stories, including Kaşağı, Forsa and Pembe İncili Kaftan."
+      }
+    },
+    {
+      "id": "omer-seyfettin-bomba",
+      "title": "Bomba ve Diğer Hikâyeler",
+      "authorId": "omer-seyfettin",
+      "language": "tr",
+      "source": "wikisource",
+      "pages": [
+        "Bomba",
+        "Kütük",
+        "Zeytin Ekmek",
+        "Fon Sadriştayn’ın Oğlu",
+        "Fon Sadriştayn’ın Karısı",
+        "Aşk Dalgası",
+        "Hürriyet Bayrakları",
+        "İki Mebus",
+        "Niçin Zengin Olmamış?",
+        "Üç Nasihat",
+        "Mehdi",
+        "Teselli",
+        "Büyücü",
+        "Balkon (hikâye)",
+        "Velinimet"
+      ],
+      "about": {
+        "tr": "Bomba, Kütük, Zeytin Ekmek ve Fon Sadriştayn hikâyeleri dahil, Ömer Seyfettin'in daha uzun on beş hikâyesi.",
+        "en": "Fifteen of Ömer Seyfettin's longer stories, including Bomba, Kütük and Zeytin Ekmek."
+      }
+    },
+    {
+      "id": "crime-and-punishment",
+      "title": "Crime and Punishment",
+      "authorId": "dostoyevsky",
+      "language": "en",
+      "year": 1866,
+      "translator": "Constance Garnett",
+      "source": "gutenberg",
+      "gutenberg": 2554,
+      "about": {
+        "tr": "Yoksul öğrenci Raskolnikov'un işlediği cinayetin ve vicdanıyla hesaplaşmasının romanı.",
+        "en": "A poor student, Raskolnikov, commits a murder and is undone by his own conscience."
+      }
+    },
+    {
+      "id": "notes-from-the-underground",
+      "title": "Notes from the Underground",
+      "authorId": "dostoyevsky",
+      "language": "en",
+      "year": 1864,
+      "translator": "Constance Garnett",
+      "source": "gutenberg",
+      "gutenberg": 600,
+      "about": {
+        "tr": "Toplumdan kopmuş, öfkeli bir adamın kendi kendine konuşması: varoluşçu edebiyatın öncülerinden kısa bir roman.",
+        "en": "The bitter monologue of a man who has withdrawn from society; a short novel often called the first existentialist work."
+      }
+    },
+    {
+      "id": "anna-karenina",
+      "title": "Anna Karenina",
+      "authorId": "tolstoy",
+      "language": "en",
+      "year": 1878,
+      "translator": "Constance Garnett",
+      "source": "gutenberg",
+      "gutenberg": 1399,
+      "about": {
+        "tr": "Anna'nın yasak aşkı ile Levin'in hayatın anlamını arayışı, Rus aristokrasisinin portresi içinde iç içe geçer.",
+        "en": "Anna's doomed love affair and Levin's search for meaning, set against a portrait of Russian society."
+      }
+    }
+  ]
+}

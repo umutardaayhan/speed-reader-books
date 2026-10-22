@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "updated": "2026-10-22",
+  "authors": [
+    {
+      "id": "omer-seyfettin",
+      "name": "Ömer Seyfettin",
+      "born": 1884,
+      "died": 1920,
+      "about": {
+        "tr": "Türk öykücülüğünün öncülerinden. Sade bir Türkçeyle yazdığı, çoğu çocukluk anılarına ve tarihe dayanan yüzlerce hikâyesiyle tanınır.",
+        "en": "One of the founders of the modern Turkish short story, known for hundreds of tales in plain Turkish, many drawn from childhood memories and history."
+      }
+    },
+    {
+      "id": "dostoyevsky",
+      "name": "Fyodor Dostoyevsky",
+      "born": 1821,
+      "died": 1881,
+      "about": {
+        "tr": "Rus romancı. İnsan ruhunun karanlık köşelerini, inancı ve vicdanı işleyen romanlarıyla dünya edebiyatının en büyüklerinden sayılır.",
+        "en": "Russian novelist whose books on conscience, faith and the darker sides of the mind made him one of the great writers of world literature."
+      }
+    },
+    {
+      "id": "tolstoy",
+      "name": "Leo Tolstoy",
+      "born": 1828,
+      "died": 1910,
+      "about": {
+        "tr": "Rus romancı. Savaş ve Barış ile Anna Karenina, gerçekçi romanın doruklarından kabul edilir.",
+        "en": "Russian novelist; War and Peace and Anna Karenina are counted among the peaks of the realist novel."
+      }
+    }
+  ],
+  "books": [
+    {
+      "id": "omer-seyfettin-kasagi",
+      "title": "Kaşağı ve Diğer Hikâyeler",
+      "authorId": "omer-seyfettin",
+      "language": "tr",
+      "words": 23414,
+      "bytes": 92373,
+      "file": "books/omer-seyfettin-kasagi.epub",
+      "about": {
+        "tr": "Kaşağı, Forsa, Pembe İncili Kaftan ve Başını Vermeyen Şehit dahil, Ömer Seyfettin'in en çok okunan hikâyelerinden on dördü.",
+        "en": "Fourteen of Ömer Seyfettin's best-loved stories, including Kaşağı, Forsa and Pembe İncili Kaftan."
+      },
+      "source": "Vikikaynak (tr.wikisource.org)",
+      "license": "Kamu malı (yazar 1920 yılında öldü); Vikikaynak metni CC BY-SA 4.0"
+    },
+    {
+      "id": "omer-seyfettin-bomba",
+      "title": "Bomba ve Diğer Hikâyeler",
+      "authorId": "omer-seyfettin",
+      "language": "tr",
+      "words": 37211,
+      "bytes": 131028,
+      "file": "books/omer-seyfettin-bomba.epub",
+      "about": {
+        "tr": "Bomba, Kütük, Zeytin Ekmek ve Fon Sadriştayn hikâyeleri dahil, Ömer Seyfettin'in daha uzun on beş hikâyesi.",
+        "en": "Fifteen of Ömer Seyfettin's longer stories, including Bomba, Kütük and Zeytin Ekmek."
+      },
+      "source": "Vikikaynak (tr.wikisource.org)",
+      "license": "Kamu malı (yazar 1920 yılında öldü); Vikikaynak metni CC BY-SA 4.0"
+    },
+    {
+      "id": "crime-and-punishment",
+      "title": "Crime and Punishment",
+      "authorId": "dostoyevsky",
+      "language": "en",
+      "year": 1866,
+      "translator": "Constance Garnett",
+      "words": 206903,
+      "bytes": 784060,
+      "file": "books/crime-and-punishment.epub",
+      "about": {
+        "tr": "Yoksul öğrenci Raskolnikov'un işlediği cinayetin ve vicdanıyla hesaplaşmasının romanı.",
+        "en": "A poor student, Raskolnikov, commits a murder and is undone by his own conscience."
+      },
+      "source": "Project Gutenberg #2554",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "notes-from-the-underground",
+      "title": "Notes from the Underground",
+      "authorId": "dostoyevsky",
+      "language": "en",
+      "year": 1864,
+      "translator": "Constance Garnett",
+      "words": 47300,
+      "bytes": 391751,
+      "file": "books/notes-from-the-underground.epub",
+      "about": {
+        "tr": "Toplumdan kopmuş, öfkeli bir adamın kendi kendine konuşması: varoluşçu edebiyatın öncülerinden kısa bir roman.",
+        "en": "The bitter monologue of a man who has withdrawn from society; a short novel often called the first existentialist work."
+      },
+      "source": "Project Gutenberg #600",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "anna-karenina",
+      "title": "Anna Karenina",
+      "authorId": "tolstoy",
+      "language": "en",
+      "year": 1878,
+      "translator": "Constance Garnett",
+      "words": 353584,
+      "bytes": 1029762,
+      "file": "books/anna-karenina.epub",
+      "about": {
+        "tr": "Anna'nın yasak aşkı ile Levin'in hayatın anlamını arayışı, Rus aristokrasisinin portresi içinde iç içe geçer.",
+        "en": "Anna's doomed love affair and Levin's search for meaning, set against a portrait of Russian society."
+      },
+      "source": "Project Gutenberg #1399",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    }
+  ]
+}
