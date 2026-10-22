@@ -1,6 +1,6 @@
 # Speed Reader Books
 
-Public-domain books and the catalog for the bookstore (Kitapçı) of Aesthetic Speed Reader. The app downloads `catalog.json` through the jsDelivr CDN and fetches a book only when a reader asks for it:
+Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesthetic Speed Reader. The app downloads `catalog.json` through the jsDelivr CDN and fetches a book only when a reader asks for it:
 
 - catalog: `https://cdn.jsdelivr.net/gh/umutardaayhan/speed-reader-books@main/catalog.json`
 - books: `books/<id>.epub`, resolved against the catalog's address

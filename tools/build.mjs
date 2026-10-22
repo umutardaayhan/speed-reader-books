@@ -155,6 +155,7 @@ for (const book of sources.books) {
     bytes: statSync(path).size,
     file,
     about: book.about,
+    ...(book.blurb ? { blurb: book.blurb } : {}),
     source: isWikisource ? 'Vikikaynak (tr.wikisource.org)' : `Project Gutenberg #${book.gutenberg}`,
     license: isWikisource
       ? `Kamu malı (yazar ${author.died} yılında öldü); Vikikaynak metni CC BY-SA 4.0`
