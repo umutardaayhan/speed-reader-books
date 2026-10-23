@@ -9,6 +9,8 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { strFromU8, unzipSync } from 'fflate';
 
+import { findLookAlikes, vocabulary } from './lookalikes.mjs';
+
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const catalog = JSON.parse(readFileSync(join(ROOT, 'catalog.json'), 'utf8'));
 const source = JSON.parse(readFileSync(join(ROOT, 'tools', 'texts-source.json'), 'utf8'));
@@ -70,5 +72,20 @@ const texts = source.texts.map(({ from, ...text }) => {
   return { ...text, paragraphs, excerpt };
 });
 
-writeFileSync(join(ROOT, 'texts.json'), `${JSON.stringify({ version: 1, texts }, null, 1)}\n`);
-console.log(`texts.json: ${texts.length} texts`);
+// Attention Test words: a target and real words that look like it, per language. The ones
+// written in the source come first; real look-alikes found in our books are added after them.
+const wordSets = {};
+for (const [language, sets] of Object.entries(source.wordSets ?? {})) {
+  const seen = new Set();
+  const vocab = vocabulary(language);
+  wordSets[language] = sets.map(({ word, similar = [] }) => {
+    if (!/^\p{Ll}{2,20}$/u.test(word) || seen.has(word)) throw new Error(`wordSets.${language}: bad or repeated word "${word}"`);
+    seen.add(word);
+    const bad = similar.find((w) => !/^\p{Ll}{2,20}$/u.test(w) || w === word);
+    if (bad !== undefined) throw new Error(`wordSets.${language}.${word}: bad similar word "${bad}"`);
+    return { word, similar: [...new Set([...similar, ...findLookAlikes(word, language, vocab)])] };
+  });
+}
+
+writeFileSync(join(ROOT, 'texts.json'), `${JSON.stringify({ version: 1, texts, wordSets }, null, 1)}\n`);
+console.log(`texts.json: ${texts.length} texts, ${Object.entries(wordSets).map(([l, s]) => `${s.length} ${l} word sets`).join(', ')}`);

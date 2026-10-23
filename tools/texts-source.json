@@ -7,12 +7,60 @@
       "license": "Public domain original, Sahaf translation",
       "language": "tr",
       "genre": "classics",
-      "from": { "book": "maupassant-gerdanlik", "start": "Kaderin bir yanlışlığıyla", "until": "Ne giysisi vardı ne mücevheri" },
+      "from": {
+        "book": "maupassant-gerdanlik",
+        "start": "Kaderin bir yanlışlığıyla",
+        "until": "Ne giysisi vardı ne mücevheri"
+      },
       "questions": [
-        { "id": "q1", "prompt": "Genç kadın kiminle evlendirilmeye razı oldu?", "options": ["Zengin bir tüccarla", "Bakanlığın küçük bir kâtibiyle", "Bir subayla", "Bir öğretmenle"], "correctIndex": 1, "type": "detail" },
-        { "id": "q2", "prompt": "Kadın neden durmadan acı çekiyordu?", "options": ["Hasta olduğu için", "Kocası ona kötü davrandığı için", "Bütün lükslere layık doğduğunu hissedip yoksul yaşadığı için", "Ailesinden uzakta olduğu için"], "correctIndex": 2, "type": "main idea" },
-        { "id": "q3", "prompt": "Akşam yemeğinde kocası neye sevinir?", "options": ["Etli sebze çorbasına", "Bir alabalığa", "Gümüş takımlara", "Bir davetiyeye"], "correctIndex": 0, "type": "detail" },
-        { "id": "q4", "prompt": "Kocası sade yemeğine sevinirken kadın ne düşlüyordu?", "options": ["Kibar akşam yemeklerini ve pırıl pırıl gümüş takımları", "Çocukluğundaki köyünü", "Yeni bir iş bulmayı", "Uzak bir ülkeye yolculuğu"], "correctIndex": 0, "type": "inference" }
+        {
+          "id": "q1",
+          "prompt": "Genç kadın kiminle evlendirilmeye razı oldu?",
+          "options": [
+            "Zengin bir tüccarla",
+            "Bakanlığın küçük bir kâtibiyle",
+            "Bir subayla",
+            "Bir öğretmenle"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q2",
+          "prompt": "Kadın neden durmadan acı çekiyordu?",
+          "options": [
+            "Hasta olduğu için",
+            "Kocası ona kötü davrandığı için",
+            "Bütün lükslere layık doğduğunu hissedip yoksul yaşadığı için",
+            "Ailesinden uzakta olduğu için"
+          ],
+          "correctIndex": 2,
+          "type": "main idea"
+        },
+        {
+          "id": "q3",
+          "prompt": "Akşam yemeğinde kocası neye sevinir?",
+          "options": [
+            "Etli sebze çorbasına",
+            "Bir alabalığa",
+            "Gümüş takımlara",
+            "Bir davetiyeye"
+          ],
+          "correctIndex": 0,
+          "type": "detail"
+        },
+        {
+          "id": "q4",
+          "prompt": "Kocası sade yemeğine sevinirken kadın ne düşlüyordu?",
+          "options": [
+            "Kibar akşam yemeklerini ve pırıl pırıl gümüş takımları",
+            "Çocukluğundaki köyünü",
+            "Yeni bir iş bulmayı",
+            "Uzak bir ülkeye yolculuğu"
+          ],
+          "correctIndex": 0,
+          "type": "inference"
+        }
       ]
     },
     {
@@ -22,12 +70,61 @@
       "license": "Public domain",
       "language": "tr",
       "genre": "classics",
-      "from": { "book": "kurk-mantolu-madonna", "start": "Bir sergide ilk defa resim", "until": "Resmi masanın üzerine bıraktım", "continue": false },
+      "from": {
+        "book": "kurk-mantolu-madonna",
+        "start": "Bir sergide ilk defa resim",
+        "until": "Resmi masanın üzerine bıraktım",
+        "continue": false
+      },
       "questions": [
-        { "id": "q1", "prompt": "Yazıya göre sergideki tablo hangi esere benziyordu?", "options": ["Leonardo’nun Mona Lisa’sına", "Andrea del Sarto’nun Madonna delle Arpie’sine", "Rafael’in Sistina Madonna’sına", "Botticelli’nin Venüs’üne"], "correctIndex": 1, "type": "detail" },
-        { "id": "q2", "prompt": "Yazının sahibi tablodaki kadına yarı şaka hangi adı veriyordu?", "options": ["Siyah Gözlü Kadın", "Arpie Meleği", "Kürk Mantolu Madonna", "Sergideki Yabancı"], "correctIndex": 2, "type": "detail" },
-        { "id": "q3", "prompt": "Anlatıcı ertesi gün ne yaptı?", "options": ["Sergiye yeniden gitti", "Ressama bir mektup yazdı", "Kopya satan bir mağazada Sarto’nun tablosunu aradı", "Gazeteye cevap yazdı"], "correctIndex": 2, "type": "detail" },
-        { "id": "q4", "prompt": "Anlatıcıya göre Sarto’nun Meryem’ini öbür tasvirlerden ayıran nedir?", "options": ["Daha parlak renklerle yapılmış olması", "Düşünmeyi öğrenmiş, dünyayı küçümseyen bir kadın olması", "Çok daha büyük bir tablo olması", "Yüzünde aşırı bir masumluk bulunması"], "correctIndex": 1, "type": "inference" }
+        {
+          "id": "q1",
+          "prompt": "Yazıya göre sergideki tablo hangi esere benziyordu?",
+          "options": [
+            "Leonardo’nun Mona Lisa’sına",
+            "Andrea del Sarto’nun Madonna delle Arpie’sine",
+            "Rafael’in Sistina Madonna’sına",
+            "Botticelli’nin Venüs’üne"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q2",
+          "prompt": "Yazının sahibi tablodaki kadına yarı şaka hangi adı veriyordu?",
+          "options": [
+            "Siyah Gözlü Kadın",
+            "Arpie Meleği",
+            "Kürk Mantolu Madonna",
+            "Sergideki Yabancı"
+          ],
+          "correctIndex": 2,
+          "type": "detail"
+        },
+        {
+          "id": "q3",
+          "prompt": "Anlatıcı ertesi gün ne yaptı?",
+          "options": [
+            "Sergiye yeniden gitti",
+            "Ressama bir mektup yazdı",
+            "Kopya satan bir mağazada Sarto’nun tablosunu aradı",
+            "Gazeteye cevap yazdı"
+          ],
+          "correctIndex": 2,
+          "type": "detail"
+        },
+        {
+          "id": "q4",
+          "prompt": "Anlatıcıya göre Sarto’nun Meryem’ini öbür tasvirlerden ayıran nedir?",
+          "options": [
+            "Daha parlak renklerle yapılmış olması",
+            "Düşünmeyi öğrenmiş, dünyayı küçümseyen bir kadın olması",
+            "Çok daha büyük bir tablo olması",
+            "Yüzünde aşırı bir masumluk bulunması"
+          ],
+          "correctIndex": 1,
+          "type": "inference"
+        }
       ]
     },
     {
@@ -37,12 +134,60 @@
       "license": "Public domain original, Sahaf translation",
       "language": "tr",
       "genre": "classics",
-      "from": { "book": "andersen-kibritci-kiz", "start": "Hava öyle korkunç soğuktu", "until": "Bir yenisini çaktı, yandı, parladı" },
+      "from": {
+        "book": "andersen-kibritci-kiz",
+        "start": "Hava öyle korkunç soğuktu",
+        "until": "Bir yenisini çaktı, yandı, parladı"
+      },
       "questions": [
-        { "id": "q1", "prompt": "Hikâye hangi gece geçer?", "options": ["Bayram sabahı", "Yılbaşı gecesi", "Bir yaz akşamı", "Doğum gününde"], "correctIndex": 1, "type": "detail" },
-        { "id": "q2", "prompt": "Küçük kız terliklerini nasıl kaybetti?", "options": ["Kar altında kalmışlardı", "Annesi onları geri almıştı", "Koşarken biri bulunamadı, ötekini bir oğlan kaptı", "Bir dükkânda unutmuştu"], "correctIndex": 2, "type": "detail" },
-        { "id": "q3", "prompt": "Kız neden eve gitmeye cesaret edemiyordu?", "options": ["Yolunu kaybetmişti", "Hiç kibrit satamadığı için babası onu döverdi", "Evin kapısı kilitliydi", "Kardeşleriyle kavga etmişti"], "correctIndex": 1, "type": "inference" },
-        { "id": "q4", "prompt": "İlk kibriti yakınca kız kendini nerede sandı?", "options": ["Büyük bir demir sobanın önünde", "Bir Noel ağacının altında", "Annesinin kucağında", "Bir sofranın başında"], "correctIndex": 0, "type": "detail" }
+        {
+          "id": "q1",
+          "prompt": "Hikâye hangi gece geçer?",
+          "options": [
+            "Bayram sabahı",
+            "Yılbaşı gecesi",
+            "Bir yaz akşamı",
+            "Doğum gününde"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q2",
+          "prompt": "Küçük kız terliklerini nasıl kaybetti?",
+          "options": [
+            "Kar altında kalmışlardı",
+            "Annesi onları geri almıştı",
+            "Koşarken biri bulunamadı, ötekini bir oğlan kaptı",
+            "Bir dükkânda unutmuştu"
+          ],
+          "correctIndex": 2,
+          "type": "detail"
+        },
+        {
+          "id": "q3",
+          "prompt": "Kız neden eve gitmeye cesaret edemiyordu?",
+          "options": [
+            "Yolunu kaybetmişti",
+            "Hiç kibrit satamadığı için babası onu döverdi",
+            "Evin kapısı kilitliydi",
+            "Kardeşleriyle kavga etmişti"
+          ],
+          "correctIndex": 1,
+          "type": "inference"
+        },
+        {
+          "id": "q4",
+          "prompt": "İlk kibriti yakınca kız kendini nerede sandı?",
+          "options": [
+            "Büyük bir demir sobanın önünde",
+            "Bir Noel ağacının altında",
+            "Annesinin kucağında",
+            "Bir sofranın başında"
+          ],
+          "correctIndex": 0,
+          "type": "detail"
+        }
       ]
     },
     {
@@ -52,12 +197,60 @@
       "license": "Public domain original, Sahaf translation",
       "language": "tr",
       "genre": "classics",
-      "from": { "book": "maupassant-gerdanlik", "start": "Paris kuşatılmıştı", "until": "Küçük bir kafeye girdiler" },
+      "from": {
+        "book": "maupassant-gerdanlik",
+        "start": "Paris kuşatılmıştı",
+        "until": "Küçük bir kafeye girdiler"
+      },
       "questions": [
-        { "id": "q1", "prompt": "Hikâyenin başında Paris ne durumdadır?", "options": ["Bayram kutluyor", "Kuşatılmış ve açlık çekiyor", "Selden yeni kurtulmuş", "Bir sergiye hazırlanıyor"], "correctIndex": 1, "type": "detail" },
-        { "id": "q2", "prompt": "Bay Morissot’nun mesleği nedir?", "options": ["Tuhafiyeci", "Asker", "Saatçi", "Balıkçı"], "correctIndex": 2, "type": "detail" },
-        { "id": "q3", "prompt": "Savaştan önce iki dost pazar günleri ne yapardı?", "options": ["Marante Adası’nda balık tutardı", "Kafede kâğıt oynardı", "Bulvarlarda gezerdi", "Kiliseye giderdi"], "correctIndex": 0, "type": "main idea" },
-        { "id": "q4", "prompt": "İki dost hiç konuşmadan birbirini nasıl anlayabiliyordu?", "options": ["İşaret dili bildikleri için", "Zevkleri benzer, duyguları aynı olduğu için", "Çocukluktan beri kardeş oldukları için", "Birbirlerine mektup yazdıkları için"], "correctIndex": 1, "type": "inference" }
+        {
+          "id": "q1",
+          "prompt": "Hikâyenin başında Paris ne durumdadır?",
+          "options": [
+            "Bayram kutluyor",
+            "Kuşatılmış ve açlık çekiyor",
+            "Selden yeni kurtulmuş",
+            "Bir sergiye hazırlanıyor"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q2",
+          "prompt": "Bay Morissot’nun mesleği nedir?",
+          "options": [
+            "Tuhafiyeci",
+            "Asker",
+            "Saatçi",
+            "Balıkçı"
+          ],
+          "correctIndex": 2,
+          "type": "detail"
+        },
+        {
+          "id": "q3",
+          "prompt": "Savaştan önce iki dost pazar günleri ne yapardı?",
+          "options": [
+            "Marante Adası’nda balık tutardı",
+            "Kafede kâğıt oynardı",
+            "Bulvarlarda gezerdi",
+            "Kiliseye giderdi"
+          ],
+          "correctIndex": 0,
+          "type": "main idea"
+        },
+        {
+          "id": "q4",
+          "prompt": "İki dost hiç konuşmadan birbirini nasıl anlayabiliyordu?",
+          "options": [
+            "İşaret dili bildikleri için",
+            "Zevkleri benzer, duyguları aynı olduğu için",
+            "Çocukluktan beri kardeş oldukları için",
+            "Birbirlerine mektup yazdıkları için"
+          ],
+          "correctIndex": 1,
+          "type": "inference"
+        }
       ]
     },
     {
@@ -67,12 +260,60 @@
       "license": "Public domain",
       "language": "tr",
       "genre": "classics",
-      "from": { "book": "omer-seyfettin-bomba", "start": "Vapur dopdoluydu", "until": "— Yahu, nedir bu hal" },
+      "from": {
+        "book": "omer-seyfettin-bomba",
+        "start": "Vapur dopdoluydu",
+        "until": "— Yahu, nedir bu hal"
+      },
       "questions": [
-        { "id": "q1", "prompt": "Vapur nereye gidiyordu?", "options": ["Üsküdar’a", "Kadıköy’e", "Adalar’a", "Beşiktaş’a"], "correctIndex": 1, "type": "detail" },
-        { "id": "q2", "prompt": "Yolculuk hangi ayda geçiyor?", "options": ["Ocak", "Nisan", "Haziran", "Ekim"], "correctIndex": 2, "type": "detail" },
-        { "id": "q3", "prompt": "Anlatıcı yolculuk boyunca ne yapıyordu?", "options": ["Gazete okuyordu", "Gerçek manzarayı silip hayalinde bambaşka bir dünya kuruyordu", "Yolcularla sohbet ediyordu", "Martılara yem atıyordu"], "correctIndex": 1, "type": "main idea" },
-        { "id": "q4", "prompt": "Anlatıcının hayal kurmasını en çok hangi yapı besliyordu?", "options": ["Tıbbiye Mektebi", "Selimiye Kışlası", "Kızkulesi", "Bir cami minaresi"], "correctIndex": 2, "type": "inference" }
+        {
+          "id": "q1",
+          "prompt": "Vapur nereye gidiyordu?",
+          "options": [
+            "Üsküdar’a",
+            "Kadıköy’e",
+            "Adalar’a",
+            "Beşiktaş’a"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q2",
+          "prompt": "Yolculuk hangi ayda geçiyor?",
+          "options": [
+            "Ocak",
+            "Nisan",
+            "Haziran",
+            "Ekim"
+          ],
+          "correctIndex": 2,
+          "type": "detail"
+        },
+        {
+          "id": "q3",
+          "prompt": "Anlatıcı yolculuk boyunca ne yapıyordu?",
+          "options": [
+            "Gazete okuyordu",
+            "Gerçek manzarayı silip hayalinde bambaşka bir dünya kuruyordu",
+            "Yolcularla sohbet ediyordu",
+            "Martılara yem atıyordu"
+          ],
+          "correctIndex": 1,
+          "type": "main idea"
+        },
+        {
+          "id": "q4",
+          "prompt": "Anlatıcının hayal kurmasını en çok hangi yapı besliyordu?",
+          "options": [
+            "Tıbbiye Mektebi",
+            "Selimiye Kışlası",
+            "Kızkulesi",
+            "Bir cami minaresi"
+          ],
+          "correctIndex": 2,
+          "type": "inference"
+        }
       ]
     },
     {
@@ -82,12 +323,60 @@
       "license": "Public domain",
       "language": "en",
       "genre": "classics",
-      "from": { "book": "dracula", "start": "3 May. Bistritz", "until": "In the population of Transylvania" },
+      "from": {
+        "book": "dracula",
+        "start": "3 May. Bistritz",
+        "until": "In the population of Transylvania"
+      },
       "questions": [
-        { "id": "q1", "prompt": "Which city did the writer leave on 1st May?", "options": ["Vienna", "Munich", "London", "Buda-Pesth"], "correctIndex": 1, "type": "detail" },
-        { "id": "q2", "prompt": "What did he eat at Klausenburgh?", "options": ["Fish from the Danube", "A chicken done with red pepper", "Bread and cheese", "Roast goose"], "correctIndex": 1, "type": "detail" },
-        { "id": "q3", "prompt": "Why had he studied books and maps at the British Museum?", "options": ["He was writing a history book", "Knowing the country might matter in dealing with a nobleman there", "Mina had asked him to", "He wanted to become a mapmaker"], "correctIndex": 1, "type": "inference" },
-        { "id": "q4", "prompt": "What could he not find on any map?", "options": ["The town of Bistritz", "The river Danube", "The exact place of Castle Dracula", "The Carpathian mountains"], "correctIndex": 2, "type": "detail" }
+        {
+          "id": "q1",
+          "prompt": "Which city did the writer leave on 1st May?",
+          "options": [
+            "Vienna",
+            "Munich",
+            "London",
+            "Buda-Pesth"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q2",
+          "prompt": "What did he eat at Klausenburgh?",
+          "options": [
+            "Fish from the Danube",
+            "A chicken done with red pepper",
+            "Bread and cheese",
+            "Roast goose"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q3",
+          "prompt": "Why had he studied books and maps at the British Museum?",
+          "options": [
+            "He was writing a history book",
+            "Knowing the country might matter in dealing with a nobleman there",
+            "Mina had asked him to",
+            "He wanted to become a mapmaker"
+          ],
+          "correctIndex": 1,
+          "type": "inference"
+        },
+        {
+          "id": "q4",
+          "prompt": "What could he not find on any map?",
+          "options": [
+            "The town of Bistritz",
+            "The river Danube",
+            "The exact place of Castle Dracula",
+            "The Carpathian mountains"
+          ],
+          "correctIndex": 2,
+          "type": "detail"
+        }
       ]
     },
     {
@@ -97,12 +386,60 @@
       "license": "Public domain",
       "language": "en",
       "genre": "classics",
-      "from": { "book": "crime-and-punishment", "start": "On an exceptionally hot", "until": "“I want to attempt a thing like that" },
+      "from": {
+        "book": "crime-and-punishment",
+        "start": "On an exceptionally hot",
+        "until": "“I want to attempt a thing like that"
+      },
       "questions": [
-        { "id": "q1", "prompt": "When does the story begin?", "options": ["On a cold winter morning", "On a very hot evening early in July", "On a rainy autumn night", "At dawn in spring"], "correctIndex": 1, "type": "detail" },
-        { "id": "q2", "prompt": "What was the young man’s garret like?", "options": ["A large, sunny room", "More like a cupboard than a room", "A cellar below the street", "A room in a hotel"], "correctIndex": 1, "type": "detail" },
-        { "id": "q3", "prompt": "Why did he try not to meet his landlady?", "options": ["She was ill", "He was hopelessly in debt to her", "She had insulted him", "She did not speak his language"], "correctIndex": 1, "type": "detail" },
-        { "id": "q4", "prompt": "According to the text, what really made him avoid people?", "options": ["Simple cowardice", "He had grown absorbed in himself and cut off from others", "He was too busy studying", "He was hiding from the police"], "correctIndex": 1, "type": "main idea" }
+        {
+          "id": "q1",
+          "prompt": "When does the story begin?",
+          "options": [
+            "On a cold winter morning",
+            "On a very hot evening early in July",
+            "On a rainy autumn night",
+            "At dawn in spring"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q2",
+          "prompt": "What was the young man’s garret like?",
+          "options": [
+            "A large, sunny room",
+            "More like a cupboard than a room",
+            "A cellar below the street",
+            "A room in a hotel"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q3",
+          "prompt": "Why did he try not to meet his landlady?",
+          "options": [
+            "She was ill",
+            "He was hopelessly in debt to her",
+            "She had insulted him",
+            "She did not speak his language"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q4",
+          "prompt": "According to the text, what really made him avoid people?",
+          "options": [
+            "Simple cowardice",
+            "He had grown absorbed in himself and cut off from others",
+            "He was too busy studying",
+            "He was hiding from the police"
+          ],
+          "correctIndex": 1,
+          "type": "main idea"
+        }
       ]
     },
     {
@@ -112,13 +449,152 @@
       "license": "Public domain",
       "language": "en",
       "genre": "classics",
-      "from": { "book": "around-the-world-in-eighty-days", "start": "The steamer “Mongolia,”", "until": "“So you say, consul,”" },
+      "from": {
+        "book": "around-the-world-in-eighty-days",
+        "start": "The steamer “Mongolia,”",
+        "until": "“So you say, consul,”"
+      },
       "questions": [
-        { "id": "q1", "prompt": "When was the “Mongolia” due at Suez?", "options": ["At noon on Sunday", "At eleven o’clock on Wednesday, the 9th of October", "At midnight on Friday", "At dawn on Monday, the 1st of October"], "correctIndex": 1, "type": "detail" },
-        { "id": "q2", "prompt": "Between which ports did the “Mongolia” sail?", "options": ["London and Calcutta", "Brindisi and Bombay", "Marseilles and Hong Kong", "Suez and Cape Town"], "correctIndex": 1, "type": "detail" },
-        { "id": "q3", "prompt": "Who is Fix?", "options": ["The British consul at Suez", "The captain of the steamer", "A detective sent from England after a bank robber", "A merchant from Bombay"], "correctIndex": 2, "type": "main idea" },
-        { "id": "q4", "prompt": "Why is Fix so impatient?", "options": ["He is late for his own ship", "He hopes to win the reward for catching the robber", "The consul has been rude to him", "He is afraid of the sea"], "correctIndex": 1, "type": "inference" }
+        {
+          "id": "q1",
+          "prompt": "When was the “Mongolia” due at Suez?",
+          "options": [
+            "At noon on Sunday",
+            "At eleven o’clock on Wednesday, the 9th of October",
+            "At midnight on Friday",
+            "At dawn on Monday, the 1st of October"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q2",
+          "prompt": "Between which ports did the “Mongolia” sail?",
+          "options": [
+            "London and Calcutta",
+            "Brindisi and Bombay",
+            "Marseilles and Hong Kong",
+            "Suez and Cape Town"
+          ],
+          "correctIndex": 1,
+          "type": "detail"
+        },
+        {
+          "id": "q3",
+          "prompt": "Who is Fix?",
+          "options": [
+            "The British consul at Suez",
+            "The captain of the steamer",
+            "A detective sent from England after a bank robber",
+            "A merchant from Bombay"
+          ],
+          "correctIndex": 2,
+          "type": "main idea"
+        },
+        {
+          "id": "q4",
+          "prompt": "Why is Fix so impatient?",
+          "options": [
+            "He is late for his own ship",
+            "He hopes to win the reward for catching the robber",
+            "The consul has been rude to him",
+            "He is afraid of the sea"
+          ],
+          "correctIndex": 1,
+          "type": "inference"
+        }
       ]
     }
-  ]
+  ],
+  "wordSets": {
+    "tr": [
+      {"word":"masal","similar":["masa","masaj"]},
+      {"word":"masaj","similar":["masal","mesaj"]},
+      {"word":"mesaj","similar":["masaj","mesai"]},
+      {"word":"mesai","similar":["mesaj"]},
+      {"word":"çorba","similar":["çorap"]},
+      {"word":"çorap","similar":["çorba"]},
+      {"word":"balık","similar":["balçık"]},
+      {"word":"salı","similar":["dalı","sarı","salt"]},
+      {"word":"sarı","similar":["sayı","karı","salı"]},
+      {"word":"sayı","similar":["sarı","saya"]},
+      {"word":"kalın","similar":["kalan","kalıp"]},
+      {"word":"kalıp","similar":["kalp","kalın","kazıp"]},
+      {"word":"duvar","similar":["duyar","davar"]},
+      {"word":"davar","similar":["duvar"]},
+      {"word":"düğün","similar":["düğüm"]},
+      {"word":"düğüm","similar":["düğün","dönüm"]},
+      {"word":"bugün","similar":["bütün"]},
+      {"word":"bütün","similar":["bugün"]},
+      {"word":"yaprak","similar":["toprak"]},
+      {"word":"toprak","similar":["yaprak"]},
+      {"word":"bıçak","similar":["bucak","bıçkı"]},
+      {"word":"bucak","similar":["bıçak","kucak"]},
+      {"word":"sabun","similar":["sabır"]},
+      {"word":"sabır","similar":["sabun","sabit"]},
+      {"word":"sabit","similar":["sabır"]},
+      {"word":"boyun","similar":["koyun","oyun"]},
+      {"word":"koyun","similar":["boyun","oyun","koyu"]},
+      {"word":"oyun","similar":["koyun","boyun","oyan"]},
+      {"word":"kaya","similar":["kayı","kara","maya","yaya"]},
+      {"word":"yaya","similar":["yayı","kaya","maya"]},
+      {"word":"maya","similar":["kaya","yaya","mayo"]},
+      {"word":"mayo","similar":["maya"]},
+      {"word":"ayna","similar":["ayva"]},
+      {"word":"ayva","similar":["ayna"]},
+      {"word":"çay","similar":["çağ","çam","çan","say"]},
+      {"word":"çam","similar":["çan","cam","çay","dam"]},
+      {"word":"çan","similar":["çam","can","çay","han"]},
+      {"word":"cam","similar":["can","çam","dam"]},
+      {"word":"can","similar":["cam","çan","han"]},
+      {"word":"han","similar":["can","hal"]},
+      {"word":"hal","similar":["hol","bal","hala"]},
+      {"word":"hala","similar":["hal","hale"]},
+      {"word":"hale","similar":["hala","hele"]},
+      {"word":"hele","similar":["hale","hece","hile"]},
+      {"word":"hile","similar":["hele"]}
+    ],
+    "en": [
+      {"word":"desk","similar":["dusk","disk","deck"]},
+      {"word":"disk","similar":["desk","dish","risk"]},
+      {"word":"dish","similar":["disk","fish","wish"]},
+      {"word":"fish","similar":["dish","wish","fist"]},
+      {"word":"wish","similar":["fish","dish","wash"]},
+      {"word":"wash","similar":["wish","cash","mash"]},
+      {"word":"cash","similar":["wash","case","cast"]},
+      {"word":"cast","similar":["cash","case","coast"]},
+      {"word":"coast","similar":["cast","roast","toast"]},
+      {"word":"toast","similar":["coast","roast","boast"]},
+      {"word":"boat","similar":["coat","goat","beat","bolt"]},
+      {"word":"coat","similar":["boat","goat","cost","colt"]},
+      {"word":"goat","similar":["boat","coat","gout"]},
+      {"word":"beat","similar":["heat","best","boat","bead"]},
+      {"word":"heat","similar":["beat","head","hear","neat"]},
+      {"word":"head","similar":["heat","bead","read","hand"]},
+      {"word":"hand","similar":["band","sand","land","hard"]},
+      {"word":"band","similar":["hand","bend","bond","bard"]},
+      {"word":"bend","similar":["band","bond","lend","send"]},
+      {"word":"send","similar":["sand","lend","bend","seed"]},
+      {"word":"seed","similar":["send","need","feed","shed"]},
+      {"word":"need","similar":["seed","feed","weed","read"]},
+      {"word":"feed","similar":["seed","need","fled","food"]},
+      {"word":"food","similar":["good","hood","fool","feed"]},
+      {"word":"good","similar":["food","gold","wood","hood"]},
+      {"word":"wood","similar":["good","word","wool","hood"]},
+      {"word":"word","similar":["wood","ward","world","worm"]},
+      {"word":"world","similar":["word","would"]},
+      {"word":"worm","similar":["word","warm","form"]},
+      {"word":"warm","similar":["worm","farm","ward"]},
+      {"word":"farm","similar":["form","firm","harm","warm"]},
+      {"word":"harm","similar":["farm","warm","hare"]},
+      {"word":"hare","similar":["harm","here","hire","care"]},
+      {"word":"here","similar":["hare","hire","hero","mere"]},
+      {"word":"hire","similar":["here","hare","fire","hike"]},
+      {"word":"fire","similar":["hire","fine","five","file"]},
+      {"word":"fine","similar":["fire","five","line","mine"]},
+      {"word":"five","similar":["fine","fire","hive","dive"]},
+      {"word":"mine","similar":["fine","line","mind","nine"]},
+      {"word":"nine","similar":["mine","line","none","nice"]}
+    ]
+  }
 }

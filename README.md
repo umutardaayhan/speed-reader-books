@@ -109,3 +109,7 @@ The app also reads `texts.json`: training texts, each with four questions, offer
 2. Run `npm run texts` (after `npm run build`, so the EPUBs are current), then commit and push.
 
 The app computes each text's difficulty level itself and leaves out any text with a missing field, a question without four different options, or the id of a text built into the app. Format: see `src/content/remoteTexts.ts` in the app.
+
+## Adding Attention Test words
+
+The Attention Test shows a word, then a fast stream of words that look like it, and asks how many times the word appeared. `texts.json` also carries its words: `wordSets` in `tools/texts-source.json`, per language, each `{ "word": "kara", "similar": ["kare", "kira", "kura"] }`. Similar words are real words that look like the target (one letter changed, two swapped, one added or dropped); `npm run texts` adds real look-alikes found in our own books (`tools/lookalikes.mjs`: words that appear in lower case, so not names, and either spelled nearly the same or built on the same consonants with other vowels, as mektep and matkap), and the app adds generated look-alikes of its own, so a set with few similar words still plays well. `node tools/lookalikes.mjs tr kalem mektep` shows what it finds for a word. Words are single lowercase words. A set for a word built into the app adds its similar words to the built-in ones. Run `npm run texts` and push, as for texts.

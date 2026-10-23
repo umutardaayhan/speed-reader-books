@@ -562,5 +562,1110 @@
     "continueAt": "“So you say, consul,”"
    }
   }
- ]
+ ],
+ "wordSets": {
+  "tr": [
+   {
+    "word": "masal",
+    "similar": [
+     "masa",
+     "masaj",
+     "makul",
+     "mahsul",
+     "metal"
+    ]
+   },
+   {
+    "word": "masaj",
+    "similar": [
+     "masal",
+     "mesaj",
+     "masa"
+    ]
+   },
+   {
+    "word": "mesaj",
+    "similar": [
+     "masaj",
+     "mesai"
+    ]
+   },
+   {
+    "word": "mesai",
+    "similar": [
+     "mesaj",
+     "müsavi",
+     "mevki"
+    ]
+   },
+   {
+    "word": "çorba",
+    "similar": [
+     "çorap",
+     "torba"
+    ]
+   },
+   {
+    "word": "çorap",
+    "similar": [
+     "çorba",
+     "çorak",
+     "çıkıp",
+     "çekip"
+    ]
+   },
+   {
+    "word": "balık",
+    "similar": [
+     "balçık",
+     "alık",
+     "basık",
+     "bacak",
+     "baktık",
+     "büyük",
+     "bırak",
+     "boğuk",
+     "bulmak"
+    ]
+   },
+   {
+    "word": "salı",
+    "similar": [
+     "dalı",
+     "sarı",
+     "salt",
+     "saçlı",
+     "malı",
+     "saklı",
+     "halı",
+     "saçı",
+     "aslı"
+    ]
+   },
+   {
+    "word": "sarı",
+    "similar": [
+     "sayı",
+     "karı",
+     "salı",
+     "yarı",
+     "sardı",
+     "sarp",
+     "ları",
+     "sarf",
+     "saçı",
+     "arı"
+    ]
+   },
+   {
+    "word": "sayı",
+    "similar": [
+     "sarı",
+     "saya",
+     "saygı",
+     "ayı",
+     "çayı",
+     "tayı",
+     "saydı",
+     "saye",
+     "saçı"
+    ]
+   },
+   {
+    "word": "kalın",
+    "similar": [
+     "kalan",
+     "kalıp",
+     "kadın",
+     "kalır",
+     "alın",
+     "kalsın",
+     "aklın",
+     "yalın"
+    ]
+   },
+   {
+    "word": "kalıp",
+    "similar": [
+     "kalp",
+     "kalın",
+     "kazıp",
+     "alıp",
+     "kalkıp",
+     "kalır",
+     "kaçıp",
+     "dalıp",
+     "kasıp"
+    ]
+   },
+   {
+    "word": "duvar",
+    "similar": [
+     "duyar",
+     "davar",
+     "duvara",
+     "duvarı",
+     "dolar",
+     "durur",
+     "dalar",
+     "diyor",
+     "dair"
+    ]
+   },
+   {
+    "word": "davar",
+    "similar": [
+     "duvar",
+     "dava",
+     "dalar",
+     "dair",
+     "dolar",
+     "duyar",
+     "dağlar",
+     "dallar"
+    ]
+   },
+   {
+    "word": "düğün",
+    "similar": [
+     "düğüm",
+     "düşün",
+     "düşen",
+     "doğan",
+     "düzgün",
+     "düşkün",
+     "düştün",
+     "dağın",
+     "derin"
+    ]
+   },
+   {
+    "word": "düğüm",
+    "similar": [
+     "düğün",
+     "dönüm",
+     "düştüm",
+     "doğum",
+     "dedim",
+     "devam",
+     "derim",
+     "desem",
+     "dayım"
+    ]
+   },
+   {
+    "word": "bugün",
+    "similar": [
+     "bütün",
+     "bunun",
+     "bulan",
+     "burun",
+     "bakan",
+     "bazan",
+     "boyun",
+     "bilen"
+    ]
+   },
+   {
+    "word": "bütün",
+    "similar": [
+     "bugün",
+     "tütün",
+     "batan",
+     "biten",
+     "büken",
+     "bunun",
+     "baştan",
+     "bakan"
+    ]
+   },
+   {
+    "word": "yaprak",
+    "similar": [
+     "toprak",
+     "yapmak",
+     "yaparak",
+     "yapsak",
+     "yapan",
+     "yapma",
+     "yatak",
+     "yapar"
+    ]
+   },
+   {
+    "word": "toprak",
+    "similar": [
+     "yaprak",
+     "toprağı",
+     "topal",
+     "toprağa",
+     "toplar",
+     "topla",
+     "toptan",
+     "çorak"
+    ]
+   },
+   {
+    "word": "bıçak",
+    "similar": [
+     "bucak",
+     "bıçkı",
+     "bırak",
+     "buçuk",
+     "bunak",
+     "bacak",
+     "büyük",
+     "birçok",
+     "boğuk"
+    ]
+   },
+   {
+    "word": "bucak",
+    "similar": [
+     "bıçak",
+     "kucak",
+     "bunak",
+     "bacak",
+     "bırak",
+     "bulmak",
+     "buçuk",
+     "böcek",
+     "büyük"
+    ]
+   },
+   {
+    "word": "sabun",
+    "similar": [
+     "sabır",
+     "saban",
+     "sakin",
+     "satın",
+     "suyun",
+     "saran",
+     "sakın",
+     "sükun",
+     "somun"
+    ]
+   },
+   {
+    "word": "sabır",
+    "similar": [
+     "sabun",
+     "sabit",
+     "satır",
+     "sanır",
+     "sınır",
+     "sıfır",
+     "sefer",
+     "sever",
+     "sular",
+     "sinir"
+    ]
+   },
+   {
+    "word": "sabit",
+    "similar": [
+     "sabır",
+     "zabit",
+     "saat",
+     "sanat",
+     "sakat",
+     "sert",
+     "saadet",
+     "sohbet",
+     "sükût"
+    ]
+   },
+   {
+    "word": "boyun",
+    "similar": [
+     "koyun",
+     "oyun",
+     "boyu",
+     "boynu",
+     "boyuna",
+     "soyun",
+     "bunun",
+     "beyin"
+    ]
+   },
+   {
+    "word": "koyun",
+    "similar": [
+     "boyun",
+     "oyun",
+     "koyu",
+     "koçun",
+     "kolun",
+     "koyunu",
+     "soyun",
+     "köyün"
+    ]
+   },
+   {
+    "word": "oyun",
+    "similar": [
+     "koyun",
+     "boyun",
+     "oyan",
+     "onun",
+     "olun",
+     "oyunu",
+     "odun",
+     "soyun"
+    ]
+   },
+   {
+    "word": "kaya",
+    "similar": [
+     "kayı",
+     "kara",
+     "maya",
+     "yaya",
+     "kaba",
+     "kafa",
+     "kana",
+     "kata",
+     "aya",
+     "kayan"
+    ]
+   },
+   {
+    "word": "yaya",
+    "similar": [
+     "yayı",
+     "kaya",
+     "maya",
+     "yana",
+     "yayan",
+     "yara",
+     "aya",
+     "yaşa",
+     "yay",
+     "yama"
+    ]
+   },
+   {
+    "word": "maya",
+    "similar": [
+     "kaya",
+     "yaya",
+     "mayo",
+     "masa",
+     "aya",
+     "mana"
+    ]
+   },
+   {
+    "word": "mayo",
+    "similar": [
+     "maya"
+    ]
+   },
+   {
+    "word": "ayna",
+    "similar": [
+     "ayva",
+     "aynı",
+     "ayni",
+     "yana",
+     "ana",
+     "ayda",
+     "aya",
+     "oyna"
+    ]
+   },
+   {
+    "word": "ayva",
+    "similar": [
+     "ayna",
+     "ayda",
+     "aya"
+    ]
+   },
+   {
+    "word": "çay",
+    "similar": [
+     "çağ",
+     "çam",
+     "çan",
+     "say",
+     "hay",
+     "çayı",
+     "yay",
+     "tay",
+     "çal",
+     "vay"
+    ]
+   },
+   {
+    "word": "çam",
+    "similar": [
+     "çan",
+     "cam",
+     "çay",
+     "dam",
+     "tam",
+     "çal"
+    ]
+   },
+   {
+    "word": "çan",
+    "similar": [
+     "çam",
+     "can",
+     "çay",
+     "han",
+     "dan",
+     "kan",
+     "tan",
+     "yan",
+     "van"
+    ]
+   },
+   {
+    "word": "cam",
+    "similar": [
+     "can",
+     "çam",
+     "dam",
+     "tam",
+     "cem"
+    ]
+   },
+   {
+    "word": "can",
+    "similar": [
+     "cam",
+     "çan",
+     "han",
+     "dan",
+     "kan",
+     "tan",
+     "yan",
+     "canı",
+     "van",
+     "şan",
+     "cin"
+    ]
+   },
+   {
+    "word": "han",
+    "similar": [
+     "can",
+     "hal",
+     "dan",
+     "kan",
+     "tan",
+     "yan",
+     "hain",
+     "hak"
+    ]
+   },
+   {
+    "word": "hal",
+    "similar": [
+     "hol",
+     "bal",
+     "hala",
+     "hali",
+     "halk",
+     "hak",
+     "haç",
+     "kal",
+     "hâl",
+     "mal",
+     "hay"
+    ]
+   },
+   {
+    "word": "hala",
+    "similar": [
+     "hal",
+     "hale",
+     "hava",
+     "hali",
+     "halk",
+     "halka",
+     "pala",
+     "halı"
+    ]
+   },
+   {
+    "word": "hale",
+    "similar": [
+     "hala",
+     "hele",
+     "halde",
+     "kale",
+     "hali",
+     "hal",
+     "halk",
+     "halı",
+     "hile"
+    ]
+   },
+   {
+    "word": "hele",
+    "similar": [
+     "hale",
+     "hece",
+     "hile",
+     "ele"
+    ]
+   },
+   {
+    "word": "hile",
+    "similar": [
+     "hele",
+     "bile",
+     "ile",
+     "aile",
+     "hale",
+     "dile",
+     "hisle",
+     "hil"
+    ]
+   }
+  ],
+  "en": [
+   {
+    "word": "desk",
+    "similar": [
+     "dusk",
+     "disk",
+     "deck",
+     "dark",
+     "dock",
+     "duck"
+    ]
+   },
+   {
+    "word": "disk",
+    "similar": [
+     "desk",
+     "dish",
+     "risk",
+     "dusk",
+     "disc",
+     "dark",
+     "deck",
+     "dock"
+    ]
+   },
+   {
+    "word": "dish",
+    "similar": [
+     "disk",
+     "fish",
+     "wish",
+     "dash",
+     "disc",
+     "doth",
+     "death"
+    ]
+   },
+   {
+    "word": "fish",
+    "similar": [
+     "dish",
+     "wish",
+     "fist",
+     "fresh",
+     "faith",
+     "flesh",
+     "flash",
+     "flush"
+    ]
+   },
+   {
+    "word": "wish",
+    "similar": [
+     "fish",
+     "dish",
+     "wash",
+     "with",
+     "wise",
+     "wisp",
+     "wisht",
+     "weigh"
+    ]
+   },
+   {
+    "word": "wash",
+    "similar": [
+     "wish",
+     "cash",
+     "mash",
+     "was",
+     "wasn",
+     "dash",
+     "rash",
+     "ash",
+     "sash"
+    ]
+   },
+   {
+    "word": "cash",
+    "similar": [
+     "wash",
+     "case",
+     "cast",
+     "dash",
+     "crash",
+     "rash",
+     "ash",
+     "sash"
+    ]
+   },
+   {
+    "word": "cast",
+    "similar": [
+     "cash",
+     "case",
+     "coast",
+     "last",
+     "past",
+     "fast",
+     "cost",
+     "vast",
+     "cart",
+     "hast"
+    ]
+   },
+   {
+    "word": "coast",
+    "similar": [
+     "cast",
+     "roast",
+     "toast",
+     "coat",
+     "cost",
+     "coats",
+     "boast",
+     "count"
+    ]
+   },
+   {
+    "word": "toast",
+    "similar": [
+     "coast",
+     "roast",
+     "boast",
+     "that",
+     "trust",
+     "test",
+     "tact",
+     "twist"
+    ]
+   },
+   {
+    "word": "boat",
+    "similar": [
+     "coat",
+     "goat",
+     "beat",
+     "bolt",
+     "boats",
+     "boot",
+     "boast",
+     "bout"
+    ]
+   },
+   {
+    "word": "coat",
+    "similar": [
+     "boat",
+     "goat",
+     "cost",
+     "colt",
+     "cat",
+     "coast",
+     "coats",
+     "coal",
+     "chat"
+    ]
+   },
+   {
+    "word": "goat",
+    "similar": [
+     "boat",
+     "coat",
+     "gout",
+     "got",
+     "goal",
+     "goats"
+    ]
+   },
+   {
+    "word": "beat",
+    "similar": [
+     "heat",
+     "best",
+     "boat",
+     "bead",
+     "bear",
+     "eat",
+     "seat",
+     "bent",
+     "beast"
+    ]
+   },
+   {
+    "word": "heat",
+    "similar": [
+     "beat",
+     "head",
+     "hear",
+     "neat",
+     "heart",
+     "hat",
+     "eat",
+     "seat",
+     "meat"
+    ]
+   },
+   {
+    "word": "head",
+    "similar": [
+     "heat",
+     "bead",
+     "read",
+     "hand",
+     "had",
+     "heard",
+     "hear",
+     "dead",
+     "held",
+     "heads",
+     "lead"
+    ]
+   },
+   {
+    "word": "hand",
+    "similar": [
+     "band",
+     "sand",
+     "land",
+     "hard",
+     "and",
+     "had",
+     "hands",
+     "hadn"
+    ]
+   },
+   {
+    "word": "band",
+    "similar": [
+     "hand",
+     "bend",
+     "bond",
+     "bard",
+     "and",
+     "bad",
+     "land",
+     "bank",
+     "sand",
+     "bald"
+    ]
+   },
+   {
+    "word": "bend",
+    "similar": [
+     "band",
+     "bond",
+     "lend",
+     "send",
+     "end",
+     "bed",
+     "bent",
+     "bind"
+    ]
+   },
+   {
+    "word": "send",
+    "similar": [
+     "sand",
+     "lend",
+     "bend",
+     "seed",
+     "end",
+     "sent",
+     "spend",
+     "sends"
+    ]
+   },
+   {
+    "word": "seed",
+    "similar": [
+     "send",
+     "need",
+     "feed",
+     "shed",
+     "see",
+     "seen",
+     "seem",
+     "seek",
+     "sees"
+    ]
+   },
+   {
+    "word": "need",
+    "similar": [
+     "seed",
+     "feed",
+     "weed",
+     "read",
+     "needs",
+     "deed",
+     "heed",
+     "needn",
+     "reed"
+    ]
+   },
+   {
+    "word": "feed",
+    "similar": [
+     "seed",
+     "need",
+     "fled",
+     "food",
+     "feel",
+     "feet",
+     "fee",
+     "fees",
+     "deed",
+     "fed"
+    ]
+   },
+   {
+    "word": "food",
+    "similar": [
+     "good",
+     "hood",
+     "fool",
+     "feed",
+     "foot",
+     "wood",
+     "fond",
+     "mood",
+     "flood",
+     "fold"
+    ]
+   },
+   {
+    "word": "good",
+    "similar": [
+     "food",
+     "gold",
+     "wood",
+     "hood",
+     "mood",
+     "god",
+     "goods"
+    ]
+   },
+   {
+    "word": "wood",
+    "similar": [
+     "good",
+     "word",
+     "wool",
+     "hood",
+     "food",
+     "woods",
+     "mood"
+    ]
+   },
+   {
+    "word": "word",
+    "similar": [
+     "wood",
+     "ward",
+     "world",
+     "worm",
+     "work",
+     "words",
+     "wore",
+     "sword",
+     "worn",
+     "lord"
+    ]
+   },
+   {
+    "word": "world",
+    "similar": [
+     "word",
+     "would",
+     "worlds",
+     "wild",
+     "wood",
+     "worked",
+     "wound",
+     "ward"
+    ]
+   },
+   {
+    "word": "worm",
+    "similar": [
+     "word",
+     "warm",
+     "form",
+     "work",
+     "wore",
+     "worn",
+     "worms",
+     "whom"
+    ]
+   },
+   {
+    "word": "warm",
+    "similar": [
+     "worm",
+     "farm",
+     "ward",
+     "arm",
+     "war",
+     "harm",
+     "wars",
+     "swarm"
+    ]
+   },
+   {
+    "word": "farm",
+    "similar": [
+     "form",
+     "firm",
+     "harm",
+     "warm",
+     "far",
+     "arm",
+     "fare",
+     "farms"
+    ]
+   },
+   {
+    "word": "harm",
+    "similar": [
+     "farm",
+     "warm",
+     "hare",
+     "arm",
+     "hard",
+     "charm",
+     "harp",
+     "ham"
+    ]
+   },
+   {
+    "word": "hare",
+    "similar": [
+     "harm",
+     "here",
+     "hire",
+     "care",
+     "have",
+     "are",
+     "hard",
+     "dare",
+     "bare",
+     "share"
+    ]
+   },
+   {
+    "word": "here",
+    "similar": [
+     "hare",
+     "hire",
+     "hero",
+     "mere",
+     "her",
+     "were",
+     "there",
+     "where",
+     "hers",
+     "ere"
+    ]
+   },
+   {
+    "word": "hire",
+    "similar": [
+     "here",
+     "hare",
+     "fire",
+     "hike",
+     "hide",
+     "hired",
+     "mire",
+     "sire",
+     "wire"
+    ]
+   },
+   {
+    "word": "fire",
+    "similar": [
+     "hire",
+     "fine",
+     "five",
+     "file",
+     "firm",
+     "fired",
+     "fires",
+     "fare",
+     "fore"
+    ]
+   },
+   {
+    "word": "fine",
+    "similar": [
+     "fire",
+     "five",
+     "line",
+     "mine",
+     "find",
+     "wine",
+     "nine",
+     "dine"
+    ]
+   },
+   {
+    "word": "five",
+    "similar": [
+     "fine",
+     "fire",
+     "hive",
+     "dive",
+     "give",
+     "live",
+     "file"
+    ]
+   },
+   {
+    "word": "mine",
+    "similar": [
+     "fine",
+     "line",
+     "mind",
+     "nine",
+     "wine",
+     "mile",
+     "dine",
+     "pine"
+    ]
+   },
+   {
+    "word": "nine",
+    "similar": [
+     "mine",
+     "line",
+     "none",
+     "nice",
+     "fine",
+     "wine",
+     "dine",
+     "pine"
+    ]
+   }
+  ]
+ }
 }
