@@ -200,9 +200,9 @@ async function buildGutenberg(book) {
 
 /**
  * The EPUB without its illustrations, keeping only the cover image. Illustrated Gutenberg books
- * can be tens of megabytes, far over what the CDN serves (20 MB a file), and a speed reader shows
- * no pictures. Images go from the zip and the OPF manifest, and the tags that showed them go from
- * the pages. Returns the same bytes when there is nothing to take out.
+ * can be tens of megabytes, too much to download on a phone (and over GitHub's 100 MB a file),
+ * and a speed reader shows no pictures. Images go from the zip and the OPF manifest, and the tags
+ * that showed them go from the pages. Returns the same bytes when there is nothing to take out.
  */
 function slimEpub(epub) {
   const files = unzipSync(epub);

@@ -1,8 +1,8 @@
 # Speed Reader Books
 
-Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesthetic Speed Reader. The app downloads `catalog.json` through the jsDelivr CDN and fetches a book only when a reader asks for it:
+Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesthetic Speed Reader. The app downloads `catalog.json` from GitHub Pages and fetches a book only when a reader asks for it:
 
-- catalog: `https://cdn.jsdelivr.net/gh/umutardaayhan/speed-reader-books@main/catalog.json`
+- catalog: `https://umutardaayhan.github.io/speed-reader-books/catalog.json`
 - books: `books/<id>.epub`, resolved against the catalog's address
 
 ## What is here
@@ -71,7 +71,7 @@ Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesth
 
 - A work is in the public domain in Turkey 70 years after its author's death (Law No. 5846), so authors who died in 1955 or earlier. Translations are separate works: a translation is free only when its translator also died more than 70 years ago. Constance Garnett died in 1946.
 - Turkish texts come from Vikikaynak (tr.wikisource.org). Each Turkish book ends with a "Kaynaklar" chapter naming its pages; Vikikaynak pages are shared under CC BY-SA 4.0. Use first or early editions, as Kürk Mantolu Madonna (Remzi, 1943) is: a modern simplified ("sadeleştirilmiş") edition is a new work with its own copyright. Pages Vikikaynak marks as having no known source are left out.
-- English texts are Project Gutenberg's own EPUB files, with the Project Gutenberg License inside. They are public domain in the US, and their authors and translators died more than 70 years ago. The build only takes things out: illustrations (the cover stays; illustrated books can be tens of megabytes, over jsDelivr's 20 MB a file) and a Gutenberg note in the contents that the app would take for a chapter title.
+- English texts are Project Gutenberg's own EPUB files, with the Project Gutenberg License inside. They are public domain in the US, and their authors and translators died more than 70 years ago. The build only takes things out: illustrations (the cover stays; illustrated books can be tens of megabytes, too much to download on a phone and over GitHub's 100 MB a file) and a Gutenberg note in the contents that the app would take for a chapter title.
 
 Before adding a book, check both the author's and (for a translation) the translator's year of death. Leave a book out when in doubt.
 
@@ -88,6 +88,6 @@ Before adding a book, check both the author's and (for a translation) the transl
    ```
 
    Books already in `books/` are kept; `node tools/build.mjs --force` rebuilds all of them. The script writes `catalog.json` with each book's size and word count.
-3. Commit and push. jsDelivr caches `@main` for up to a day; to see a change at once, open `https://purge.jsdelivr.net/gh/umutardaayhan/speed-reader-books@main/catalog.json`.
+3. Commit and push to `main`. GitHub Pages publishes the repository as it is (`.nojekyll` skips the Jekyll build) within a minute or two; the app asks for a fresh catalog each time the Sahaf opens. (jsDelivr is not used: its `@main` kept serving an old commit for hours, even after purges.)
 
 The app checks every catalog entry and leaves out any with a missing field, an unknown author or a link that is not http(s). Catalog format: see `src/engine/catalog.ts` in the app.
