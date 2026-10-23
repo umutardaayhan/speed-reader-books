@@ -191,6 +191,42 @@ async function buildWikisource(book, author) {
   return makeEpub({ id: book.id, title: book.title, author: author.name, language: book.language, chapters });
 }
 
+/** The text files of a Sahaf translation: translations/<book id>/<story file>. */
+const storyPaths = (book) => book.stories.map((story) => join(ROOT, 'translations', book.id, story.file));
+
+/**
+ * A book the bookshop translated itself, from its text files: one story each, its title on the
+ * first line, paragraphs separated by blank lines. It opens with a translator's note saying it
+ * may have mistakes (titled so that the app suggests skipping it) and ends with the originals.
+ */
+function buildSahaf(book, author) {
+  const stories = storyPaths(book).map((path) => {
+    const [title, ...paragraphs] = readFileSync(path, 'utf8').replace(/\r/g, '').trim().split(/\n\s*\n/);
+    return { title: title.trim(), paragraphs: paragraphs.map((p) => p.replace(/\s+/g, ' ').trim()).filter(Boolean) };
+  });
+  const chapters = [
+    {
+      title: 'Çevirmenin notu',
+      paragraphs: [
+        'Bu bir sahaf çevirisidir, yanlışlıklar olabilir.',
+        `Bu kitaptaki öyküler, Sahaf için yapay zekâ yardımıyla özgün dillerinden (${book.translatedFrom}) Türkçeye çevrildi; yayımlanmış bir çevirmenin elinden çıkmadı. Anlamı kaymış, eksik ya da yanlış çevrilmiş yerler olabilir.`,
+        'Özgün metinler kamu malıdır; nereden alındıkları kitabın sonundaki Kaynaklar bölümünde yazılıdır. Bu çeviri de serbestçe paylaşılabilir.',
+      ],
+    },
+    ...stories,
+    {
+      // Named "Kaynaklar", so the app skips it as back matter.
+      title: 'Kaynaklar',
+      paragraphs: [
+        `${author.name} ${author.died} yılında öldü; eserleri, yazarın ölümünden 70 yıl sonra kamu malı olmuştur.`,
+        `Öyküler şu özgün metinlerden çevrildi (${book.translatedFrom}):`,
+        ...book.stories.map((story, i) => `${stories[i].title}: ${story.original}, ${story.url}`),
+      ],
+    },
+  ];
+  return makeEpub({ id: book.id, title: book.title, author: author.name, language: book.language, chapters });
+}
+
 async function buildGutenberg(book) {
   const url = `https://www.gutenberg.org/ebooks/${book.gutenberg}.epub3.images`;
   const response = await fetch(url, { headers: { 'User-Agent': UA } });
@@ -303,11 +339,20 @@ for (const book of sources.books) {
   if (!author) throw new Error(`${book.id}: unknown author ${book.authorId}`);
   const file = `books/${book.id}.epub`;
   const path = join(ROOT, file);
-  if (force || !existsSync(path)) {
+  // A translation is rebuilt whenever one of its files is newer than the book, so corrections
+  // to it go out with the next build.
+  const edited =
+    book.source === 'sahaf' &&
+    existsSync(path) &&
+    storyPaths(book).some((story) => statSync(story).mtimeMs > statSync(path).mtimeMs);
+  if (force || edited || !existsSync(path)) {
     console.log(`building ${book.id}…`);
-    const epub = book.source === 'wikisource' ? await buildWikisource(book, author) : await buildGutenberg(book);
-    writeFileSync(path, epub);
-    await wait(1000);
+    if (book.source === 'sahaf') {
+      writeFileSync(path, buildSahaf(book, author));
+    } else {
+      writeFileSync(path, book.source === 'wikisource' ? await buildWikisource(book, author) : await buildGutenberg(book));
+      await wait(1000);
+    }
   }
   if (book.source === 'gutenberg') {
     const original = new Uint8Array(readFileSync(path));
@@ -315,23 +360,34 @@ for (const book of sources.books) {
     if (slim !== original) writeFileSync(path, slim);
   }
   const epub = new Uint8Array(readFileSync(path));
-  const isWikisource = book.source === 'wikisource';
+  const origin = {
+    wikisource: {
+      source: 'Vikikaynak (tr.wikisource.org)',
+      license: `Kamu malı (${book.translator ? `çevirmen ${book.translatorDied}` : `yazar ${author.died}`} yılında öldü); Vikikaynak metni CC BY-SA 4.0`,
+    },
+    gutenberg: {
+      source: `Project Gutenberg #${book.gutenberg}`,
+      license: 'Public domain (author and translator died more than 70 years ago); Project Gutenberg License',
+    },
+    sahaf: {
+      source: `Sahaf çevirisi (${book.translatedFrom} özgün metinden, yapay zekâ yardımıyla)`,
+      license: `Özgün metin kamu malı (yazar ${author.died} yılında öldü); çeviri serbestçe paylaşılabilir (CC0)`,
+    },
+  }[book.source];
   entries.push({
     id: book.id,
     title: book.title,
     authorId: book.authorId,
     language: book.language,
     ...(book.year ? { year: book.year } : {}),
+    ...(book.source === 'sahaf' ? { translator: 'Sahaf', sahafTranslation: true } : {}),
     ...(book.translator ? { translator: book.translator } : {}),
     words: countWords(epub),
     bytes: statSync(path).size,
     file,
     about: book.about,
     ...(book.blurb ? { blurb: book.blurb } : {}),
-    source: isWikisource ? 'Vikikaynak (tr.wikisource.org)' : `Project Gutenberg #${book.gutenberg}`,
-    license: isWikisource
-      ? `Kamu malı (${book.translator ? `çevirmen ${book.translatorDied}` : `yazar ${author.died}`} yılında öldü); Vikikaynak metni CC BY-SA 4.0`
-      : 'Public domain (author and translator died more than 70 years ago); Project Gutenberg License',
+    ...origin,
   });
 }
 

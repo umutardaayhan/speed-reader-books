@@ -19,13 +19,15 @@ Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesth
 | Antigone, tr. Sabahattin Ali | Sophokles | Turkish | Vikikaynak |
 | Teke Tek ve Diğer Hikâyeler (9 stories) | Ömer Seyfettin | Turkish | Vikikaynak |
 | Gizli Mâbed ve Diğer Hikâyeler (8 stories) | Ömer Seyfettin | Turkish | Vikikaynak |
+| Gammaz Yürek ve Diğer Öyküler (5 stories), Sahaf translation | Edgar Allan Poe (1809–1849) | Turkish | Sahaf translation from the English (Wikisource) |
+| Bukalemun ve Diğer Öyküler (6 stories), Sahaf translation | Anton Chekhov (1860–1904) | Turkish | Sahaf translation from the Russian (Wikisource) |
 | The Brothers Karamazov, tr. Constance Garnett | Fyodor Dostoyevsky | English | Project Gutenberg #28054 |
 | The Gambler, tr. C. J. Hogarth | Fyodor Dostoyevsky | English | Project Gutenberg #2197 |
 | White Nights and Other Stories, tr. Constance Garnett | Fyodor Dostoyevsky | English | Project Gutenberg #36034 |
 | War and Peace, tr. Louise and Aylmer Maude | Leo Tolstoy | English | Project Gutenberg #2600 |
 | Resurrection, tr. Louise Maude | Leo Tolstoy | English | Project Gutenberg #1938 |
 | The Kreutzer Sonata and Other Stories, tr. Benjamin R. Tucker | Leo Tolstoy | English | Project Gutenberg #689 |
-| The Lady with the Dog and Other Stories, tr. Constance Garnett | Anton Chekhov (1860–1904) | English | Project Gutenberg #13415 |
+| The Lady with the Dog and Other Stories, tr. Constance Garnett | Anton Chekhov | English | Project Gutenberg #13415 |
 | Fathers and Children, tr. Constance Garnett | Ivan Turgenev (1818–1883) | English | Project Gutenberg #30723 |
 | Pride and Prejudice | Jane Austen (1775–1817) | English | Project Gutenberg #1342 |
 | Sense and Sensibility | Jane Austen | English | Project Gutenberg #161 |
@@ -72,6 +74,7 @@ Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesth
 - A work is in the public domain in Turkey 70 years after its author's death (Law No. 5846), so authors who died in 1955 or earlier. Translations are separate works: a translation is free only when its translator also died more than 70 years ago. Constance Garnett died in 1946.
 - Turkish texts come from Vikikaynak (tr.wikisource.org). Each Turkish book ends with a "Kaynaklar" chapter naming its pages; Vikikaynak pages are shared under CC BY-SA 4.0. Use first or early editions, as Kürk Mantolu Madonna (Remzi, 1943) is: a modern simplified ("sadeleştirilmiş") edition is a new work with its own copyright. Pages Vikikaynak marks as having no known source are left out.
 - English texts are Project Gutenberg's own EPUB files, with the Project Gutenberg License inside. They are public domain in the US, and their authors and translators died more than 70 years ago. The build only takes things out: illustrations (the cover stays; illustrated books can be tens of megabytes, too much to download on a phone and over GitHub's 100 MB a file) and a Gutenberg note in the contents that the app would take for a chapter title.
+- Sahaf translations (`translations/<book id>/`) are the bookshop's own Turkish translations of public-domain works, made with AI from the original texts on Wikisource and not by a published translator. Each book opens with a translator's note ("Bu bir sahaf çevirisidir, yanlışlıklar olabilir."), and the catalog marks it `"sahafTranslation": true`, so the app shows the same warning on the book and in the paper bag. The originals are public domain; the translations are shared under CC0.
 
 Before adding a book, check both the author's and (for a translation) the translator's year of death. Leave a book out when in doubt.
 
@@ -80,6 +83,7 @@ Before adding a book, check both the author's and (for a translation) the transl
 1. Add the author (if new) and the book to `tools/sources.json`:
    - Vikikaynak: `"source": "wikisource"` and `"pages"`, the page titles to include as chapters. Pages proofread from scans work too. A page can also be an object, for a novel on one page: `{ "page": "…", "chapters": [{ "title": "…", "from": "…" }], "fixes": [["…", "…"]] }` splits it where a paragraph starts with `from` (the title page before the first one is left out) and corrects transcription errors. For a translation, add `"translator"` and `"translatorDied"`.
    - Project Gutenberg: `"source": "gutenberg"` and `"gutenberg"`, the ebook number; add `"translator"` for a translation.
+   - Sahaf translation: `"source": "sahaf"`, `"translatedFrom"` (the original's language, in Turkish: "Rusça") and `"stories"`, each `{ "file", "original", "url" }`: a text file in `translations/<book id>/` (the story's title on the first line, paragraphs separated by blank lines), the original title and a link to the original text. The book is rebuilt whenever one of its files changes.
 2. Run:
 
    ```bash

@@ -375,6 +375,16 @@
         "tr": "Antik Yunan'ın büyük tragedya yazarlarından.",
         "en": "One of the great tragic playwrights of ancient Greece."
       }
+    },
+    {
+      "id": "poe",
+      "name": "Edgar Allan Poe",
+      "born": 1809,
+      "died": 1849,
+      "about": {
+        "tr": "Amerikalı şair ve öykücü; korku ve gizem öykülerinin, polisiye türünün öncülerinden.",
+        "en": "American poet and short-story writer, a pioneer of horror, mystery and the detective story."
+      }
     }
   ],
   "books": [
@@ -664,6 +674,97 @@
       "blurb": {
         "tr": "Sekiz hikâye; çoğu İstanbul'un köşklerinde, konaklarında ve kahvehanelerinde geçiyor. Doğu'nun sırlarına hayran bir Fransız genç, misafir kaldığı eski bir Türk evinde gece gizlice girdiği odada büyük bir sır bulduğuna inanır. Kendinden yirmi yaş büyük bir büyükelçiyle nişanlanmak üzere olan genç bir kız, tıp öğrencisi kuzeninin verdiği küçük bir şişeyle nişanı bozar. Sofu bir hanımın kurbanlık koçu, kalabalık bir mevlit gününü altüst eder. İstanbul'un en güzel kızı, ona yakışan genç ve yakışıklı talibini neden istemez? Hafif, alaycı ve keskin hikâyeler.",
         "en": "Eight stories, most set in Istanbul's mansions, villas and coffeehouses. A young Frenchman in love with the mysteries of the East stays in an old Turkish house, slips into a room at night and believes he has found a great secret. A young girl about to be engaged to an ambassador twenty years her senior breaks it off with a small bottle her cousin, a medical student, gives her. A pious lady's sacrificial ram turns a crowded religious gathering upside down. Why does the most beautiful girl in Istanbul refuse the young, handsome suitor who would suit her so well? Light, mocking and sharp."
+      }
+    },
+    {
+      "id": "poe-gammaz-yurek",
+      "title": "Gammaz Yürek ve Diğer Öyküler",
+      "authorId": "poe",
+      "language": "tr",
+      "source": "sahaf",
+      "translatedFrom": "İngilizce",
+      "stories": [
+        {
+          "file": "01-gammaz-yurek.txt",
+          "original": "The Tell-Tale Heart (1843)",
+          "url": "https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe_(1850)%2FVolume_1%2FThe_Tell-Tale_Heart"
+        },
+        {
+          "file": "02-kara-kedi.txt",
+          "original": "The Black Cat (1843)",
+          "url": "https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe_(1850)%2FVolume_1%2FThe_Black_Cat"
+        },
+        {
+          "file": "03-amontillado-fici.txt",
+          "original": "The Cask of Amontillado (1846)",
+          "url": "https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe_(1850)%2FVolume_1%2FThe_Cask_of_Amontillado"
+        },
+        {
+          "file": "04-kizil-olumun-maskesi.txt",
+          "original": "The Masque of the Red Death (1842)",
+          "url": "https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe_(1850)%2FVolume_1%2FThe_Masque_of_the_Red_Death"
+        },
+        {
+          "file": "05-oval-portre.txt",
+          "original": "The Oval Portrait (1842)",
+          "url": "https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe_(1850)%2FVolume_1%2FThe_Oval_Portrait"
+        }
+      ],
+      "about": {
+        "tr": "Gammaz Yürek, Kara Kedi, Amontillado Fıçısı ve Kızıl Ölümün Maskesi dahil, Poe'nun beş öyküsü; İngilizce aslından Sahaf çevirisi.",
+        "en": "Five tales by Poe, including The Tell-Tale Heart, The Black Cat, The Cask of Amontillado and The Masque of the Red Death, in the Sahaf's own Turkish translation."
+      },
+      "blurb": {
+        "tr": "Beş karanlık öykü. Yaşlı bir adamın soluk mavi gözüne dayanamayan biri, deli olmadığını kanıtlamak için işlediği suçu bütün ayrıntılarıyla anlatır. Bir zamanlar hayvanlara düşkünlüğüyle tanınan bir adam, içkiye kapıldıkça en sevdiği hayvana korkunç bir şey yapar. Karnaval gecesi, kendisini aşağılayan bir tanıdığını ender bir şarabı tatmaya mahzenine çağıran bir soylu. Salgından kaçıp bin dostuyla bir manastıra kapanan bir prensin maskeli balosuna davetsiz bir konuk gelir. Ve ıssız bir şatoda, gece yarısı mum ışığında fark edilen genç bir kadın portresinin sırrı.",
+        "en": "Five dark tales. A man who cannot bear an old man's pale blue eye tells every detail of his crime to prove he is not mad. A man once known for his love of animals does something terrible to his favourite pet as drink takes hold of him. On a carnival night, a nobleman invites a man who insulted him down to his cellars to taste a rare wine. A prince who has fled a plague with a thousand friends behind abbey walls holds a masked ball, and an uninvited guest arrives. And in a lonely castle, the secret of a young woman's portrait noticed by candlelight at midnight."
+      }
+    },
+    {
+      "id": "cehov-bukalemun",
+      "title": "Bukalemun ve Diğer Öyküler",
+      "authorId": "chekhov",
+      "language": "tr",
+      "source": "sahaf",
+      "translatedFrom": "Rusça",
+      "stories": [
+        {
+          "file": "01-bukalemun.txt",
+          "original": "Хамелеон (1884)",
+          "url": "https://ru.wikisource.org/wiki/%D0%A5%D0%B0%D0%BC%D0%B5%D0%BB%D0%B5%D0%BE%D0%BD_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)%2F%D0%92%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82_%D0%9F%D0%A1%D0%A1_%D0%A7%D0%B5%D1%85%D0%BE%D0%B2%D0%B0_1974%E2%80%941982"
+        },
+        {
+          "file": "02-bir-memurun-olumu.txt",
+          "original": "Смерть чиновника (1883)",
+          "url": "https://ru.wikisource.org/wiki/%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D1%8C_%D1%87%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%D0%B0_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)"
+        },
+        {
+          "file": "03-sisman-ile-zayif.txt",
+          "original": "Толстый и тонкий (1883)",
+          "url": "https://ru.wikisource.org/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8B%D0%B9_%D0%B8_%D1%82%D0%BE%D0%BD%D0%BA%D0%B8%D0%B9_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)%2F%D0%9F%D0%A1%D0%A1_1975"
+        },
+        {
+          "file": "04-vanka.txt",
+          "original": "Ванька (1886)",
+          "url": "https://ru.wikisource.org/wiki/%D0%92%D0%B0%D0%BD%D1%8C%D0%BA%D0%B0_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2%2C_1886)"
+        },
+        {
+          "file": "05-keder.txt",
+          "original": "Тоска (1886)",
+          "url": "https://ru.wikisource.org/wiki/%D0%A2%D0%BE%D1%81%D0%BA%D0%B0_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)"
+        },
+        {
+          "file": "06-bahis.txt",
+          "original": "Пари (1889)",
+          "url": "https://ru.wikisource.org/wiki/%D0%9F%D0%B0%D1%80%D0%B8_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)"
+        }
+      ],
+      "about": {
+        "tr": "Bukalemun, Bir Memurun Ölümü, Vanka ve Bahis dahil, Çehov'un altı öyküsü; Rusça aslından Sahaf çevirisi.",
+        "en": "Six stories by Chekhov, including The Chameleon, The Death of a Government Clerk, Vanka and The Bet, in the Sahaf's own Turkish translation from the Russian."
+      },
+      "blurb": {
+        "tr": "Altı kısa öykü; kimi güldürür, kimi insanın içine dokunur. Sokakta bir köpeğin parmağını ısırdığı adamın şikâyetine bakan bir polis, köpeğin kimin olduğunu öğrendikçe fikrini durmadan değiştirir. Tiyatroda önündeki generalin üstüne hapşıran küçük bir memur, özür dilemekten bir türlü vazgeçemez. Noel gecesi, yanında çıraklık ettiği ustadan kurtulmak için köydeki dedesine mektup yazan dokuz yaşında bir çocuk. Oğlunun ölümünü anlatacak kimseyi bulamayan yaşlı bir arabacı. Ve bir bahis için on beş yıl tek başına bir odaya kapanan genç bir adam...",
+        "en": "Six short stories, some funny, some heartbreaking. A policeman hearing a complaint about a dog that bit a man's finger keeps changing his mind as he learns who the dog belongs to. A little clerk who sneezes on the general in front of him at the theatre cannot stop apologising. A nine-year-old boy writing on Christmas Eve to his grandfather in the village, begging to be taken away from the master he is apprenticed to. An old cab driver who can find no one to listen to him tell of his son's death. And a young man who shuts himself alone in a room for fifteen years to win a bet..."
       }
     },
     {

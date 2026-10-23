@@ -377,6 +377,16 @@
         "tr": "Antik Yunan'ın büyük tragedya yazarlarından.",
         "en": "One of the great tragic playwrights of ancient Greece."
       }
+    },
+    {
+      "id": "poe",
+      "name": "Edgar Allan Poe",
+      "born": 1809,
+      "died": 1849,
+      "about": {
+        "tr": "Amerikalı şair ve öykücü; korku ve gizem öykülerinin, polisiye türünün öncülerinden.",
+        "en": "American poet and short-story writer, a pioneer of horror, mystery and the detective story."
+      }
     }
   ],
   "books": [
@@ -577,6 +587,48 @@
       },
       "source": "Vikikaynak (tr.wikisource.org)",
       "license": "Kamu malı (yazar 1920 yılında öldü); Vikikaynak metni CC BY-SA 4.0"
+    },
+    {
+      "id": "poe-gammaz-yurek",
+      "title": "Gammaz Yürek ve Diğer Öyküler",
+      "authorId": "poe",
+      "language": "tr",
+      "translator": "Sahaf",
+      "sahafTranslation": true,
+      "words": 8441,
+      "bytes": 33303,
+      "file": "books/poe-gammaz-yurek.epub",
+      "about": {
+        "tr": "Gammaz Yürek, Kara Kedi, Amontillado Fıçısı ve Kızıl Ölümün Maskesi dahil, Poe'nun beş öyküsü; İngilizce aslından Sahaf çevirisi.",
+        "en": "Five tales by Poe, including The Tell-Tale Heart, The Black Cat, The Cask of Amontillado and The Masque of the Red Death, in the Sahaf's own Turkish translation."
+      },
+      "blurb": {
+        "tr": "Beş karanlık öykü. Yaşlı bir adamın soluk mavi gözüne dayanamayan biri, deli olmadığını kanıtlamak için işlediği suçu bütün ayrıntılarıyla anlatır. Bir zamanlar hayvanlara düşkünlüğüyle tanınan bir adam, içkiye kapıldıkça en sevdiği hayvana korkunç bir şey yapar. Karnaval gecesi, kendisini aşağılayan bir tanıdığını ender bir şarabı tatmaya mahzenine çağıran bir soylu. Salgından kaçıp bin dostuyla bir manastıra kapanan bir prensin maskeli balosuna davetsiz bir konuk gelir. Ve ıssız bir şatoda, gece yarısı mum ışığında fark edilen genç bir kadın portresinin sırrı.",
+        "en": "Five dark tales. A man who cannot bear an old man's pale blue eye tells every detail of his crime to prove he is not mad. A man once known for his love of animals does something terrible to his favourite pet as drink takes hold of him. On a carnival night, a nobleman invites a man who insulted him down to his cellars to taste a rare wine. A prince who has fled a plague with a thousand friends behind abbey walls holds a masked ball, and an uninvited guest arrives. And in a lonely castle, the secret of a young woman's portrait noticed by candlelight at midnight."
+      },
+      "source": "Sahaf çevirisi (İngilizce özgün metinden, yapay zekâ yardımıyla)",
+      "license": "Özgün metin kamu malı (yazar 1849 yılında öldü); çeviri serbestçe paylaşılabilir (CC0)"
+    },
+    {
+      "id": "cehov-bukalemun",
+      "title": "Bukalemun ve Diğer Öyküler",
+      "authorId": "chekhov",
+      "language": "tr",
+      "translator": "Sahaf",
+      "sahafTranslation": true,
+      "words": 6449,
+      "bytes": 27953,
+      "file": "books/cehov-bukalemun.epub",
+      "about": {
+        "tr": "Bukalemun, Bir Memurun Ölümü, Vanka ve Bahis dahil, Çehov'un altı öyküsü; Rusça aslından Sahaf çevirisi.",
+        "en": "Six stories by Chekhov, including The Chameleon, The Death of a Government Clerk, Vanka and The Bet, in the Sahaf's own Turkish translation from the Russian."
+      },
+      "blurb": {
+        "tr": "Altı kısa öykü; kimi güldürür, kimi insanın içine dokunur. Sokakta bir köpeğin parmağını ısırdığı adamın şikâyetine bakan bir polis, köpeğin kimin olduğunu öğrendikçe fikrini durmadan değiştirir. Tiyatroda önündeki generalin üstüne hapşıran küçük bir memur, özür dilemekten bir türlü vazgeçemez. Noel gecesi, yanında çıraklık ettiği ustadan kurtulmak için köydeki dedesine mektup yazan dokuz yaşında bir çocuk. Oğlunun ölümünü anlatacak kimseyi bulamayan yaşlı bir arabacı. Ve bir bahis için on beş yıl tek başına bir odaya kapanan genç bir adam...",
+        "en": "Six short stories, some funny, some heartbreaking. A policeman hearing a complaint about a dog that bit a man's finger keeps changing his mind as he learns who the dog belongs to. A little clerk who sneezes on the general in front of him at the theatre cannot stop apologising. A nine-year-old boy writing on Christmas Eve to his grandfather in the village, begging to be taken away from the master he is apprenticed to. An old cab driver who can find no one to listen to him tell of his son's death. And a young man who shuts himself alone in a room for fifteen years to win a bet..."
+      },
+      "source": "Sahaf çevirisi (Rusça özgün metinden, yapay zekâ yardımıyla)",
+      "license": "Özgün metin kamu malı (yazar 1904 yılında öldü); çeviri serbestçe paylaşılabilir (CC0)"
     },
     {
       "id": "the-brothers-karamazov",
