@@ -15,6 +15,10 @@ Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesth
 | Notes from the Underground, tr. Constance Garnett | Fyodor Dostoyevsky | English | Project Gutenberg #600 |
 | Anna Karenina, tr. Constance Garnett | Leo Tolstoy (1828–1910) | English | Project Gutenberg #1399 |
 | Yüzakı ve Diğer Hikâyeler (14 stories) | Ömer Seyfettin | Turkish | Vikikaynak |
+| Kürk Mantolu Madonna | Sabahattin Ali (1907–1948) | Turkish | Vikikaynak |
+| Antigone, tr. Sabahattin Ali | Sophokles | Turkish | Vikikaynak |
+| Teke Tek ve Diğer Hikâyeler (9 stories) | Ömer Seyfettin | Turkish | Vikikaynak |
+| Gizli Mâbed ve Diğer Hikâyeler (8 stories) | Ömer Seyfettin | Turkish | Vikikaynak |
 | The Brothers Karamazov, tr. Constance Garnett | Fyodor Dostoyevsky | English | Project Gutenberg #28054 |
 | The Gambler, tr. C. J. Hogarth | Fyodor Dostoyevsky | English | Project Gutenberg #2197 |
 | White Nights and Other Stories, tr. Constance Garnett | Fyodor Dostoyevsky | English | Project Gutenberg #36034 |
@@ -66,7 +70,7 @@ Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesth
 ## Why these are free to share
 
 - A work is in the public domain in Turkey 70 years after its author's death (Law No. 5846), so authors who died in 1955 or earlier. Translations are separate works: a translation is free only when its translator also died more than 70 years ago. Constance Garnett died in 1946.
-- Turkish texts come from Vikikaynak (tr.wikisource.org). Each Turkish book ends with a "Kaynaklar" chapter naming its pages; Vikikaynak pages are shared under CC BY-SA 4.0.
+- Turkish texts come from Vikikaynak (tr.wikisource.org). Each Turkish book ends with a "Kaynaklar" chapter naming its pages; Vikikaynak pages are shared under CC BY-SA 4.0. Use first or early editions, as Kürk Mantolu Madonna (Remzi, 1943) is: a modern simplified ("sadeleştirilmiş") edition is a new work with its own copyright. Pages Vikikaynak marks as having no known source are left out.
 - English texts are Project Gutenberg's own EPUB files, with the Project Gutenberg License inside. They are public domain in the US, and their authors and translators died more than 70 years ago. The build only takes things out: illustrations (the cover stays; illustrated books can be tens of megabytes, over jsDelivr's 20 MB a file) and a Gutenberg note in the contents that the app would take for a chapter title.
 
 Before adding a book, check both the author's and (for a translation) the translator's year of death. Leave a book out when in doubt.
@@ -74,7 +78,7 @@ Before adding a book, check both the author's and (for a translation) the transl
 ## Adding books
 
 1. Add the author (if new) and the book to `tools/sources.json`:
-   - Vikikaynak: `"source": "wikisource"` and `"pages"`, the page titles to include as chapters.
+   - Vikikaynak: `"source": "wikisource"` and `"pages"`, the page titles to include as chapters. Pages proofread from scans work too. A page can also be an object, for a novel on one page: `{ "page": "…", "chapters": [{ "title": "…", "from": "…" }], "fixes": [["…", "…"]] }` splits it where a paragraph starts with `from` (the title page before the first one is left out) and corrects transcription errors. For a translation, add `"translator"` and `"translatorDied"`.
    - Project Gutenberg: `"source": "gutenberg"` and `"gutenberg"`, the ebook number; add `"translator"` for a translation.
 2. Run:
 

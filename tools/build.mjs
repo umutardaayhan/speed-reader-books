@@ -20,24 +20,101 @@ const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const escapeXml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-/** Plain text of a Wikisource page, as paragraphs (section headings left out). */
+async function wikisourceApi(params) {
+  const query = new URLSearchParams({ format: 'json', redirects: '1', ...params });
+  const response = await fetch(`https://tr.wikisource.org/w/api.php?${query}`, { headers: { 'User-Agent': UA } });
+  return response.json();
+}
+
+const wordsIn = (paragraphs) => paragraphs.join(' ').split(/\s+/).filter(Boolean).length;
+
+/**
+ * Plain text of a Wikisource page, as paragraphs (section headings left out). The plain-text
+ * extract misses text that pages proofread from scans take from the scan's pages, and on some
+ * pages it stops after a line or two, so when it is shorter than the rendered page, the rendered
+ * page is used instead.
+ */
 async function wikisourceParagraphs(title) {
-  const params = new URLSearchParams({
-    format: 'json',
-    action: 'query',
-    prop: 'extracts',
-    explaintext: '1',
-    redirects: '1',
-    titles: title.normalize('NFC'),
-  });
-  const response = await fetch(`https://tr.wikisource.org/w/api.php?${params}`, { headers: { 'User-Agent': UA } });
-  const json = await response.json();
-  const page = Object.values(json.query.pages)[0];
-  if (!page.extract) throw new Error(`No text for "${title}"`);
-  return page.extract
+  const json = await wikisourceApi({ action: 'query', prop: 'extracts', explaintext: '1', titles: title.normalize('NFC') });
+  const extract = (Object.values(json.query.pages)[0].extract ?? '')
     .split('\n')
     .map((line) => line.trim())
     .filter((line) => line && !/^=+.*=+$/.test(line));
+  const parsed = await wikisourceApi({ action: 'parse', prop: 'text', disableeditsection: '1', page: title.normalize('NFC') });
+  const rendered = parsed.parse ? htmlParagraphs(parsed.parse.text['*']) : [];
+  const paragraphs = (wordsIn(extract) >= 0.9 * wordsIn(rendered) ? extract : rendered)
+    .map((p) => p.replace(/\s*Sayfa başı\W*$/u, '').trim()) // the link back to the top of the page
+    .filter(Boolean);
+  if (paragraphs.length === 0) throw new Error(`No text for "${title}"`);
+  return paragraphs;
+}
+
+const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
+
+/** The text of a rendered Wikisource page as paragraphs, without its header, page numbers and license box. */
+function htmlParagraphs(html) {
+  let h = html;
+  const scans = h.indexOf('class="prp-pages-output"');
+  if (scans >= 0) h = h.slice(h.indexOf('>', scans) + 1);
+  // The header box ends with the hidden ws-data block; the text starts after it.
+  const data = h.indexOf('id="ws-data"');
+  if (data >= 0) h = h.slice(h.indexOf('</div>', data) + 6);
+  // The text ends at the source and license box, or at the parser's report.
+  const ends = [h.indexOf('<b>Kaynak:</b>'), h.indexOf('class="licenseContainer'), h.indexOf('<!--')].filter((i) => i >= 0);
+  if (ends.length) {
+    const end = Math.min(...ends);
+    const table = h.lastIndexOf('<table', end);
+    const cut = table < 0 || h.slice(table, end).includes('</table>') ? h.lastIndexOf('<', end) : table;
+    h = h.slice(0, cut);
+  }
+  h = h
+    .replace(/<span><span class="pagenum[^"]*"[^>]*><\/span><\/span>/g, '')
+    .replace(/<figure[\s\S]*?<\/figure>/g, '')
+    .replace(/<style[\s\S]*?<\/style>/g, '')
+    .replace(/<sup[^>]*class="reference"[\s\S]*?<\/sup>/g, '')
+    .replace(/<ol class="references"[\s\S]*?<\/ol>/g, '')
+    .replace(/\n/g, ' ')
+    .replace(/<br\s*\/?>|<\/?(p|div|center|li|h\d|dd|dt|tr|table|blockquote|ul|ol|dl)\b[^>]*>/gi, '\u0000')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+    .replace(/&([a-z]+);/gi, (m, n) => ENTITIES[n.toLowerCase()] ?? m)
+    .replace(/­/g, ''); // soft hyphens from the scans
+  return h
+    .split('\u0000')
+    .map((p) => p.replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
+}
+
+/**
+ * The chapters of one Wikisource page. A page is a page title, or an object with:
+ *   fixes     [from, to] pairs for transcription errors ("\n\n" in `to` starts a new paragraph)
+ *   chapters  [{ title, from }]: the page split where a paragraph starts with `from`; the text
+ *             before the first one (a title page) is left out, and a first paragraph that is
+ *             only the chapter's title is dropped, since the chapter gets its own heading
+ */
+async function wikisourceChapters(page) {
+  const { page: title, fixes = [], chapters } = typeof page === 'string' ? { page } : page;
+  let paragraphs = await wikisourceParagraphs(title);
+  if (fixes.length) {
+    let text = paragraphs.join('\n\n');
+    for (const [from, to] of fixes) {
+      if (!text.includes(from)) throw new Error(`${title}: fix not found: ${from}`);
+      text = text.replace(from, to);
+    }
+    paragraphs = text.split('\n\n');
+  }
+  if (!chapters) return [{ title: title.replace(/\s*\((hikâye|Ömer Seyfettin)\)$/, ''), paragraphs }];
+  const starts = chapters.map((c) => {
+    const i = paragraphs.findIndex((p) => p.startsWith(c.from));
+    if (i < 0) throw new Error(`${title}: chapter start not found: ${c.from}`);
+    return i;
+  });
+  return chapters.map((c, n) => {
+    const body = paragraphs.slice(starts[n], starts[n + 1] ?? paragraphs.length);
+    const isHeading = body[0].toLocaleLowerCase('tr-TR') === c.title.toLocaleLowerCase('tr-TR');
+    return { title: c.title, paragraphs: isHeading ? body.slice(1) : body };
+  });
 }
 
 function xhtml(title, paragraphs) {
@@ -91,16 +168,22 @@ ${items.map((i) => `<item id="${i.id}" href="${i.href}" media-type="application/
 async function buildWikisource(book, author) {
   const chapters = [];
   for (const page of book.pages) {
-    const paragraphs = await wikisourceParagraphs(page);
-    chapters.push({ title: page.replace(/\s*\((hikâye|Ömer Seyfettin)\)$/, ''), paragraphs });
+    chapters.push(...(await wikisourceChapters(page)));
     await wait(500);
   }
-  const links = book.pages.map((p) => `https://tr.wikisource.org/wiki/${encodeURIComponent(p.replace(/ /g, '_'))}`);
+  const links = book.pages
+    .map((p) => (typeof p === 'string' ? p : p.page))
+    .map((p) => `https://tr.wikisource.org/wiki/${encodeURIComponent(p.replace(/ /g, '_'))}`);
   // Named "Kaynaklar", so the app skips it as back matter.
   chapters.push({
     title: 'Kaynaklar',
     paragraphs: [
-      `${author.name} ${author.died} yılında öldü; eserleri, yazarın ölümünden 70 yıl sonra Türkiye'de kamu malı olmuştur.`,
+      author.died
+        ? `${author.name} ${author.died} yılında öldü; eserleri, yazarın ölümünden 70 yıl sonra Türkiye'de kamu malı olmuştur.`
+        : `${author.name} antik çağda yaşadı; eserleri kamu malıdır.`,
+      ...(book.translator
+        ? [`Türkçesi ${book.translator}; çevirmen ${book.translatorDied} yılında öldü, çevirisi de ölümünden 70 yıl sonra kamu malı olmuştur.`]
+        : []),
       "Bu kitaptaki metinler Vikikaynak'tan (tr.wikisource.org) alınmıştır. Vikikaynak sayfaları Creative Commons Atıf-AynıLisanslaPaylaş 4.0 lisansıyla paylaşılır.",
       ...links,
     ],
@@ -247,7 +330,7 @@ for (const book of sources.books) {
     ...(book.blurb ? { blurb: book.blurb } : {}),
     source: isWikisource ? 'Vikikaynak (tr.wikisource.org)' : `Project Gutenberg #${book.gutenberg}`,
     license: isWikisource
-      ? `Kamu malı (yazar ${author.died} yılında öldü); Vikikaynak metni CC BY-SA 4.0`
+      ? `Kamu malı (${book.translator ? `çevirmen ${book.translatorDied}` : `yazar ${author.died}`} yılında öldü); Vikikaynak metni CC BY-SA 4.0`
       : 'Public domain (author and translator died more than 70 years ago); Project Gutenberg License',
   });
 }

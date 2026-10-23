@@ -359,6 +359,24 @@
         "tr": "Lübnanlı-Amerikalı şair, ressam ve düşünür.",
         "en": "Lebanese-American poet, painter and thinker."
       }
+    },
+    {
+      "id": "sabahattin-ali",
+      "name": "Sabahattin Ali",
+      "born": 1907,
+      "died": 1948,
+      "about": {
+        "tr": "Türk romancı, öykücü ve şair; Anadolu insanını ve yalnızlığı anlatan eserleriyle tanınır.",
+        "en": "Turkish novelist, short-story writer and poet, known for his portraits of Anatolian life and of loneliness."
+      }
+    },
+    {
+      "id": "sophocles",
+      "name": "Sophokles",
+      "about": {
+        "tr": "Antik Yunan'ın büyük tragedya yazarlarından.",
+        "en": "One of the great tragic playwrights of ancient Greece."
+      }
     }
   ],
   "books": [
@@ -367,8 +385,8 @@
       "title": "Kaşağı ve Diğer Hikâyeler",
       "authorId": "omer-seyfettin",
       "language": "tr",
-      "words": 23414,
-      "bytes": 92373,
+      "words": 23404,
+      "bytes": 92332,
       "file": "books/omer-seyfettin-kasagi.epub",
       "about": {
         "tr": "Kaşağı, Forsa, Pembe İncili Kaftan ve Başını Vermeyen Şehit dahil, Ömer Seyfettin'in en çok okunan hikâyelerinden on dördü.",
@@ -386,8 +404,8 @@
       "title": "Bomba ve Diğer Hikâyeler",
       "authorId": "omer-seyfettin",
       "language": "tr",
-      "words": 37211,
-      "bytes": 131028,
+      "words": 38531,
+      "bytes": 136271,
       "file": "books/omer-seyfettin-bomba.epub",
       "about": {
         "tr": "Bomba, Kütük, Zeytin Ekmek ve Fon Sadriştayn hikâyeleri dahil, Ömer Seyfettin'in daha uzun on beş hikâyesi.",
@@ -468,8 +486,8 @@
       "title": "Yüzakı ve Diğer Hikâyeler",
       "authorId": "omer-seyfettin",
       "language": "tr",
-      "words": 13492,
-      "bytes": 57298,
+      "words": 13480,
+      "bytes": 57243,
       "file": "books/omer-seyfettin-yuzaki.epub",
       "about": {
         "tr": "Yüzakı, İlk Cinayet, Kurumuş Ağaçlar ve Çakmak dahil, Ömer Seyfettin'in on dört hikâyesi.",
@@ -478,6 +496,84 @@
       "blurb": {
         "tr": "On dört hikâye; çoğu, insanın kendi kendine verdiği hesapla ilgili. Otuz yıl önce, daha küçük bir çocukken yaptığı bir kötülüğü her martı gördüğünde hâlâ hatırlayan bir adam. Ömrü boyunca yol kesip kan döken, yaşlanınca günahlarına kefaret arayan bir derebeyi. Altmış paralık bir çakmak yüzünden mahkemeye düşen iki eski dost. Dünyada tek bir dürüst insan kalmadığına inanan bir adamın karşısına çıkan saf bir çoban... Kısa, keskin ve çoğu zaman gülümseten hikâyeler.",
         "en": "Fourteen stories, most about the account a person settles with himself. A man who, thirty years on, still remembers a cruelty from his early childhood whenever he sees a seagull. A feudal lord who robbed and killed all his life and, grown old, seeks to atone. Two old friends taken to court over a lighter worth a few coins. A man convinced there is not one honest soul left, and the simple shepherd who proves him wrong... Short, sharp and often funny."
+      },
+      "source": "Vikikaynak (tr.wikisource.org)",
+      "license": "Kamu malı (yazar 1920 yılında öldü); Vikikaynak metni CC BY-SA 4.0"
+    },
+    {
+      "id": "kurk-mantolu-madonna",
+      "title": "Kürk Mantolu Madonna",
+      "authorId": "sabahattin-ali",
+      "language": "tr",
+      "year": 1943,
+      "words": 40172,
+      "bytes": 125626,
+      "file": "books/kurk-mantolu-madonna.epub",
+      "about": {
+        "tr": "Sabahattin Ali'nin en çok okunan romanı (1943), Vikikaynak'taki ilk baskının taramasından.",
+        "en": "Sabahattin Ali's most-read novel (1943), from the scanned first edition on Wikisource."
+      },
+      "blurb": {
+        "tr": "Ankara'da işsiz kalmış genç bir adam bir şirkette iş bulur ve aynı odada çalışan, kimsenin fark etmediği sessiz bir çevirmenle tanışır. Herkesin silik ve sıkıcı bulduğu bu adam ağır hastalanınca ondan, masasının çekmecesindeki siyah kaplı bir defteri getirmesini ister. Defterde, gençliğinde 1920'lerin Berlin'inde bir resim sergisinde gördüğü bir kadın portresiyle başlayan ve bütün hayatını belirleyen bir aşkın hikâyesi vardır. İnsanların göründükleri gibi olmadığını anlatan, en sevilen Türk romanlarından biri.",
+        "en": "In Ankara, a young man who has lost his job finds work at a company and meets the quiet translator in his office, a man nobody notices. When this dull, colourless man falls gravely ill, he asks him to bring a black notebook from his desk drawer. In it is the story of a love that began in 1920s Berlin, with a woman's portrait he saw at an art exhibition, and that shaped his whole life. One of the best-loved Turkish novels, about how people are not what they seem."
+      },
+      "source": "Vikikaynak (tr.wikisource.org)",
+      "license": "Kamu malı (yazar 1948 yılında öldü); Vikikaynak metni CC BY-SA 4.0"
+    },
+    {
+      "id": "antigone",
+      "title": "Antigone",
+      "authorId": "sophocles",
+      "language": "tr",
+      "translator": "Sabahattin Ali",
+      "words": 9670,
+      "bytes": 33005,
+      "file": "books/antigone.epub",
+      "about": {
+        "tr": "Sophokles'in tragedyası, Sabahattin Ali'nin çevirisi ve önsözüyle.",
+        "en": "Sophocles's tragedy in Sabahattin Ali's Turkish translation, with his foreword."
+      },
+      "blurb": {
+        "tr": "Bir taht kavgasında iki erkek kardeş birbirini öldürmüştür. Şehrin yeni kralı, birinin törenle gömülmesini, vatan haini saydığı ötekinin ise kuşlara ve köpeklere yem olsun diye ortada bırakılmasını emreder; emre karşı gelen ölümle cezalandırılacaktır. Ölülerin genç kız kardeşi, tanrıların yasasını kralın yasasından üstün tutar ve kardeşini gömmeye karar verir. Vicdan ile devlet arasındaki çatışmanın iki buçuk bin yıllık tragedyası.",
+        "en": "Two brothers have killed each other in a fight for the throne. The city's new king orders that one be buried with honour and that the other, whom he calls a traitor, be left out for the birds and dogs; anyone who disobeys will die. The dead men's young sister holds the law of the gods above the king's law, and decides to bury her brother. A two-and-a-half-thousand-year-old tragedy of conscience against the state."
+      },
+      "source": "Vikikaynak (tr.wikisource.org)",
+      "license": "Kamu malı (çevirmen 1948 yılında öldü); Vikikaynak metni CC BY-SA 4.0"
+    },
+    {
+      "id": "omer-seyfettin-teke-tek",
+      "title": "Teke Tek ve Diğer Hikâyeler",
+      "authorId": "omer-seyfettin",
+      "language": "tr",
+      "words": 13720,
+      "bytes": 53973,
+      "file": "books/omer-seyfettin-teke-tek.epub",
+      "about": {
+        "tr": "Teke Tek, Nâdan, Aleko ve Rüşvet dahil, Ömer Seyfettin'in dokuz hikâyesi.",
+        "en": "Nine stories by Ömer Seyfettin, including Teke Tek, Nâdan, Aleko and Rüşvet."
+      },
+      "blurb": {
+        "tr": "Dokuz hikâye; çoğu tarihten, savaştan ve kasaba insanından. Kuşatılmış bir kalenin önünde, yaşlı bir askerin genç komutanlara anlattığı bir teke tek dövüş. Ölümle tehdit edildiğinde bile devlet işine dönmeyi reddeden yaşlı bir vezire, padişahın bulduğu ölümden beter bir ceza. Savaş yıllarında ailesini arayan bir köy çocuğunun, adını değiştirerek düştüğü tehlikeli macera. Davasını kazanmak için hâkime bir koç gönderen, ama üstüne kendi adını yazmayan kurnaz bir köylü... Kısa, sürükleyici ve çoğu zaman gülümseten hikâyeler.",
+        "en": "Nine stories, most of history, war and small-town people. Outside a besieged castle, an old soldier tells young commanders about a duel fought man to man. A punishment worse than death, devised by a sultan for an old vizier who refuses to return to office even under threat of execution. A village boy searching for his family in wartime, and the dangerous adventure he falls into by changing his name. A cunning villager who sends the judge a ram to win his case, but not in his own name... Short, gripping and often funny."
+      },
+      "source": "Vikikaynak (tr.wikisource.org)",
+      "license": "Kamu malı (yazar 1920 yılında öldü); Vikikaynak metni CC BY-SA 4.0"
+    },
+    {
+      "id": "omer-seyfettin-gizli-mabed",
+      "title": "Gizli Mâbed ve Diğer Hikâyeler",
+      "authorId": "omer-seyfettin",
+      "language": "tr",
+      "words": 12195,
+      "bytes": 49239,
+      "file": "books/omer-seyfettin-gizli-mabed.epub",
+      "about": {
+        "tr": "Gizli Mâbed, Antiseptik, Tos ve Pireler dahil, Ömer Seyfettin'in sekiz hikâyesi.",
+        "en": "Eight stories by Ömer Seyfettin, including Gizli Mâbed, Antiseptik, Tos and Pireler."
+      },
+      "blurb": {
+        "tr": "Sekiz hikâye; çoğu İstanbul'un köşklerinde, konaklarında ve kahvehanelerinde geçiyor. Doğu'nun sırlarına hayran bir Fransız genç, misafir kaldığı eski bir Türk evinde gece gizlice girdiği odada büyük bir sır bulduğuna inanır. Kendinden yirmi yaş büyük bir büyükelçiyle nişanlanmak üzere olan genç bir kız, tıp öğrencisi kuzeninin verdiği küçük bir şişeyle nişanı bozar. Sofu bir hanımın kurbanlık koçu, kalabalık bir mevlit gününü altüst eder. İstanbul'un en güzel kızı, ona yakışan genç ve yakışıklı talibini neden istemez? Hafif, alaycı ve keskin hikâyeler.",
+        "en": "Eight stories, most set in Istanbul's mansions, villas and coffeehouses. A young Frenchman in love with the mysteries of the East stays in an old Turkish house, slips into a room at night and believes he has found a great secret. A young girl about to be engaged to an ambassador twenty years her senior breaks it off with a small bottle her cousin, a medical student, gives her. A pious lady's sacrificial ram turns a crowded religious gathering upside down. Why does the most beautiful girl in Istanbul refuse the young, handsome suitor who would suit her so well? Light, mocking and sharp."
       },
       "source": "Vikikaynak (tr.wikisource.org)",
       "license": "Kamu malı (yazar 1920 yılında öldü); Vikikaynak metni CC BY-SA 4.0"
