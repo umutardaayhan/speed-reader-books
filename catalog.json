@@ -387,6 +387,36 @@
         "tr": "Amerikalı şair ve öykücü; korku ve gizem öykülerinin, polisiye türünün öncülerinden.",
         "en": "American poet and short-story writer, a pioneer of horror, mystery and the detective story."
       }
+    },
+    {
+      "id": "ohenry",
+      "name": "O. Henry",
+      "born": 1862,
+      "died": 1910,
+      "about": {
+        "tr": "Amerikalı öykücü; New York’un sıradan insanlarını anlatan, sonu şaşırtan öyküleriyle tanınır.",
+        "en": "American short-story writer of ordinary New Yorkers, famous for his twist endings."
+      }
+    },
+    {
+      "id": "maupassant",
+      "name": "Guy de Maupassant",
+      "born": 1850,
+      "died": 1893,
+      "about": {
+        "tr": "Fransız yazar; modern kısa öykünün ustalarından.",
+        "en": "French writer, a master of the modern short story."
+      }
+    },
+    {
+      "id": "andersen",
+      "name": "Hans Christian Andersen",
+      "born": 1805,
+      "died": 1875,
+      "about": {
+        "tr": "Danimarkalı yazar; dünyanın en çok okunan masallarının yazarı.",
+        "en": "Danish writer of some of the most-read fairy tales in the world."
+      }
     }
   ],
   "books": [
@@ -596,7 +626,7 @@
       "translator": "Sahaf",
       "sahafTranslation": true,
       "words": 8441,
-      "bytes": 33303,
+      "bytes": 33300,
       "file": "books/poe-gammaz-yurek.epub",
       "about": {
         "tr": "Gammaz Yürek, Kara Kedi, Amontillado Fıçısı ve Kızıl Ölümün Maskesi dahil, Poe'nun beş öyküsü; İngilizce aslından Sahaf çevirisi.",
@@ -617,7 +647,7 @@
       "translator": "Sahaf",
       "sahafTranslation": true,
       "words": 6449,
-      "bytes": 27953,
+      "bytes": 27950,
       "file": "books/cehov-bukalemun.epub",
       "about": {
         "tr": "Bukalemun, Bir Memurun Ölümü, Vanka ve Bahis dahil, Çehov'un altı öyküsü; Rusça aslından Sahaf çevirisi.",
@@ -629,6 +659,90 @@
       },
       "source": "Sahaf çevirisi (Rusça özgün metinden, yapay zekâ yardımıyla)",
       "license": "Özgün metin kamu malı (yazar 1904 yılında öldü); çeviri serbestçe paylaşılabilir (CC0)"
+    },
+    {
+      "id": "tolstoy-insan-ne-ile-yasar",
+      "title": "İnsan Ne ile Yaşar? ve Diğer Hikâyeler",
+      "authorId": "tolstoy",
+      "language": "tr",
+      "translator": "Sahaf",
+      "sahafTranslation": true,
+      "words": 11758,
+      "bytes": 39190,
+      "file": "books/tolstoy-insan-ne-ile-yasar.epub",
+      "about": {
+        "tr": "İnsan Ne ile Yaşar?, Bir İnsana Ne Kadar Toprak Gerek? ve Sevginin Olduğu Yerde Tanrı da Vardır: Tolstoy'un üç halk hikâyesi; Rusça aslından Sahaf çevirisi.",
+        "en": "What Men Live By, How Much Land Does a Man Need? and Where Love Is, God Is: three of Tolstoy's folk tales, in the Sahaf's own Turkish translation from the Russian."
+      },
+      "blurb": {
+        "tr": "Üç hikâye; eski halk masalları gibi sade, ama hayatın özünü soran. Bir kış akşamı kürk almaya giden yoksul bir ayakkabıcı, yol kenarındaki bir şapelin dibinde çırılçıplak, donmak üzere olan genç bir yabancı bulur ve onu evine götürür; yabancı yıllarca yanında çalışır ve yalnızca üç kez gülümser. Bir gün içinde yürüyerek dolaşabildiği bütün toprağın kendisinin olacağı bir teklif alan açgözlü bir köylü. Oğlunu kaybedip umudunu yitiren yaşlı bir ayakkabıcı, bir gece kendisini ertesi gün görmeye geleceğini söyleyen bir ses duyar...",
+        "en": "Three tales, plain as old folk stories, asking what life is really about. A poor shoemaker going out one winter evening to buy a sheepskin coat finds a young stranger by a roadside chapel, naked and freezing, and takes him home; the stranger works beside him for years and smiles only three times. A greedy peasant is offered all the land he can walk around in a single day. An old shoemaker who has lost his son and all hope hears a voice one night saying it will come to see him the next day..."
+      },
+      "source": "Sahaf çevirisi (Rusça özgün metinden, yapay zekâ yardımıyla)",
+      "license": "Özgün metin kamu malı (yazar 1910 yılında öldü); çeviri serbestçe paylaşılabilir (CC0)"
+    },
+    {
+      "id": "ohenry-son-yaprak",
+      "title": "Son Yaprak ve Diğer Öyküler",
+      "authorId": "ohenry",
+      "language": "tr",
+      "translator": "Sahaf",
+      "sahafTranslation": true,
+      "words": 8896,
+      "bytes": 35336,
+      "file": "books/ohenry-son-yaprak.epub",
+      "about": {
+        "tr": "Mecusilerin Armağanı, Son Yaprak, Yirmi Yıl Sonra ve Kızıl Reis'in Fidyesi dahil, O. Henry'nin beş öyküsü; İngilizce aslından Sahaf çevirisi.",
+        "en": "Five stories by O. Henry, including The Gift of the Magi, The Last Leaf, After Twenty Years and The Ransom of Red Chief, in the Sahaf’s own Turkish translation."
+      },
+      "blurb": {
+        "tr": "Beş öykü; New York'un sıradan insanları ve son satırda her şeyi değiştiren sürprizler. Noel'den bir gün önce elinde yalnızca bir dolar seksen yedi sent kalmış genç bir kadın, kocasına hediye almak için en değerli şeyinden vazgeçer. Zatürreye yakalanan genç bir ressam kız, penceresinden gördüğü sarmaşık soyundukça kendisinin de öleceğine inanır. Yirmi yıl önce verilmiş bir sözü tutmak için bir kapı girişinde arkadaşını bekleyen bir adam. Zengin bir babanın oğlunu kaçıran iki dolandırıcı, çocuğun kendilerinden çok daha tehlikeli olduğunu anlar. Ve kışı hapiste geçirmek isteyip bir türlü tutuklanamayan bir serseri...",
+        "en": "Five stories of ordinary New Yorkers, with a last line that changes everything. The day before Christmas, a young wife with only a dollar and eighty-seven cents gives up her most precious possession to buy her husband a present. A young painter with pneumonia believes she will die once the ivy outside her window is bare. A man waits in a doorway for a friend, to keep a promise made twenty years ago. Two crooks kidnap a rich man's son and discover the boy is far more dangerous than they are. And a tramp who wants to spend the winter in jail cannot get himself arrested..."
+      },
+      "source": "Sahaf çevirisi (İngilizce özgün metinden, yapay zekâ yardımıyla)",
+      "license": "Özgün metin kamu malı (yazar 1910 yılında öldü); çeviri serbestçe paylaşılabilir (CC0)"
+    },
+    {
+      "id": "maupassant-gerdanlik",
+      "title": "Gerdanlık ve Diğer Öyküler",
+      "authorId": "maupassant",
+      "language": "tr",
+      "translator": "Sahaf",
+      "sahafTranslation": true,
+      "words": 8828,
+      "bytes": 35135,
+      "file": "books/maupassant-gerdanlik.epub",
+      "about": {
+        "tr": "Gerdanlık, Sicim, İki Dost, Kırlarda ve Simon'un Babası: Maupassant'ın beş öyküsü; Fransızca aslından Sahaf çevirisi.",
+        "en": "The Necklace, The Piece of String, Two Friends, In the Fields and Simon’s Papa: five stories by Maupassant, in the Sahaf’s own Turkish translation from the French."
+      },
+      "blurb": {
+        "tr": "Beş öykü; Normandiya köyleri, Paris ve savaş. Bir bakanlık balosu için zengin bir arkadaşından ödünç aldığı bir mücevheri kaybeden genç bir kadın, onun yerine yenisini almak için on yıl yoksulluk içinde çalışır. Pazar yerinde yerden önemsiz bir şey alan yaşlı bir köylü, kayıp bir cüzdanı çalmakla suçlanır ve masumiyetini kimseye kanıtlayamaz. Kuşatılmış Paris'te balık tutmayı özleyen iki eski ahbap, cephe hattının yakınındaki nehre gitmeye karar verir. Biri çocuğunu zengin bir çifte satan, öteki satmayan iki yoksul komşu aile. Ve okulda alay edilen yalnız küçük bir oğlan...",
+        "en": "Five stories of Normandy villages, Paris and war. A young woman who loses a piece of jewellery borrowed from a rich friend for a ministry ball spends ten years in poverty paying for a replacement. An old peasant who picks up something worthless in the market square is accused of stealing a lost wallet and can never prove his innocence. Two old companions in besieged Paris, longing to go fishing, decide to go down to the river near the front line. Two poor neighbouring families, one of which sells its child to a rich couple while the other refuses. And a lonely little boy mocked at school..."
+      },
+      "source": "Sahaf çevirisi (Fransızca özgün metinden, yapay zekâ yardımıyla)",
+      "license": "Özgün metin kamu malı (yazar 1893 yılında öldü); çeviri serbestçe paylaşılabilir (CC0)"
+    },
+    {
+      "id": "andersen-kibritci-kiz",
+      "title": "Kibritçi Kız ve Diğer Masallar",
+      "authorId": "andersen",
+      "language": "tr",
+      "translator": "Sahaf",
+      "sahafTranslation": true,
+      "words": 8228,
+      "bytes": 30484,
+      "file": "books/andersen-kibritci-kiz.epub",
+      "about": {
+        "tr": "Kibritçi Kız, İmparatorun Yeni Giysileri, Bezelye Prensesi, Kararlı Kalay Asker, Çirkin Ördek Yavrusu ve Bülbül: Andersen'in altı masalı; Danca aslından Sahaf çevirisi.",
+        "en": "The Little Match Girl, The Emperor’s New Clothes, The Princess and the Pea, The Steadfast Tin Soldier, The Ugly Duckling and The Nightingale: six tales by Andersen, in the Sahaf’s own Turkish translation from the Danish."
+      },
+      "blurb": {
+        "tr": "Altı masal; kimi hüzünlü, kimi alaycı. Yılbaşı gecesi karlı sokaklarda yalınayak dolaşan yoksul bir kız, ısınmak için elindekileri birer birer yakar ve her alevde başka bir hayal görür. Yalnızca akıllıların görebileceği bir kumaş vaat eden iki dolandırıcı ve kimsenin hiçbir şey görmediğini söylemeye cesaret edemediği bir saray. Gerçek bir soylu olup olmadığı anlaşılsın diye yirmi döşeğin altına konan küçük bir şey. Tek bacaklı bir oyuncak askerin kâğıttan bir dansçıya duyduğu sessiz sevgi. Kümeste herkesin hor gördüğü tuhaf bir yavrunun uzun kışı. Ve mücevherli bir oyuncağı gerçek bir şarkıya tercih eden bir imparator.",
+        "en": "Six tales, some sad, some sly. On New Year's Eve, a poor girl wandering barefoot through the snowy streets burns what she carries one by one to keep warm, and sees a new vision in every flame. Two swindlers promise a cloth only the clever can see, at a court where nobody dares to say they see nothing. Something small placed under twenty mattresses to find out whether a guest is truly royal. A one-legged toy soldier's silent love for a paper dancer. The long winter of an odd youngster everyone in the farmyard despises. And an emperor who prefers a jewelled toy to a real song."
+      },
+      "source": "Sahaf çevirisi (Danca özgün metinden, yapay zekâ yardımıyla)",
+      "license": "Özgün metin kamu malı (yazar 1875 yılında öldü); çeviri serbestçe paylaşılabilir (CC0)"
     },
     {
       "id": "the-brothers-karamazov",

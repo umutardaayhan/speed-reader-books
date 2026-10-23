@@ -21,6 +21,10 @@ Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesth
 | Gizli Mâbed ve Diğer Hikâyeler (8 stories) | Ömer Seyfettin | Turkish | Vikikaynak |
 | Gammaz Yürek ve Diğer Öyküler (5 stories), Sahaf translation | Edgar Allan Poe (1809–1849) | Turkish | Sahaf translation from the English (Wikisource) |
 | Bukalemun ve Diğer Öyküler (6 stories), Sahaf translation | Anton Chekhov (1860–1904) | Turkish | Sahaf translation from the Russian (Wikisource) |
+| İnsan Ne ile Yaşar? ve Diğer Hikâyeler (3 stories), Sahaf translation | Leo Tolstoy | Turkish | Sahaf translation from the Russian (Wikisource) |
+| Son Yaprak ve Diğer Öyküler (5 stories), Sahaf translation | O. Henry (1862–1910) | Turkish | Sahaf translation from the English (Wikisource) |
+| Gerdanlık ve Diğer Öyküler (5 stories), Sahaf translation | Guy de Maupassant (1850–1893) | Turkish | Sahaf translation from the French (Wikisource) |
+| Kibritçi Kız ve Diğer Masallar (6 stories), Sahaf translation | Hans Christian Andersen (1805–1875) | Turkish | Sahaf translation from the Danish (Wikisource) |
 | The Brothers Karamazov, tr. Constance Garnett | Fyodor Dostoyevsky | English | Project Gutenberg #28054 |
 | The Gambler, tr. C. J. Hogarth | Fyodor Dostoyevsky | English | Project Gutenberg #2197 |
 | White Nights and Other Stories, tr. Constance Garnett | Fyodor Dostoyevsky | English | Project Gutenberg #36034 |

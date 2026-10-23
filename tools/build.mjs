@@ -129,8 +129,11 @@ ${paragraphs.map((p) => `<p>${escapeXml(p)}</p>`).join('\n')}
 </html>`;
 }
 
-/** An EPUB 3 of chapters (title + paragraphs), with a table of contents. */
-function makeEpub({ id, title, author, language, chapters }) {
+/**
+ * An EPUB 3 of chapters (title + paragraphs), with a table of contents. `modified` fixes the
+ * book's date so that the same text always makes the same bytes.
+ */
+function makeEpub({ id, title, author, language, chapters, modified = new Date() }) {
   const files = {
     mimetype: strToU8('application/epub+zip'),
     'META-INF/container.xml': strToU8(
@@ -153,7 +156,7 @@ ${items.map((i) => `<li><a href="${i.href}">${escapeXml(i.title)}</a></li>`).joi
 <dc:title>${escapeXml(title)}</dc:title>
 <dc:creator>${escapeXml(author)}</dc:creator>
 <dc:language>${language}</dc:language>
-<meta property="dcterms:modified">${new Date().toISOString().replace(/\.\d+Z$/, 'Z')}</meta>
+<meta property="dcterms:modified">${modified.toISOString().replace(/\.\d+Z$/, 'Z')}</meta>
 </metadata>
 <manifest>
 <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -224,7 +227,14 @@ function buildSahaf(book, author) {
       ],
     },
   ];
-  return makeEpub({ id: book.id, title: book.title, author: author.name, language: book.language, chapters });
+  return makeEpub({
+    id: book.id,
+    title: book.title,
+    author: author.name,
+    language: book.language,
+    chapters,
+    modified: new Date('2026-01-01T00:00:00Z'),
+  });
 }
 
 async function buildGutenberg(book) {
@@ -339,13 +349,9 @@ for (const book of sources.books) {
   if (!author) throw new Error(`${book.id}: unknown author ${book.authorId}`);
   const file = `books/${book.id}.epub`;
   const path = join(ROOT, file);
-  // A translation is rebuilt whenever one of its files is newer than the book, so corrections
-  // to it go out with the next build.
-  const edited =
-    book.source === 'sahaf' &&
-    existsSync(path) &&
-    storyPaths(book).some((story) => statSync(story).mtimeMs > statSync(path).mtimeMs);
-  if (force || edited || !existsSync(path)) {
+  // A translation is made from files in this repository, so it is rebuilt every time: corrections
+  // go out with the next build, and unchanged text gives the same bytes (no change for git).
+  if (force || book.source === 'sahaf' || !existsSync(path)) {
     console.log(`building ${book.id}…`);
     if (book.source === 'sahaf') {
       writeFileSync(path, buildSahaf(book, author));

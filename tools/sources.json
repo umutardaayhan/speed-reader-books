@@ -385,6 +385,36 @@
         "tr": "Amerikalı şair ve öykücü; korku ve gizem öykülerinin, polisiye türünün öncülerinden.",
         "en": "American poet and short-story writer, a pioneer of horror, mystery and the detective story."
       }
+    },
+    {
+      "id": "ohenry",
+      "name": "O. Henry",
+      "born": 1862,
+      "died": 1910,
+      "about": {
+        "tr": "Amerikalı öykücü; New York’un sıradan insanlarını anlatan, sonu şaşırtan öyküleriyle tanınır.",
+        "en": "American short-story writer of ordinary New Yorkers, famous for his twist endings."
+      }
+    },
+    {
+      "id": "maupassant",
+      "name": "Guy de Maupassant",
+      "born": 1850,
+      "died": 1893,
+      "about": {
+        "tr": "Fransız yazar; modern kısa öykünün ustalarından.",
+        "en": "French writer, a master of the modern short story."
+      }
+    },
+    {
+      "id": "andersen",
+      "name": "Hans Christian Andersen",
+      "born": 1805,
+      "died": 1875,
+      "about": {
+        "tr": "Danimarkalı yazar; dünyanın en çok okunan masallarının yazarı.",
+        "en": "Danish writer of some of the most-read fairy tales in the world."
+      }
     }
   ],
   "books": [
@@ -765,6 +795,173 @@
       "blurb": {
         "tr": "Altı kısa öykü; kimi güldürür, kimi insanın içine dokunur. Sokakta bir köpeğin parmağını ısırdığı adamın şikâyetine bakan bir polis, köpeğin kimin olduğunu öğrendikçe fikrini durmadan değiştirir. Tiyatroda önündeki generalin üstüne hapşıran küçük bir memur, özür dilemekten bir türlü vazgeçemez. Noel gecesi, yanında çıraklık ettiği ustadan kurtulmak için köydeki dedesine mektup yazan dokuz yaşında bir çocuk. Oğlunun ölümünü anlatacak kimseyi bulamayan yaşlı bir arabacı. Ve bir bahis için on beş yıl tek başına bir odaya kapanan genç bir adam...",
         "en": "Six short stories, some funny, some heartbreaking. A policeman hearing a complaint about a dog that bit a man's finger keeps changing his mind as he learns who the dog belongs to. A little clerk who sneezes on the general in front of him at the theatre cannot stop apologising. A nine-year-old boy writing on Christmas Eve to his grandfather in the village, begging to be taken away from the master he is apprenticed to. An old cab driver who can find no one to listen to him tell of his son's death. And a young man who shuts himself alone in a room for fifteen years to win a bet..."
+      }
+    },
+    {
+      "id": "tolstoy-insan-ne-ile-yasar",
+      "title": "İnsan Ne ile Yaşar? ve Diğer Hikâyeler",
+      "authorId": "tolstoy",
+      "language": "tr",
+      "source": "sahaf",
+      "translatedFrom": "Rusça",
+      "stories": [
+        {
+          "file": "01-insan-ne-ile-yasar.txt",
+          "original": "Чем люди живы (1881)",
+          "url": "https://ru.wikisource.org/wiki/%D0%A7%D0%B5%D0%BC_%D0%BB%D1%8E%D0%B4%D0%B8_%D0%B6%D0%B8%D0%B2%D1%8B_(%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B9)"
+        },
+        {
+          "file": "02-bir-insana-ne-kadar-toprak-gerek.txt",
+          "original": "Много ли человеку земли нужно (1886)",
+          "url": "https://ru.wikisource.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BB%D0%B8_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D1%83_%D0%B7%D0%B5%D0%BC%D0%BB%D0%B8_%D0%BD%D1%83%D0%B6%D0%BD%D0%BE_(%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B9)"
+        },
+        {
+          "file": "03-sevginin-oldugu-yerde.txt",
+          "original": "Где любовь, там и Бог (1885)",
+          "url": "https://ru.wikisource.org/wiki/%D0%93%D0%B4%D0%B5_%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C%2C_%D1%82%D0%B0%D0%BC_%D0%B8_%D0%91%D0%BE%D0%B3_(%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B9)"
+        }
+      ],
+      "about": {
+        "tr": "İnsan Ne ile Yaşar?, Bir İnsana Ne Kadar Toprak Gerek? ve Sevginin Olduğu Yerde Tanrı da Vardır: Tolstoy'un üç halk hikâyesi; Rusça aslından Sahaf çevirisi.",
+        "en": "What Men Live By, How Much Land Does a Man Need? and Where Love Is, God Is: three of Tolstoy's folk tales, in the Sahaf's own Turkish translation from the Russian."
+      },
+      "blurb": {
+        "tr": "Üç hikâye; eski halk masalları gibi sade, ama hayatın özünü soran. Bir kış akşamı kürk almaya giden yoksul bir ayakkabıcı, yol kenarındaki bir şapelin dibinde çırılçıplak, donmak üzere olan genç bir yabancı bulur ve onu evine götürür; yabancı yıllarca yanında çalışır ve yalnızca üç kez gülümser. Bir gün içinde yürüyerek dolaşabildiği bütün toprağın kendisinin olacağı bir teklif alan açgözlü bir köylü. Oğlunu kaybedip umudunu yitiren yaşlı bir ayakkabıcı, bir gece kendisini ertesi gün görmeye geleceğini söyleyen bir ses duyar...",
+        "en": "Three tales, plain as old folk stories, asking what life is really about. A poor shoemaker going out one winter evening to buy a sheepskin coat finds a young stranger by a roadside chapel, naked and freezing, and takes him home; the stranger works beside him for years and smiles only three times. A greedy peasant is offered all the land he can walk around in a single day. An old shoemaker who has lost his son and all hope hears a voice one night saying it will come to see him the next day..."
+      }
+    },
+    {
+      "id": "ohenry-son-yaprak",
+      "title": "Son Yaprak ve Diğer Öyküler",
+      "authorId": "ohenry",
+      "language": "tr",
+      "source": "sahaf",
+      "translatedFrom": "İngilizce",
+      "stories": [
+        {
+          "file": "01-mecusilerin-armagani.txt",
+          "original": "The Gift of the Magi (1905)",
+          "url": "https://en.wikisource.org/wiki/The_Four_Million%2FThe_Gift_of_the_Magi"
+        },
+        {
+          "file": "02-son-yaprak.txt",
+          "original": "The Last Leaf (1907)",
+          "url": "https://en.wikisource.org/wiki/The_Trimmed_Lamp_(1907)%2FThe_Last_Leaf"
+        },
+        {
+          "file": "03-yirmi-yil-sonra.txt",
+          "original": "After Twenty Years (1906)",
+          "url": "https://en.wikisource.org/wiki/The_Four_Million%2FAfter_Twenty_Years"
+        },
+        {
+          "file": "04-kizil-reisin-fidyesi.txt",
+          "original": "The Ransom of Red Chief (1907)",
+          "url": "https://en.wikisource.org/wiki/Whirligigs%2FThe_Ransom_of_Red_Chief"
+        },
+        {
+          "file": "05-polis-ve-ilahi.txt",
+          "original": "The Cop and the Anthem (1904)",
+          "url": "https://en.wikisource.org/wiki/The_Four_Million%2FThe_Cop_and_the_Anthem"
+        }
+      ],
+      "about": {
+        "tr": "Mecusilerin Armağanı, Son Yaprak, Yirmi Yıl Sonra ve Kızıl Reis'in Fidyesi dahil, O. Henry'nin beş öyküsü; İngilizce aslından Sahaf çevirisi.",
+        "en": "Five stories by O. Henry, including The Gift of the Magi, The Last Leaf, After Twenty Years and The Ransom of Red Chief, in the Sahaf’s own Turkish translation."
+      },
+      "blurb": {
+        "tr": "Beş öykü; New York'un sıradan insanları ve son satırda her şeyi değiştiren sürprizler. Noel'den bir gün önce elinde yalnızca bir dolar seksen yedi sent kalmış genç bir kadın, kocasına hediye almak için en değerli şeyinden vazgeçer. Zatürreye yakalanan genç bir ressam kız, penceresinden gördüğü sarmaşık soyundukça kendisinin de öleceğine inanır. Yirmi yıl önce verilmiş bir sözü tutmak için bir kapı girişinde arkadaşını bekleyen bir adam. Zengin bir babanın oğlunu kaçıran iki dolandırıcı, çocuğun kendilerinden çok daha tehlikeli olduğunu anlar. Ve kışı hapiste geçirmek isteyip bir türlü tutuklanamayan bir serseri...",
+        "en": "Five stories of ordinary New Yorkers, with a last line that changes everything. The day before Christmas, a young wife with only a dollar and eighty-seven cents gives up her most precious possession to buy her husband a present. A young painter with pneumonia believes she will die once the ivy outside her window is bare. A man waits in a doorway for a friend, to keep a promise made twenty years ago. Two crooks kidnap a rich man's son and discover the boy is far more dangerous than they are. And a tramp who wants to spend the winter in jail cannot get himself arrested..."
+      }
+    },
+    {
+      "id": "maupassant-gerdanlik",
+      "title": "Gerdanlık ve Diğer Öyküler",
+      "authorId": "maupassant",
+      "language": "tr",
+      "source": "sahaf",
+      "translatedFrom": "Fransızca",
+      "stories": [
+        {
+          "file": "01-gerdanlik.txt",
+          "original": "La Parure (1884)",
+          "url": "https://fr.wikisource.org/wiki/Contes_du_jour_et_de_la_nuit_(%C3%A9d._Flammarion%2C_1885)%2FLa_Parure"
+        },
+        {
+          "file": "02-sicim.txt",
+          "original": "La Ficelle (1883)",
+          "url": "https://fr.wikisource.org/wiki/Miss_Harriet_(recueil)%2F%C3%89dition_Conard%2C_1910%2FLa_Ficelle"
+        },
+        {
+          "file": "03-iki-dost.txt",
+          "original": "Deux Amis (1883)",
+          "url": "https://fr.wikisource.org/wiki/Mademoiselle_Fifi_(recueil%2C_Ollendorff_1898)%2FDeux_amis"
+        },
+        {
+          "file": "04-kirlarda.txt",
+          "original": "Aux champs (1882)",
+          "url": "https://fr.wikisource.org/wiki/Contes_de_la_b%C3%A9casse_(Havard%2C_1894)%2FAux_champs"
+        },
+        {
+          "file": "05-simonun-babasi.txt",
+          "original": "Le Papa de Simon (1879)",
+          "url": "https://fr.wikisource.org/wiki/La_Maison_Tellier_(recueil%2C_Ollendorff_1891)%2FLe_Papa_de_Simon"
+        }
+      ],
+      "about": {
+        "tr": "Gerdanlık, Sicim, İki Dost, Kırlarda ve Simon'un Babası: Maupassant'ın beş öyküsü; Fransızca aslından Sahaf çevirisi.",
+        "en": "The Necklace, The Piece of String, Two Friends, In the Fields and Simon’s Papa: five stories by Maupassant, in the Sahaf’s own Turkish translation from the French."
+      },
+      "blurb": {
+        "tr": "Beş öykü; Normandiya köyleri, Paris ve savaş. Bir bakanlık balosu için zengin bir arkadaşından ödünç aldığı bir mücevheri kaybeden genç bir kadın, onun yerine yenisini almak için on yıl yoksulluk içinde çalışır. Pazar yerinde yerden önemsiz bir şey alan yaşlı bir köylü, kayıp bir cüzdanı çalmakla suçlanır ve masumiyetini kimseye kanıtlayamaz. Kuşatılmış Paris'te balık tutmayı özleyen iki eski ahbap, cephe hattının yakınındaki nehre gitmeye karar verir. Biri çocuğunu zengin bir çifte satan, öteki satmayan iki yoksul komşu aile. Ve okulda alay edilen yalnız küçük bir oğlan...",
+        "en": "Five stories of Normandy villages, Paris and war. A young woman who loses a piece of jewellery borrowed from a rich friend for a ministry ball spends ten years in poverty paying for a replacement. An old peasant who picks up something worthless in the market square is accused of stealing a lost wallet and can never prove his innocence. Two old companions in besieged Paris, longing to go fishing, decide to go down to the river near the front line. Two poor neighbouring families, one of which sells its child to a rich couple while the other refuses. And a lonely little boy mocked at school..."
+      }
+    },
+    {
+      "id": "andersen-kibritci-kiz",
+      "title": "Kibritçi Kız ve Diğer Masallar",
+      "authorId": "andersen",
+      "language": "tr",
+      "source": "sahaf",
+      "translatedFrom": "Danca",
+      "stories": [
+        {
+          "file": "01-kibritci-kiz.txt",
+          "original": "Den lille Pige med Svovlstikkerne (1845)",
+          "url": "https://da.wikisource.org/wiki/Den_lille_Pige_med_Svovlstikkerne"
+        },
+        {
+          "file": "02-imparatorun-yeni-giysileri.txt",
+          "original": "Keiserens nye Klæder (1837)",
+          "url": "https://da.wikisource.org/wiki/Keiserens_nye_Kl%C3%A6der"
+        },
+        {
+          "file": "03-bezelye-prensesi.txt",
+          "original": "Prindsessen paa Ærten (1835)",
+          "url": "https://da.wikisource.org/wiki/Prindsessen_paa_%C3%86rten"
+        },
+        {
+          "file": "04-kararli-kalay-asker.txt",
+          "original": "Den standhaftige Tinsoldat (1838)",
+          "url": "https://da.wikisource.org/wiki/Den_standhaftige_Tinsoldat"
+        },
+        {
+          "file": "05-cirkin-ordek-yavrusu.txt",
+          "original": "Den grimme Ælling (1843)",
+          "url": "https://da.wikisource.org/wiki/Den_grimme_%C3%86lling"
+        },
+        {
+          "file": "06-bulbul.txt",
+          "original": "Nattergalen (1843)",
+          "url": "https://da.wikisource.org/wiki/Nattergalen"
+        }
+      ],
+      "about": {
+        "tr": "Kibritçi Kız, İmparatorun Yeni Giysileri, Bezelye Prensesi, Kararlı Kalay Asker, Çirkin Ördek Yavrusu ve Bülbül: Andersen'in altı masalı; Danca aslından Sahaf çevirisi.",
+        "en": "The Little Match Girl, The Emperor’s New Clothes, The Princess and the Pea, The Steadfast Tin Soldier, The Ugly Duckling and The Nightingale: six tales by Andersen, in the Sahaf’s own Turkish translation from the Danish."
+      },
+      "blurb": {
+        "tr": "Altı masal; kimi hüzünlü, kimi alaycı. Yılbaşı gecesi karlı sokaklarda yalınayak dolaşan yoksul bir kız, ısınmak için elindekileri birer birer yakar ve her alevde başka bir hayal görür. Yalnızca akıllıların görebileceği bir kumaş vaat eden iki dolandırıcı ve kimsenin hiçbir şey görmediğini söylemeye cesaret edemediği bir saray. Gerçek bir soylu olup olmadığı anlaşılsın diye yirmi döşeğin altına konan küçük bir şey. Tek bacaklı bir oyuncak askerin kâğıttan bir dansçıya duyduğu sessiz sevgi. Kümeste herkesin hor gördüğü tuhaf bir yavrunun uzun kışı. Ve mücevherli bir oyuncağı gerçek bir şarkıya tercih eden bir imparator.",
+        "en": "Six tales, some sad, some sly. On New Year's Eve, a poor girl wandering barefoot through the snowy streets burns what she carries one by one to keep warm, and sees a new vision in every flame. Two swindlers promise a cloth only the clever can see, at a court where nobody dares to say they see nothing. Something small placed under twenty mattresses to find out whether a guest is truly royal. A one-legged toy soldier's silent love for a paper dancer. The long winter of an odd youngster everyone in the farmyard despises. And an emperor who prefers a jewelled toy to a real song."
       }
     },
     {
