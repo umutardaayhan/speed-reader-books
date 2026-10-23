@@ -4,7 +4,8 @@
 //   node tools/build.mjs --force    rebuild every book
 //
 // Wikisource books are made into EPUBs from each page's plain text; Project Gutenberg books are
-// their own EPUB files, downloaded as they are (with the Project Gutenberg license inside).
+// their own EPUB files (with the Project Gutenberg license inside), downloaded and then kept small:
+// illustrations are taken out (the cover stays), and so is a Gutenberg note in the contents.
 import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -114,6 +115,89 @@ async function buildGutenberg(book) {
   return new Uint8Array(await response.arrayBuffer());
 }
 
+/**
+ * The EPUB without its illustrations, keeping only the cover image. Illustrated Gutenberg books
+ * can be tens of megabytes, far over what the CDN serves (20 MB a file), and a speed reader shows
+ * no pictures. Images go from the zip and the OPF manifest, and the tags that showed them go from
+ * the pages. Returns the same bytes when there is nothing to take out.
+ */
+function slimEpub(epub) {
+  const files = unzipSync(epub);
+  const container = strFromU8(files['META-INF/container.xml'] ?? new Uint8Array());
+  const opfPath = /full-path="([^"]+)"/.exec(container)?.[1];
+  if (!opfPath || !files[opfPath]) return epub;
+  const opfDir = opfPath.includes('/') ? opfPath.slice(0, opfPath.lastIndexOf('/') + 1) : '';
+  let opf = strFromU8(files[opfPath]);
+  const attr = (tag, name) => new RegExp(`\\s${name}="([^"]*)"`).exec(tag)?.[1];
+
+  const coverMeta = /<meta[^>]*name="cover"[^>]*>/.exec(opf)?.[0];
+  const coverItemId = coverMeta ? attr(coverMeta, 'content') : undefined;
+  const removed = new Set();
+  opf = opf.replace(/<item\s[^>]*\/>/g, (tag) => {
+    const type = attr(tag, 'media-type') ?? '';
+    const isCover = attr(tag, 'id') === coverItemId || /cover-image/.test(attr(tag, 'properties') ?? '');
+    if (!type.startsWith('image/') || isCover) return tag;
+    removed.add(decodeURIComponent(opfDir + attr(tag, 'href')));
+    return '';
+  });
+  if (removed.size === 0) return epub;
+
+  const out = {};
+  for (const [name, data] of Object.entries(files)) {
+    if (removed.has(name)) continue;
+    if (name === opfPath) {
+      out[name] = strToU8(opf);
+    } else if (/\.x?html?$/i.test(name)) {
+      const dir = name.includes('/') ? name.slice(0, name.lastIndexOf('/') + 1) : '';
+      const gone = (src) => {
+        const parts = [];
+        for (const p of (dir + decodeURIComponent(src.split('#')[0])).split('/')) {
+          if (p === '..') parts.pop();
+          else if (p !== '.') parts.push(p);
+        }
+        return removed.has(parts.join('/'));
+      };
+      out[name] = strToU8(
+        strFromU8(data)
+          .replace(/<img\s[^>]*>/gi, (tag) => (gone(attr(tag, 'src') ?? '') ? '' : tag))
+          .replace(/<image\s[^>]*>/gi, (tag) => (gone(attr(tag, 'xlink:href') ?? attr(tag, 'href') ?? '') ? '' : tag)),
+      );
+    } else {
+      out[name] = data;
+    }
+  }
+  return rezip(out);
+}
+
+/** Zips EPUB files; the mimetype file must come first and be stored uncompressed. */
+function rezip(files) {
+  const { mimetype, ...rest } = files;
+  return zipSync({ ...(mimetype ? { mimetype: [mimetype, { level: 0 }] } : {}), ...rest }, { level: 9 });
+}
+
+/**
+ * The EPUB without Gutenberg's "There are several editions of this ebook..." entry in its table
+ * of contents. Pointing at the first text file, it would become that chapter's title, and the app
+ * would take the chapter (sometimes half the book) for Gutenberg's notice and skip it.
+ */
+function dropEditionsNote(epub) {
+  const files = unzipSync(epub);
+  let changed = false;
+  for (const name of Object.keys(files)) {
+    if (!/\.(ncx|x?html?)$/i.test(name)) continue;
+    const text = strFromU8(files[name]);
+    if (!text.includes('There are several editions of this ebook')) continue;
+    const tidy = text
+      .replace(/<li\b[^>]*>\s*<a\b[^>]*>\s*There are several editions of this ebook[^<]*<\/a>\s*<\/li>/g, '')
+      .replace(/<navPoint\b[^>]*>\s*<navLabel>\s*<text>\s*There are several editions of this ebook[^<]*<\/text>\s*<\/navLabel>\s*<content\b[^>]*\/>\s*<\/navPoint>/g, '');
+    if (tidy !== text) {
+      files[name] = strToU8(tidy);
+      changed = true;
+    }
+  }
+  return changed ? rezip(files) : epub;
+}
+
 /** Words of an EPUB's text documents, counted like the app does (whitespace-separated). */
 function countWords(epub) {
   const files = unzipSync(epub, { filter: (f) => /\.(x?html?)$/i.test(f.name) && !/nav\.xhtml$/i.test(f.name) });
@@ -141,6 +225,11 @@ for (const book of sources.books) {
     const epub = book.source === 'wikisource' ? await buildWikisource(book, author) : await buildGutenberg(book);
     writeFileSync(path, epub);
     await wait(1000);
+  }
+  if (book.source === 'gutenberg') {
+    const original = new Uint8Array(readFileSync(path));
+    const slim = dropEditionsNote(slimEpub(original));
+    if (slim !== original) writeFileSync(path, slim);
   }
   const epub = new Uint8Array(readFileSync(path));
   const isWikisource = book.source === 'wikisource';

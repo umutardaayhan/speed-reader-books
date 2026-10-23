@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "authors": [
     {
       "id": "omer-seyfettin",
@@ -30,6 +30,334 @@
       "about": {
         "tr": "Rus romancı. Savaş ve Barış ile Anna Karenina, gerçekçi romanın doruklarından kabul edilir.",
         "en": "Russian novelist; War and Peace and Anna Karenina are counted among the peaks of the realist novel."
+      }
+    },
+    {
+      "id": "chekhov",
+      "name": "Anton Chekhov",
+      "born": 1860,
+      "died": 1904,
+      "about": {
+        "tr": "Rus öykücü ve oyun yazarı; modern kısa öykünün ustalarından.",
+        "en": "Russian short-story writer and playwright, a master of the modern short story."
+      }
+    },
+    {
+      "id": "turgenev",
+      "name": "Ivan Turgenev",
+      "born": 1818,
+      "died": 1883,
+      "about": {
+        "tr": "Rus romancı; kuşaklar arasındaki çatışmayı ve Rus kırsalını anlatan eserleriyle tanınır.",
+        "en": "Russian novelist known for his portraits of the Russian countryside and the clash of generations."
+      }
+    },
+    {
+      "id": "austen",
+      "name": "Jane Austen",
+      "born": 1775,
+      "died": 1817,
+      "about": {
+        "tr": "İngiliz romancı; evlilik, para ve toplumsal sınıf üzerine ince ironili romanlarıyla tanınır.",
+        "en": "English novelist whose witty novels look at marriage, money and class."
+      }
+    },
+    {
+      "id": "charlotte-bronte",
+      "name": "Charlotte Brontë",
+      "born": 1816,
+      "died": 1855,
+      "about": {
+        "tr": "İngiliz romancı; Brontë kardeşlerin en büyüğü.",
+        "en": "English novelist, the eldest of the Brontë sisters."
+      }
+    },
+    {
+      "id": "emily-bronte",
+      "name": "Emily Brontë",
+      "born": 1818,
+      "died": 1848,
+      "about": {
+        "tr": "İngiliz romancı ve şair; tek romanıyla edebiyat tarihine geçti.",
+        "en": "English novelist and poet, remembered for her only novel."
+      }
+    },
+    {
+      "id": "mary-shelley",
+      "name": "Mary Shelley",
+      "born": 1797,
+      "died": 1851,
+      "about": {
+        "tr": "İngiliz yazar; bilimkurgunun öncüsü sayılan romanını on dokuz yaşında yazmaya başladı.",
+        "en": "English writer who began, at nineteen, the novel often called the first science fiction."
+      }
+    },
+    {
+      "id": "bram-stoker",
+      "name": "Bram Stoker",
+      "born": 1847,
+      "died": 1912,
+      "about": {
+        "tr": "İrlandalı yazar; gotik korku edebiyatının en ünlü romanlarından birinin yazarı.",
+        "en": "Irish writer, author of one of the most famous Gothic horror novels."
+      }
+    },
+    {
+      "id": "oscar-wilde",
+      "name": "Oscar Wilde",
+      "born": 1854,
+      "died": 1900,
+      "about": {
+        "tr": "İrlandalı yazar ve oyun yazarı; zekâsı ve keskin diliyle tanınır.",
+        "en": "Irish writer and playwright famous for his wit."
+      }
+    },
+    {
+      "id": "stevenson",
+      "name": "Robert Louis Stevenson",
+      "born": 1850,
+      "died": 1894,
+      "about": {
+        "tr": "İskoç yazar; macera ve gerilim romanlarının ustası.",
+        "en": "Scottish writer, a master of adventure and suspense."
+      }
+    },
+    {
+      "id": "conan-doyle",
+      "name": "Arthur Conan Doyle",
+      "born": 1859,
+      "died": 1930,
+      "about": {
+        "tr": "İskoç yazar ve hekim; dünyanın en ünlü dedektifini yarattı.",
+        "en": "Scottish writer and doctor who created the world's most famous detective."
+      }
+    },
+    {
+      "id": "dickens",
+      "name": "Charles Dickens",
+      "born": 1812,
+      "died": 1870,
+      "about": {
+        "tr": "İngiliz romancı; Viktorya dönemi Londra'sının yoksullarını ve kimsesizlerini anlattı.",
+        "en": "English novelist of Victorian London, its poor and its orphans."
+      }
+    },
+    {
+      "id": "melville",
+      "name": "Herman Melville",
+      "born": 1819,
+      "died": 1891,
+      "about": {
+        "tr": "Amerikalı romancı; gençliğinde balina avcısı gemilerinde çalıştı.",
+        "en": "American novelist who sailed on whaling ships in his youth."
+      }
+    },
+    {
+      "id": "mark-twain",
+      "name": "Mark Twain",
+      "born": 1835,
+      "died": 1910,
+      "about": {
+        "tr": "Amerikalı yazar ve mizahçı; Mississippi kıyısında geçen çocukluğunu romanlarına taşıdı.",
+        "en": "American writer and humorist who turned his Mississippi childhood into novels."
+      }
+    },
+    {
+      "id": "hawthorne",
+      "name": "Nathaniel Hawthorne",
+      "born": 1804,
+      "died": 1864,
+      "about": {
+        "tr": "Amerikalı romancı; Püriten New England'ın vicdanını ve günahını işledi.",
+        "en": "American novelist of Puritan New England, its sin and its conscience."
+      }
+    },
+    {
+      "id": "fitzgerald",
+      "name": "F. Scott Fitzgerald",
+      "born": 1896,
+      "died": 1940,
+      "about": {
+        "tr": "Amerikalı romancı; 1920'lerin 'Caz Çağı'nın sesi.",
+        "en": "American novelist, the voice of the 1920s Jazz Age."
+      }
+    },
+    {
+      "id": "conrad",
+      "name": "Joseph Conrad",
+      "born": 1857,
+      "died": 1924,
+      "about": {
+        "tr": "Polonya doğumlu İngiliz romancı; yıllarca denizci olarak çalıştı.",
+        "en": "Polish-born English novelist who spent years at sea."
+      }
+    },
+    {
+      "id": "jack-london",
+      "name": "Jack London",
+      "born": 1876,
+      "died": 1916,
+      "about": {
+        "tr": "Amerikalı yazar; Klondike altına hücum yıllarını ve doğanın sert yüzünü anlattı.",
+        "en": "American writer of the Klondike gold rush and the harsh face of nature."
+      }
+    },
+    {
+      "id": "joyce",
+      "name": "James Joyce",
+      "born": 1882,
+      "died": 1941,
+      "about": {
+        "tr": "İrlandalı yazar; modern romanı baştan sona değiştiren isimlerden.",
+        "en": "Irish writer who changed the modern novel."
+      }
+    },
+    {
+      "id": "woolf",
+      "name": "Virginia Woolf",
+      "born": 1882,
+      "died": 1941,
+      "about": {
+        "tr": "İngiliz yazar; bilinç akışı tekniğinin öncülerinden.",
+        "en": "English writer, a pioneer of the stream of consciousness."
+      }
+    },
+    {
+      "id": "wells",
+      "name": "H. G. Wells",
+      "born": 1866,
+      "died": 1946,
+      "about": {
+        "tr": "İngiliz yazar; bilimkurgunun kurucularından.",
+        "en": "English writer, one of the founders of science fiction."
+      }
+    },
+    {
+      "id": "lewis-carroll",
+      "name": "Lewis Carroll",
+      "born": 1832,
+      "died": 1898,
+      "about": {
+        "tr": "İngiliz yazar ve matematikçi; saçma ama mantıklı dünyalarıyla tanınır.",
+        "en": "English writer and mathematician known for his logical nonsense."
+      }
+    },
+    {
+      "id": "alcott",
+      "name": "Louisa May Alcott",
+      "born": 1832,
+      "died": 1888,
+      "about": {
+        "tr": "Amerikalı yazar; kendi ailesinden esinlenerek yazdı.",
+        "en": "American writer who drew on her own family."
+      }
+    },
+    {
+      "id": "barrie",
+      "name": "J. M. Barrie",
+      "born": 1860,
+      "died": 1937,
+      "about": {
+        "tr": "İskoç yazar ve oyun yazarı.",
+        "en": "Scottish novelist and playwright."
+      }
+    },
+    {
+      "id": "baum",
+      "name": "L. Frank Baum",
+      "born": 1856,
+      "died": 1919,
+      "about": {
+        "tr": "Amerikalı yazar; çocuk edebiyatının sevilen masal dünyalarından birini kurdu.",
+        "en": "American writer who created one of the best-loved worlds of children's fiction."
+      }
+    },
+    {
+      "id": "verne",
+      "name": "Jules Verne",
+      "born": 1828,
+      "died": 1905,
+      "about": {
+        "tr": "Fransız yazar; bilimle macerayı birleştiren romanlarıyla tanınır.",
+        "en": "French writer whose novels mix science and adventure."
+      }
+    },
+    {
+      "id": "cervantes",
+      "name": "Miguel de Cervantes",
+      "born": 1547,
+      "died": 1616,
+      "about": {
+        "tr": "İspanyol yazar; modern romanın ilk örneği sayılan eserin yazarı.",
+        "en": "Spanish writer of what is often called the first modern novel."
+      }
+    },
+    {
+      "id": "hugo",
+      "name": "Victor Hugo",
+      "born": 1802,
+      "died": 1885,
+      "about": {
+        "tr": "Fransız şair ve romancı; romantizmin büyük ismi.",
+        "en": "French poet and novelist, a giant of Romanticism."
+      }
+    },
+    {
+      "id": "dumas",
+      "name": "Alexandre Dumas",
+      "born": 1802,
+      "died": 1870,
+      "about": {
+        "tr": "Fransız yazar; tarihî macera romanlarının ustası.",
+        "en": "French writer, a master of the historical adventure novel."
+      }
+    },
+    {
+      "id": "flaubert",
+      "name": "Gustave Flaubert",
+      "born": 1821,
+      "died": 1880,
+      "about": {
+        "tr": "Fransız romancı; kusursuz üslubuyla gerçekçi romanın öncülerinden.",
+        "en": "French novelist, a pioneer of realism known for his perfect style."
+      }
+    },
+    {
+      "id": "marcus-aurelius",
+      "name": "Marcus Aurelius",
+      "born": 121,
+      "died": 180,
+      "about": {
+        "tr": "Roma imparatoru ve Stoacı filozof.",
+        "en": "Roman emperor and Stoic philosopher."
+      }
+    },
+    {
+      "id": "homer",
+      "name": "Homer",
+      "about": {
+        "tr": "Antik Yunan'ın efsanevi ozanı; Batı edebiyatının ilk büyük destanları ona atfedilir.",
+        "en": "The legendary poet of ancient Greece to whom the first great epics of the West are credited."
+      }
+    },
+    {
+      "id": "thoreau",
+      "name": "Henry David Thoreau",
+      "born": 1817,
+      "died": 1862,
+      "about": {
+        "tr": "Amerikalı düşünür ve doğa yazarı.",
+        "en": "American thinker and nature writer."
+      }
+    },
+    {
+      "id": "gibran",
+      "name": "Kahlil Gibran",
+      "born": 1883,
+      "died": 1931,
+      "about": {
+        "tr": "Lübnanlı-Amerikalı şair, ressam ve düşünür.",
+        "en": "Lebanese-American poet, painter and thinker."
       }
     }
   ],
@@ -133,6 +461,978 @@
         "en": "A beautiful woman, admired by society and married to a respected statesman, falls in love with a young officer she meets at a railway station, and risks everything for him: her marriage, her son, her place in the world. Far from the glitter of the city, an honest landowner working his own fields, shaken when the girl he loves turns him down, searches for faith and the meaning of life. Two lives intertwine in a vast portrait of family, loyalty and happiness."
       },
       "source": "Project Gutenberg #1399",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "omer-seyfettin-yuzaki",
+      "title": "Yüzakı ve Diğer Hikâyeler",
+      "authorId": "omer-seyfettin",
+      "language": "tr",
+      "words": 13492,
+      "bytes": 57298,
+      "file": "books/omer-seyfettin-yuzaki.epub",
+      "about": {
+        "tr": "Yüzakı, İlk Cinayet, Kurumuş Ağaçlar ve Çakmak dahil, Ömer Seyfettin'in on dört hikâyesi.",
+        "en": "Fourteen stories by Ömer Seyfettin, including Yüzakı, İlk Cinayet and Çakmak."
+      },
+      "blurb": {
+        "tr": "On dört hikâye; çoğu, insanın kendi kendine verdiği hesapla ilgili. Otuz yıl önce, daha küçük bir çocukken yaptığı bir kötülüğü her martı gördüğünde hâlâ hatırlayan bir adam. Ömrü boyunca yol kesip kan döken, yaşlanınca günahlarına kefaret arayan bir derebeyi. Altmış paralık bir çakmak yüzünden mahkemeye düşen iki eski dost. Dünyada tek bir dürüst insan kalmadığına inanan bir adamın karşısına çıkan saf bir çoban... Kısa, keskin ve çoğu zaman gülümseten hikâyeler.",
+        "en": "Fourteen stories, most about the account a person settles with himself. A man who, thirty years on, still remembers a cruelty from his early childhood whenever he sees a seagull. A feudal lord who robbed and killed all his life and, grown old, seeks to atone. Two old friends taken to court over a lighter worth a few coins. A man convinced there is not one honest soul left, and the simple shepherd who proves him wrong... Short, sharp and often funny."
+      },
+      "source": "Vikikaynak (tr.wikisource.org)",
+      "license": "Kamu malı (yazar 1920 yılında öldü); Vikikaynak metni CC BY-SA 4.0"
+    },
+    {
+      "id": "the-brothers-karamazov",
+      "title": "The Brothers Karamazov",
+      "authorId": "dostoyevsky",
+      "language": "en",
+      "year": 1880,
+      "translator": "Constance Garnett",
+      "words": 354781,
+      "bytes": 1163465,
+      "file": "books/the-brothers-karamazov.epub",
+      "about": {
+        "tr": "Bir baba, üç oğul ve bir cinayet: Dostoyevski'nin son ve en büyük romanı.",
+        "en": "A father, three sons and a murder: Dostoyevsky's last and greatest novel."
+      },
+      "blurb": {
+        "tr": "Ahlaksız ve açgözlü bir baba, birbirine hiç benzemeyen üç oğul: tutkulu ve öfkeli bir asker, inanca kafa tutan soğukkanlı bir aydın ve bir manastırda yaşayan iyi kalpli en küçük kardeş. Aynı kadına duyulan aşk, bir miras kavgası ve sonunda bir cinayet. Ama asıl soru kimin öldürdüğü değil: Tanrı yoksa her şey serbest midir, insan kardeşinin günahından sorumlu mudur?",
+        "en": "A greedy, dissolute father and three sons who could not be more different: a passionate, hot-tempered soldier, a cold intellectual at war with faith, and a gentle youngest brother living in a monastery. Two men love the same woman, there is a quarrel over money, and then a murder. But the real question is not who killed him: if there is no God, is everything permitted, and is each of us responsible for all?"
+      },
+      "source": "Project Gutenberg #28054",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-gambler",
+      "title": "The Gambler",
+      "authorId": "dostoyevsky",
+      "language": "en",
+      "year": 1867,
+      "translator": "C. J. Hogarth",
+      "words": 63457,
+      "bytes": 381905,
+      "file": "books/the-gambler.epub",
+      "about": {
+        "tr": "Bir Alman kaplıca kasabasında rulet tutkusu: Dostoyevski'nin kendi borçlarını ödemek için yirmi altı günde yazdığı roman.",
+        "en": "Roulette fever in a German spa town, written in twenty-six days to pay the author's own debts."
+      },
+      "blurb": {
+        "tr": "Bir Alman kaplıca kasabasında, borç içindeki bir Rus generalin ailesine hizmet eden genç bir öğretmen, generalin üvey kızına umutsuzca âşıktır. Herkes zengin bir büyükannenin ölümünü ve mirasını beklerken, kumarhanenin rulet masası hepsinin kaderini değiştirir. Para, gurur ve bir kez kazanmanın insanı nasıl ele geçirdiği üzerine kısa, ateşli bir roman.",
+        "en": "In a German spa town, a young tutor in the household of a debt-ridden Russian general is hopelessly in love with the general's stepdaughter. While everyone waits for a rich grandmother to die and leave them her fortune, the roulette table changes all their lives. A short, feverish novel about money, pride and how one win can take hold of a person."
+      },
+      "source": "Project Gutenberg #2197",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "white-nights",
+      "title": "White Nights and Other Stories",
+      "authorId": "dostoyevsky",
+      "language": "en",
+      "year": 1848,
+      "translator": "Constance Garnett",
+      "words": 121744,
+      "bytes": 520145,
+      "file": "books/white-nights.epub",
+      "about": {
+        "tr": "Beyaz Geceler ve Dostoyevski'nin diğer erken dönem öyküleri.",
+        "en": "White Nights and other early stories by Dostoyevsky."
+      },
+      "blurb": {
+        "tr": "Kuzeyin hiç kararmayan yaz gecelerinde, yıllardır kimseyle konuşmamış yalnız bir hayalperest, köprüde ağlayan genç bir kadınla tanışır. Dört gece boyunca birbirlerine hayatlarını anlatırlar; o, ömründe ilk kez gerçekten yaşadığını hisseder. Ama kadın bir yıldır sevdiği başka birinin dönüşünü beklemektedir... Yalnızlık, hayal ve kısa süren mutluluklar üzerine öyküler.",
+        "en": "In the short summer nights of the north, when it never grows dark, a lonely dreamer who has spoken to no one for years meets a young woman crying on a bridge. Over four nights they tell each other their lives, and for the first time he feels truly alive. But she is waiting for someone else, who promised to return in a year... Stories of loneliness, dreams and brief happiness."
+      },
+      "source": "Project Gutenberg #36034",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "war-and-peace",
+      "title": "War and Peace",
+      "authorId": "tolstoy",
+      "language": "en",
+      "year": 1869,
+      "translator": "Louise and Aylmer Maude",
+      "words": 567595,
+      "bytes": 1832521,
+      "file": "books/war-and-peace.epub",
+      "about": {
+        "tr": "Napolyon savaşları sırasında beş Rus aristokrat ailesinin hikâyesi.",
+        "en": "Five Russian aristocratic families through the Napoleonic wars."
+      },
+      "blurb": {
+        "tr": "Bir imparatorluğu işgal etmeye gelen bir ordu ve o yıllarda yaşayan birkaç aile. Mirasla birden zengin olan, hayatın anlamını arayan sakar ve iyi kalpli bir genç; savaşta ölümle yüz yüze gelen gururlu bir prens; balolarda büyüyüp acıyla olgunlaşan neşeli bir kız. Salonlardan savaş meydanlarına, yanan bir şehirden donmuş yollara uzanan, insanın tarih karşısındaki yerini soran dev bir roman.",
+        "en": "An army comes to conquer an empire, and a few families live through those years. A clumsy, kind-hearted young man suddenly made rich by an inheritance, who searches for the meaning of life; a proud prince who meets death on the battlefield; a lively girl who grows up at balls and matures through grief. From drawing rooms to battlefields, from a burning city to frozen roads: a vast novel about our place in history."
+      },
+      "source": "Project Gutenberg #2600",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "resurrection",
+      "title": "Resurrection",
+      "authorId": "tolstoy",
+      "language": "en",
+      "year": 1899,
+      "translator": "Louise Maude",
+      "words": 177677,
+      "bytes": 475412,
+      "file": "books/resurrection.epub",
+      "about": {
+        "tr": "Tolstoy'un son romanı: bir prensin vicdanıyla hesaplaşması.",
+        "en": "Tolstoy's last novel: a prince's reckoning with his conscience."
+      },
+      "blurb": {
+        "tr": "Zengin bir prens, jüri üyesi olarak oturduğu bir davada sanığı tanır: gençliğinde baştan çıkarıp terk ettiği hizmetçi kız. Kız, onun yüzünden düştüğü hayatın sonunda haksız yere suçlanmaktadır. Prens, yaptığının bedelini ödemek için her şeyini bırakıp onun peşinden Sibirya'ya gitmeye karar verir. Adaletin, hapishanelerin ve bir insanın vicdanıyla değişmesinin romanı.",
+        "en": "A wealthy prince, sitting on a jury, recognises the accused: a servant girl he seduced and abandoned in his youth. Her life fell apart because of him, and now she stands wrongly accused. To make amends, he decides to give everything up and follow her to Siberia. A novel of justice, prisons and one man's change of heart."
+      },
+      "source": "Project Gutenberg #1938",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-kreutzer-sonata",
+      "title": "The Kreutzer Sonata and Other Stories",
+      "authorId": "tolstoy",
+      "language": "en",
+      "year": 1889,
+      "translator": "Benjamin R. Tucker",
+      "words": 67367,
+      "bytes": 457211,
+      "file": "books/the-kreutzer-sonata.epub",
+      "about": {
+        "tr": "Kreutzer Sonatı ve Tolstoy'un diğer öyküleri.",
+        "en": "The Kreutzer Sonata and other stories by Tolstoy."
+      },
+      "blurb": {
+        "tr": "Gece boyunca yol alan bir trende, yolculardan biri karşısındakine karısını nasıl öldürdüğünü anlatmaya başlar. Kıskançlık, evliliğin sahte vaatleri ve karısıyla bir kemancının birlikte çaldığı bir müzik parçasının içinde uyandırdığı karanlık... Yayımlandığında yasaklanan, aşk ve evlilik üzerine sarsıcı bir itiraf ve onu izleyen öyküler.",
+        "en": "On a train travelling through the night, one passenger begins to tell another how he killed his wife. Jealousy, the false promises of marriage, and the darkness stirred in him by a piece of music his wife played with a violinist... A shattering confession about love and marriage, banned when it appeared, followed by other stories."
+      },
+      "source": "Project Gutenberg #689",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-lady-with-the-dog",
+      "title": "The Lady with the Dog and Other Stories",
+      "authorId": "chekhov",
+      "language": "en",
+      "year": 1899,
+      "translator": "Constance Garnett",
+      "words": 74737,
+      "bytes": 241506,
+      "file": "books/the-lady-with-the-dog.epub",
+      "about": {
+        "tr": "Köpekli Kadın ve Çehov'un diğer öyküleri.",
+        "en": "The Lady with the Dog and other stories by Chekhov."
+      },
+      "blurb": {
+        "tr": "Bir sahil kasabasında tatil yapan, kadınları hafife alan evli bir banker, her gün sahilde yalnız dolaşan genç ve evli bir kadınla tanışır. Kısa bir tatil macerası olarak başlayan şey, ikisinin de hayatını değiştiren gizli bir aşka dönüşür. Sıradan insanların sessiz dramlarını büyük bir sadelikle anlatan öyküler.",
+        "en": "On holiday in a seaside town, a married banker who thinks little of women meets a young married woman who walks alone on the seafront every day. What begins as a holiday affair becomes a secret love that changes both their lives. Stories that tell the quiet dramas of ordinary people with great simplicity."
+      },
+      "source": "Project Gutenberg #13415",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "fathers-and-children",
+      "title": "Fathers and Children",
+      "authorId": "turgenev",
+      "language": "en",
+      "year": 1862,
+      "translator": "Constance Garnett",
+      "words": 78160,
+      "bytes": 243594,
+      "file": "books/fathers-and-children.epub",
+      "about": {
+        "tr": "Turgenyev'in kuşaklar arası çatışmayı anlatan romanı.",
+        "en": "Turgenev's novel of the clash between generations."
+      },
+      "blurb": {
+        "tr": "Üniversiteyi bitiren genç bir adam, hiçbir otoriteyi, geleneği ve duyguyu kabul etmeyen arkadaşıyla birlikte babasının çiftliğine döner. Bu sert ve keskin zekâlı genç, ailenin yaşlı üyeleriyle çatışırken, inandığı her şeyi sarsan bir aşka yakalanır. Kuşaklar, eski ile yeni arasındaki uçurum üzerine bir roman.",
+        "en": "A young man just out of university returns to his father's estate with a friend who accepts no authority, no tradition and no sentiment. As this harsh, brilliant young man clashes with the older generation, he is caught by a love that shakes everything he believes. A novel about the gulf between generations, the old and the new."
+      },
+      "source": "Project Gutenberg #30723",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "pride-and-prejudice",
+      "title": "Pride and Prejudice",
+      "authorId": "austen",
+      "language": "en",
+      "year": 1813,
+      "words": 131192,
+      "bytes": 557431,
+      "file": "books/pride-and-prejudice.epub",
+      "about": {
+        "tr": "Austen'ın en sevilen romanı: Bennet kardeşler ve gururlu Bay Darcy.",
+        "en": "Austen's best-loved novel: the Bennet sisters and the proud Mr Darcy."
+      },
+      "blurb": {
+        "tr": "Beş kızını iyi bir evlilikle güvenceye almaya çalışan bir annenin evinde, zeki ve dilini tutamayan ikinci kız, kasabaya yeni gelen zengin ama kibirli bir beyefendiden ilk görüşte nefret eder. Onun da kendisine tepeden baktığından emindir. Yanlış anlamalar, aceleyle verilen yargılar ve iki insanın birbirini gerçekten tanımayı öğrenmesi üzerine, iki yüz yıldır okunan esprili bir aşk romanı.",
+        "en": "In a house where a mother is desperate to marry off her five daughters, the clever, outspoken second daughter takes an instant dislike to a rich but arrogant gentleman newly arrived in the neighbourhood, sure that he looks down on her. Misunderstandings, hasty judgements and two people slowly learning who the other really is: a witty love story read for two hundred years."
+      },
+      "source": "Project Gutenberg #1342",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "sense-and-sensibility",
+      "title": "Sense and Sensibility",
+      "authorId": "austen",
+      "language": "en",
+      "year": 1811,
+      "words": 122123,
+      "bytes": 580103,
+      "file": "books/sense-and-sensibility.epub",
+      "about": {
+        "tr": "Austen'ın ilk romanı: iki kız kardeş, akıl ve duygu.",
+        "en": "Austen's first novel: two sisters, reason and feeling."
+      },
+      "blurb": {
+        "tr": "Babalarının ölümüyle evlerinden ve servetlerinden olan iki kız kardeş, anneleriyle birlikte küçük bir kır evine taşınır. Büyük olan aklıyla yaşar ve kalbini kimseye açmaz; küçük olan ise duygularını saklamaz, aşkı tutkuyla ve hemen ister. İkisi de sevdiği adam yüzünden sınanırken, insanı kalbin mi yoksa aklın mı daha iyi koruduğunu öğrenirler.",
+        "en": "When their father dies, two sisters lose their home and fortune and move with their mother to a small country cottage. The elder lives by reason and keeps her heart to herself; the younger hides nothing, and wants love passionately and at once. As each is tested by the man she loves, they learn which protects a person better, reason or feeling."
+      },
+      "source": "Project Gutenberg #161",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "persuasion",
+      "title": "Persuasion",
+      "authorId": "austen",
+      "language": "en",
+      "year": 1817,
+      "words": 86459,
+      "bytes": 466020,
+      "file": "books/persuasion.epub",
+      "about": {
+        "tr": "Austen'ın son tamamlanmış romanı: ikinci bir şans.",
+        "en": "Austen's last completed novel: a second chance."
+      },
+      "blurb": {
+        "tr": "Sekiz yıl önce, ailesinin ve sözünü dinlediği yaşlı bir dostunun öğüdüyle, sevdiği genç ve parasız deniz subayıyla nişanını bozmuştu. Şimdi yirmi yedi yaşında, ailesinin gözünde önemsiz, hayatı sessizce geçip giden bir kadındır. Derken o subay, savaştan zengin ve ünlü bir kaptan olarak döner ve onu görmezden gelir gibidir... Pişmanlık, sadakat ve ikinci şanslar üzerine olgun bir aşk romanı.",
+        "en": "Eight years ago, on the advice of her family and an older friend she trusted, she broke off her engagement to the young, penniless naval officer she loved. Now twenty-seven, overlooked by her family, she watches her life go quietly by. Then he comes back from the war a rich and celebrated captain, and seems to ignore her... A mature love story about regret, constancy and second chances."
+      },
+      "source": "Project Gutenberg #105",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "jane-eyre",
+      "title": "Jane Eyre",
+      "authorId": "charlotte-bronte",
+      "language": "en",
+      "year": 1847,
+      "words": 188527,
+      "bytes": 770527,
+      "file": "books/jane-eyre.epub",
+      "about": {
+        "tr": "Charlotte Brontë'nin kimsesiz bir mürebbiyenin hayatını anlatan romanı.",
+        "en": "Charlotte Brontë's novel of an orphan governess."
+      },
+      "blurb": {
+        "tr": "Teyzesinin evinde horlanan, sert bir yetimhane okulunda büyüyen kimsesiz bir kız, genç bir kadın olarak ıssız bir malikânede mürebbiye olur. Evin karanlık ve huysuz efendisiyle aralarında beklenmedik bir yakınlık doğar; ama malikânenin üst katından gece yarıları tuhaf sesler gelmektedir. Yoksul, güzel olmayan ama asla boyun eğmeyen bir kadının, sevgiyle onuru arasında seçim yapmak zorunda kaldığı bir roman.",
+        "en": "An orphan girl, mistreated in her aunt's house and raised in a harsh charity school, grows up to become a governess at a lonely country house. An unexpected closeness grows between her and its dark, moody master, but strange sounds come from the upper floor at night. A novel about a poor, plain woman who never bows her head, forced to choose between love and her self-respect."
+      },
+      "source": "Project Gutenberg #1260",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "wuthering-heights",
+      "title": "Wuthering Heights",
+      "authorId": "emily-bronte",
+      "language": "en",
+      "year": 1847,
+      "words": 119164,
+      "bytes": 587952,
+      "file": "books/wuthering-heights.epub",
+      "about": {
+        "tr": "Emily Brontë'nin tek romanı: Yorkshire bozkırlarında yıkıcı bir aşk.",
+        "en": "Emily Brontë's only novel: a destructive love on the Yorkshire moors."
+      },
+      "blurb": {
+        "tr": "Rüzgârlı bir bozkırın ortasındaki bir çiftlik evine, bir gün sokaktan alınmış kimsesiz bir çocuk getirilir. Evin kızıyla aralarında ölümden bile güçlü bir bağ kurulur; ama kız, kendi sınıfından birini seçince, aşağılanan çocuk yıllar sonra geri döner ve iki aileden de intikam almaya başlar. Kuşaktan kuşağa geçen bir tutku ve nefret hikâyesi.",
+        "en": "A foundling picked up from the streets is brought to a farmhouse on the wild, windswept moors. Between him and the daughter of the house grows a bond stronger than death; but when she marries a man of her own class, the humiliated boy returns years later and takes his revenge on both families. A tale of passion and hatred passed down the generations."
+      },
+      "source": "Project Gutenberg #768",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "frankenstein",
+      "title": "Frankenstein",
+      "authorId": "mary-shelley",
+      "language": "en",
+      "year": 1818,
+      "words": 78204,
+      "bytes": 474733,
+      "file": "books/frankenstein.epub",
+      "about": {
+        "tr": "Mary Shelley'nin bilimkurgunun ilk örneklerinden sayılan romanı.",
+        "en": "Mary Shelley's novel, often called the first science fiction."
+      },
+      "blurb": {
+        "tr": "Doğanın sırrını çözmeye takıntılı genç bir bilim insanı, mezarlıklardan topladığı parçalarla bir canlı yaratır ve ona hayat verir. Ama yarattığı varlığın görüntüsünden dehşete düşüp onu terk eder. Yalnız, reddedilmiş ve sevgiye aç bu yaratık, dünyayı ve insanları tanıdıkça, kendisini yaratana karşı korkunç bir hesaplaşmaya girişir. Bilimin, sorumluluğun ve dışlanmanın romanı.",
+        "en": "A young scientist obsessed with the secret of life builds a creature from parts gathered in graveyards and brings it to life, then flees in horror at what he has made. Alone, rejected and starved of love, the creature learns about the world and its people, and turns on the man who created him. A novel about science, responsibility and being cast out."
+      },
+      "source": "Project Gutenberg #84",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "dracula",
+      "title": "Dracula",
+      "authorId": "bram-stoker",
+      "language": "en",
+      "year": 1897,
+      "words": 164365,
+      "bytes": 614687,
+      "file": "books/dracula.epub",
+      "about": {
+        "tr": "Bram Stoker'ın gotik korku klasiği.",
+        "en": "Bram Stoker's Gothic horror classic."
+      },
+      "blurb": {
+        "tr": "Genç bir İngiliz avukat, Karpat Dağları'nda bir şatoda yaşayan yaşlı bir soyluya Londra'da ev satın alması için yardım etmeye gider. Kısa sürede kendisinin konuk değil tutsak olduğunu anlar. Ev sahibi İngiltere'ye vardığında ise, avukatın nişanlısının en yakın arkadaşı gizemli bir hastalığa yakalanır... Mektuplar ve günlüklerle anlatılan, bir avuç insanın karanlık bir güce karşı mücadelesi.",
+        "en": "A young English solicitor travels to a castle in the Carpathian mountains to help an old nobleman buy a house in London, and soon realises he is not a guest but a prisoner. When his host reaches England, the closest friend of the solicitor's fiancée falls mysteriously ill... Told in letters and diaries, the struggle of a handful of people against a dark power."
+      },
+      "source": "Project Gutenberg #345",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-picture-of-dorian-gray",
+      "title": "The Picture of Dorian Gray",
+      "authorId": "oscar-wilde",
+      "language": "en",
+      "year": 1890,
+      "words": 82140,
+      "bytes": 461435,
+      "file": "books/the-picture-of-dorian-gray.epub",
+      "about": {
+        "tr": "Oscar Wilde'ın tek romanı: güzellik, ahlak ve bir portre.",
+        "en": "Oscar Wilde's only novel: beauty, morality and a portrait."
+      },
+      "blurb": {
+        "tr": "Olağanüstü yakışıklı bir genç, bir ressamın yaptığı portresine bakarken bir dilekte bulunur: kendisi hep genç kalsın, yaşlanan resim olsun. Dilek gerçekleşir. Hazdan başka bir şeye inanmayan bir lordun etkisiyle kendini her türlü kötülüğe bırakır; yüzü hiç değişmez, ama kilitli bir odada saklanan portre her günahla biraz daha çirkinleşir.",
+        "en": "Looking at a portrait a painter has made of him, an extraordinarily handsome young man makes a wish: that he stay young forever and the picture grow old instead. The wish comes true. Under the influence of a lord who believes in nothing but pleasure, he gives himself to every vice; his face never changes, but the portrait hidden in a locked room grows uglier with every sin."
+      },
+      "source": "Project Gutenberg #174",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "jekyll-and-hyde",
+      "title": "Strange Case of Dr Jekyll and Mr Hyde",
+      "authorId": "stevenson",
+      "language": "en",
+      "year": 1886,
+      "words": 28766,
+      "bytes": 304737,
+      "file": "books/jekyll-and-hyde.epub",
+      "about": {
+        "tr": "Stevenson'ın insanın iki yüzünü anlatan kısa romanı.",
+        "en": "Stevenson's short novel of the two sides of a person."
+      },
+      "blurb": {
+        "tr": "Londra'da saygın bir avukat, yakın dostu olan ünlü bir doktorun vasiyetini okuyunca huzursuz olur: doktor, bütün servetini, gece sokaklarında dehşet saçan, kimsenin yüzünü tarif edemediği iğrenç bir adama bırakmaktadır. Avukat bu adamın kim olduğunu ve dostunun üzerinde neden böyle bir gücü olduğunu araştırmaya başlar. İnsanın içindeki iyi ile kötüyü ayırma hayalinin dehşet verici sonucu.",
+        "en": "A respectable London lawyer is troubled by the will of his friend, a celebrated doctor: everything is to go to a repulsive man who spreads terror on the streets at night, a man nobody can quite describe. The lawyer sets out to learn who he is and why he has such a hold over his friend. The terrifying result of a dream of separating the good and evil in a person."
+      },
+      "source": "Project Gutenberg #43",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "treasure-island",
+      "title": "Treasure Island",
+      "authorId": "stevenson",
+      "language": "en",
+      "year": 1883,
+      "words": 71600,
+      "bytes": 521362,
+      "file": "books/treasure-island.epub",
+      "about": {
+        "tr": "Stevenson'ın korsanlar ve gömülü hazine üzerine macera romanı.",
+        "en": "Stevenson's adventure of pirates and buried treasure."
+      },
+      "blurb": {
+        "tr": "Annesinin işlettiği deniz kıyısındaki handa kalan yaşlı ve korkutucu bir denizci ölünce, genç bir çocuk sandığında bir harita bulur: bir adaya gömülmüş korsan hazinesinin yeri. Çocuk, hazineyi bulmak için yola çıkan bir gemiye kamarot olarak katılır. Ama geminin güler yüzlü, tek bacaklı aşçısıyla tayfaların çoğu, söyledikleri kişiler değildir.",
+        "en": "When a frightening old sailor dies at the seaside inn run by his mother, a boy finds a map in his sea chest: the spot on an island where a pirate's treasure lies buried. He signs on as cabin boy on a ship sailing to find it. But the ship's cheerful one-legged cook and most of the crew are not who they seem."
+      },
+      "source": "Project Gutenberg #120",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-adventures-of-sherlock-holmes",
+      "title": "The Adventures of Sherlock Holmes",
+      "authorId": "conan-doyle",
+      "language": "en",
+      "year": 1892,
+      "words": 107736,
+      "bytes": 379503,
+      "file": "books/the-adventures-of-sherlock-holmes.epub",
+      "about": {
+        "tr": "Sherlock Holmes'un on iki kısa macerası.",
+        "en": "Twelve short cases of Sherlock Holmes."
+      },
+      "blurb": {
+        "tr": "Londra'da bir apartman dairesinde, keskin gözlemleri ve soğuk mantığıyla polisin çözemediği davaları çözen tuhaf bir dedektif ve onun her şeyi yazıya geçiren doktor arkadaşı. Kızıl saçlı adamların katılabildiği garip bir dernek, bir kralı tehdit eden bir fotoğraf, bir gelinin düğün günü kaybolması... Her biri bir oturuşta okunacak on iki gizem.",
+        "en": "In a London flat, a strange detective solves the cases the police cannot, through sharp observation and cold logic, while his doctor friend writes it all down. A curious league open only to red-headed men, a photograph that threatens a king, a bride who vanishes on her wedding day... Twelve mysteries, each to be read in one sitting."
+      },
+      "source": "Project Gutenberg #1661",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-hound-of-the-baskervilles",
+      "title": "The Hound of the Baskervilles",
+      "authorId": "conan-doyle",
+      "language": "en",
+      "year": 1902,
+      "words": 62447,
+      "bytes": 316979,
+      "file": "books/the-hound-of-the-baskervilles.epub",
+      "about": {
+        "tr": "Sherlock Holmes'un en ünlü davası.",
+        "en": "Sherlock Holmes's most famous case."
+      },
+      "blurb": {
+        "tr": "İngiltere'nin ıssız bataklıklarında yaşayan yaşlı bir soylu, yüzünde korkunç bir dehşet ifadesiyle ölü bulunur; cesedin yanında dev bir köpeğin pençe izleri vardır. Ailenin yüzyıllardır bir lanetle, bataklıkta dolaşan doğaüstü bir köpekle takip edildiği söylenir. Malikânenin genç varisi gelmeden önce, ünlü bir dedektif ve arkadaşı gerçeği bulmak zorundadır.",
+        "en": "An old nobleman living on the lonely English moors is found dead, a look of horror on his face and the footprints of a gigantic hound beside him. His family is said to have been haunted for centuries by a curse, a supernatural hound that roams the moor. Before the young heir arrives, a famous detective and his friend must find the truth."
+      },
+      "source": "Project Gutenberg #2852",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "a-tale-of-two-cities",
+      "title": "A Tale of Two Cities",
+      "authorId": "dickens",
+      "language": "en",
+      "year": 1859,
+      "words": 139295,
+      "bytes": 619302,
+      "file": "books/a-tale-of-two-cities.epub",
+      "about": {
+        "tr": "Dickens'ın Fransız Devrimi döneminde Londra ve Paris'te geçen romanı.",
+        "en": "Dickens's novel of London and Paris in the French Revolution."
+      },
+      "blurb": {
+        "tr": "On sekiz yıl Bastille'de tutsak kaldıktan sonra serbest bırakılan bir doktor, kızıyla Londra'da yeni bir hayat kurar. Kızın hayatına iki adam girer: soylu ailesinin geçmişinden kaçan bir Fransız ve kendini harcamış, alaycı bir İngiliz avukat. Paris'te devrim patlak verip kalabalıklar intikam isterken, hepsinin kaderi giyotinin gölgesinde birleşir.",
+        "en": "Released after eighteen years in the Bastille, a doctor builds a new life in London with his daughter. Two men come into her life: a Frenchman fleeing his noble family's past, and a cynical English lawyer who has wasted himself. When revolution breaks out in Paris and the crowds cry for vengeance, all their fates meet in the shadow of the guillotine."
+      },
+      "source": "Project Gutenberg #98",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "great-expectations",
+      "title": "Great Expectations",
+      "authorId": "dickens",
+      "language": "en",
+      "year": 1861,
+      "words": 187919,
+      "bytes": 674980,
+      "file": "books/great-expectations.epub",
+      "about": {
+        "tr": "Dickens'ın bir yetimin büyüme ve hayal kırıklığı romanı.",
+        "en": "Dickens's novel of an orphan's growing up and disillusion."
+      },
+      "blurb": {
+        "tr": "Bataklıkların kıyısındaki bir köyde, ablası ve demirci eniştesiyle yaşayan yoksul bir yetim çocuk, bir gün mezarlıkta firari bir mahkûmla karşılaşır. Yıllar sonra bilinmeyen bir hayırsever ona büyük bir servet bırakır ve onu Londra'ya gönderip bir beyefendi yapar. Kendini kimin yarattığını, sevdiği soğuk güzel kızı ve geride bıraktığı insanları anlaması uzun sürecektir.",
+        "en": "A poor orphan boy living with his sister and her blacksmith husband in a village by the marshes meets an escaped convict in a churchyard one day. Years later an unknown benefactor gives him a great fortune and sends him to London to become a gentleman. It will take him a long time to understand who really made him, the cold, beautiful girl he loves, and the people he left behind."
+      },
+      "source": "Project Gutenberg #1400",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "a-christmas-carol",
+      "title": "A Christmas Carol",
+      "authorId": "dickens",
+      "language": "en",
+      "year": 1843,
+      "words": 32879,
+      "bytes": 142125,
+      "file": "books/a-christmas-carol.epub",
+      "about": {
+        "tr": "Dickens'ın kısa Noel öyküsü.",
+        "en": "Dickens's short Christmas tale."
+      },
+      "blurb": {
+        "tr": "Londra'da, cimriliğiyle nam salmış, kimseyi sevmeyen yaşlı bir tefeci, bir Noel gecesi yıllar önce ölen ortağının hayaletiyle karşılaşır. Hayalet, ona o gece üç ruhun geleceğini söyler: geçmişin, şimdinin ve geleceğin ruhları. Bir gecede bütün hayatını yeniden görmek zorunda kalan bir adamın kısa, sıcak ve unutulmaz hikâyesi.",
+        "en": "On Christmas Eve, an old London moneylender known for his meanness, who loves no one, is visited by the ghost of his partner, dead for years. The ghost tells him three spirits will come that night: of the past, the present and the future. The short, warm, unforgettable story of a man who must see his whole life again in one night."
+      },
+      "source": "Project Gutenberg #24022",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "moby-dick",
+      "title": "Moby-Dick",
+      "authorId": "melville",
+      "language": "en",
+      "year": 1851,
+      "words": 217038,
+      "bytes": 814023,
+      "file": "books/moby-dick.epub",
+      "about": {
+        "tr": "Melville'in balina avı ve takıntı üzerine destansı romanı.",
+        "en": "Melville's epic of whaling and obsession."
+      },
+      "blurb": {
+        "tr": "Karada sıkılan genç bir öğretmen, bir balina avcısı gemisine tayfa olarak yazılır. Açık denize çıktıktan sonra, bacağını kopartan dev beyaz balinadan intikam almaya yemin etmiş kaptan ortaya çıkar ve bütün tayfayı bu takıntılı avın içine sürükler. Okyanusun, avcılığın ve insanın doğaya meydan okumasının büyük romanı.",
+        "en": "Restless on land, a young schoolteacher signs on as a sailor on a whaling ship. Once they are out at sea, the captain appears: he has sworn revenge on the giant white whale that took his leg, and drags the whole crew into his obsessive hunt. The great novel of the ocean, of hunting, and of a man defying nature."
+      },
+      "source": "Project Gutenberg #2701",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "adventures-of-huckleberry-finn",
+      "title": "Adventures of Huckleberry Finn",
+      "authorId": "mark-twain",
+      "language": "en",
+      "year": 1884,
+      "words": 114546,
+      "bytes": 567107,
+      "file": "books/adventures-of-huckleberry-finn.epub",
+      "about": {
+        "tr": "Mark Twain'in Mississippi Nehri'nde bir sal yolculuğunu anlatan romanı.",
+        "en": "Mark Twain's novel of a raft journey down the Mississippi."
+      },
+      "blurb": {
+        "tr": "Ayyaş ve zalim babasından kaçmak için kendi ölümünü sahneleyen bir çocuk, büyük bir nehrin ortasındaki bir adada saklanırken, sahibinden kaçan bir köleyle karşılaşır. İkisi bir salla nehir boyunca yola çıkar; dolandırıcılar, kan davaları ve kasabalarla karşılaşırken, çocuk vicdanıyla öğretilen her şey arasında bir seçim yapmak zorunda kalır.",
+        "en": "Fleeing his drunken, violent father, a boy fakes his own death and hides on an island in a great river, where he meets a slave who has run away from his owner. The two set off downriver on a raft; through con men, family feuds and riverside towns, the boy must choose between his conscience and everything he has been taught."
+      },
+      "source": "Project Gutenberg #76",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-adventures-of-tom-sawyer",
+      "title": "The Adventures of Tom Sawyer",
+      "authorId": "mark-twain",
+      "language": "en",
+      "year": 1876,
+      "words": 74046,
+      "bytes": 454760,
+      "file": "books/the-adventures-of-tom-sawyer.epub",
+      "about": {
+        "tr": "Mark Twain'in Mississippi kıyısında bir çocukluğu anlatan romanı.",
+        "en": "Mark Twain's novel of a boyhood by the Mississippi."
+      },
+      "blurb": {
+        "tr": "Nehir kıyısındaki küçük bir kasabada teyzesiyle yaşayan yaramaz ve hayalperest bir çocuk, okuldan kaçar, korsancılık oynar, arkadaşlarına cezası olan çit boyamayı ayrıcalıkmış gibi satar. Ama bir gece mezarlıkta bir cinayete tanık olunca, oyun ciddileşir. Çocukluğun özgürlüğü ve korkusu üzerine neşeli bir roman.",
+        "en": "A mischievous, daydreaming boy living with his aunt in a small river town skips school, plays at pirates and tricks his friends into paying him for the privilege of whitewashing a fence, his own punishment. But when he witnesses a murder in a graveyard one night, the game turns serious. A joyful novel about the freedom and fears of childhood."
+      },
+      "source": "Project Gutenberg #74",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-scarlet-letter",
+      "title": "The Scarlet Letter",
+      "authorId": "hawthorne",
+      "language": "en",
+      "year": 1850,
+      "words": 86210,
+      "bytes": 455944,
+      "file": "books/the-scarlet-letter.epub",
+      "about": {
+        "tr": "Hawthorne'un Püriten Boston'da geçen romanı.",
+        "en": "Hawthorne's novel of Puritan Boston."
+      },
+      "blurb": {
+        "tr": "On yedinci yüzyılda Püriten bir kolonide, kocası yıllardır kayıp olan genç bir kadın evlilik dışı bir çocuk doğurur. Cezası, göğsünde ömür boyu kırmızı bir harf taşımaktır. Çocuğun babasının adını vermeyi reddeder. Kasaba onu dışlarken, gerçeği bilen iki adam karanlıkta kendi hesaplaşmalarına başlar. Günah, utanç ve vicdan üzerine bir roman.",
+        "en": "In a seventeenth-century Puritan colony, a young woman whose husband has long been missing gives birth to a child out of wedlock. Her punishment is to wear a mark of shame on her breast for the rest of her life, and she refuses to name the father. While the town shuns her, two men who know the truth begin their own reckoning in the dark. A novel of sin, shame and conscience."
+      },
+      "source": "Project Gutenberg #33",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-great-gatsby",
+      "title": "The Great Gatsby",
+      "authorId": "fitzgerald",
+      "language": "en",
+      "year": 1925,
+      "words": 51290,
+      "bytes": 353457,
+      "file": "books/the-great-gatsby.epub",
+      "about": {
+        "tr": "Fitzgerald'ın Caz Çağı'nı anlatan kısa romanı.",
+        "en": "Fitzgerald's short novel of the Jazz Age."
+      },
+      "blurb": {
+        "tr": "1920'lerin New York'unda, borsada çalışmak için şehre gelen genç bir adam, Long Island'da gizemli bir milyonerin malikânesinin yanındaki küçük bir eve yerleşir. Komşusu her hafta sonu yüzlerce kişinin katıldığı çılgın partiler verir, ama kimse onun gerçekte kim olduğunu bilmez. Zamanla, bütün bu ışıltının körfezin karşı yakasındaki tek bir yeşil ışık için, yıllar önce kaybettiği bir kadın için kurulduğu anlaşılır.",
+        "en": "In 1920s New York, a young man who has come to work in bonds rents a small house on Long Island next to the mansion of a mysterious millionaire. Every weekend his neighbour throws wild parties for hundreds of guests, yet nobody knows who he really is. In time it turns out that all the glitter was built for a single green light across the bay, for a woman he lost years ago."
+      },
+      "source": "Project Gutenberg #64317",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "heart-of-darkness",
+      "title": "Heart of Darkness",
+      "authorId": "conrad",
+      "language": "en",
+      "year": 1899,
+      "words": 41004,
+      "bytes": 362125,
+      "file": "books/heart-of-darkness.epub",
+      "about": {
+        "tr": "Conrad'ın Afrika'da bir nehir yolculuğunu anlatan kısa romanı.",
+        "en": "Conrad's short novel of a river journey into Africa."
+      },
+      "blurb": {
+        "tr": "Thames Nehri'nde demirli bir teknede, bir denizci arkadaşlarına gençliğinde Afrika'da yaptığı bir yolculuğu anlatır: fildişi ticareti yapan bir şirket adına bir nehir buharlısıyla ormanın derinliklerine gidişini ve orada efsaneleşmiş, ama artık kimsenin haber alamadığı bir istasyon şefini arayışını. Sömürgeciliğin, gücün ve insanın içindeki karanlığın kısa, sarsıcı bir anlatısı.",
+        "en": "On a boat moored in the Thames, a sailor tells his companions about a journey he made in his youth: taking a river steamer deep into the African jungle for an ivory-trading company, in search of a station chief who has become a legend and from whom no one has heard. A short, haunting tale of colonialism, power and the darkness inside people."
+      },
+      "source": "Project Gutenberg #219",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-call-of-the-wild",
+      "title": "The Call of the Wild",
+      "authorId": "jack-london",
+      "language": "en",
+      "year": 1903,
+      "words": 34947,
+      "bytes": 228508,
+      "file": "books/the-call-of-the-wild.epub",
+      "about": {
+        "tr": "Jack London'ın Klondike'ta geçen kısa romanı.",
+        "en": "Jack London's short novel of the Klondike."
+      },
+      "blurb": {
+        "tr": "Kaliforniya'da bir yargıcın çiftliğinde rahat bir hayat süren iri ve güçlü bir köpek, bir gün çalınıp satılır ve altına hücum yıllarında kuzeyin donmuş topraklarına, kızak çekmeye gönderilir. Sopanın ve dişin kanununu öğrenmek zorundadır. Hayatta kaldıkça, içinde çok eskilerden gelen vahşi bir ses giderek daha yüksek duyulur. Hikâyeyi bir köpeğin gözünden anlatan bir macera.",
+        "en": "A big, strong dog living an easy life on a judge's estate in California is stolen one day, sold, and sent to the frozen north to pull sleds during the gold rush. He must learn the law of club and fang. As he survives, a wild voice from long ago sounds louder and louder inside him. An adventure told through a dog's eyes."
+      },
+      "source": "Project Gutenberg #215",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "dubliners",
+      "title": "Dubliners",
+      "authorId": "joyce",
+      "language": "en",
+      "year": 1914,
+      "words": 70726,
+      "bytes": 331928,
+      "file": "books/dubliners.epub",
+      "about": {
+        "tr": "Joyce'un Dublin'de geçen on beş öyküsü.",
+        "en": "Joyce's fifteen stories of Dublin."
+      },
+      "blurb": {
+        "tr": "Yüzyılın başında bir şehrin sıradan insanları: ölen bir rahibi düşünen bir çocuk, denizaşırı bir hayata kaçmakla ailesine kalmak arasında sıkışan genç bir kız, bir pazara kendi küçük hediyesini almaya giden âşık bir oğlan, bir Noel yemeğinin sonunda karısının hiç bilmediği bir geçmişini öğrenen bir adam. Çocukluktan olgunluğa sıralanan, küçük anlarda büyük farkındalıkları yakalayan on beş öykü.",
+        "en": "The ordinary people of a city at the turn of the century: a boy thinking about a priest who has died, a young woman torn between running away to a life overseas and staying with her family, a boy in love who goes to a bazaar to buy a small gift, a man who learns at the end of a Christmas party about a past of his wife's he never knew. Fifteen stories, ordered from childhood to maturity, each catching a great realisation in a small moment."
+      },
+      "source": "Project Gutenberg #2814",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "mrs-dalloway",
+      "title": "Mrs. Dalloway",
+      "authorId": "woolf",
+      "language": "en",
+      "year": 1925,
+      "words": 67229,
+      "bytes": 399994,
+      "file": "books/mrs-dalloway.epub",
+      "about": {
+        "tr": "Woolf'un Londra'da tek bir günü anlatan romanı.",
+        "en": "Woolf's novel of a single day in London."
+      },
+      "blurb": {
+        "tr": "Haziranda bir sabah, Londra'da varlıklı ve orta yaşlı bir kadın, o akşam vereceği parti için çiçek almaya çıkar. Gün boyunca yıllar önce reddettiği aşkı, gençliğinin yaz evleri ve yaşamadığı hayatlar aklından geçer. Aynı şehirde, savaştan sarsılmış olarak dönmüş genç bir asker de kendi karanlık gününü yaşamaktadır. İki hayatı hiç karşılaşmadan birbirine bağlayan, düşüncelerin içinden anlatılan bir gün.",
+        "en": "One June morning in London, a well-off middle-aged woman goes out to buy flowers for the party she is giving that evening. All day her mind wanders to the love she turned down years ago, the summer houses of her youth and the lives she did not live. In the same city, a young soldier shaken by the war lives through his own dark day. A single day, told from inside people's thoughts, that ties two lives together without their ever meeting."
+      },
+      "source": "Project Gutenberg #71865",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-time-machine",
+      "title": "The Time Machine",
+      "authorId": "wells",
+      "language": "en",
+      "year": 1895,
+      "words": 35581,
+      "bytes": 307155,
+      "file": "books/the-time-machine.epub",
+      "about": {
+        "tr": "Wells'in zamanda yolculuk üzerine kısa romanı.",
+        "en": "Wells's short novel of time travel."
+      },
+      "blurb": {
+        "tr": "Viktorya dönemi Londra'sında bir mucit, akşam yemeğine gelen konuklarına zamanda yolculuk edebilen bir makine yaptığını anlatır. Bir hafta sonra, yorgun ve yaralı döner ve hikâyesini anlatır: sekiz yüz bin yıl sonrasına gitmiş, insanlığın iki ayrı türe bölündüğü bir dünyada makinesini kaybetmiştir. Sınıflar, ilerleme ve insanlığın geleceği üzerine kısa bir bilimkurgu klasiği.",
+        "en": "In Victorian London, an inventor tells his dinner guests that he has built a machine that can travel through time. A week later he comes back exhausted and hurt, and tells his story: he travelled eight hundred thousand years ahead, to a world where humanity has split into two kinds, and lost his machine there. A short science fiction classic about class, progress and the future of humankind."
+      },
+      "source": "Project Gutenberg #35",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-war-of-the-worlds",
+      "title": "The War of the Worlds",
+      "authorId": "wells",
+      "language": "en",
+      "year": 1898,
+      "words": 63301,
+      "bytes": 292374,
+      "file": "books/the-war-of-the-worlds.epub",
+      "about": {
+        "tr": "Wells'in dünya dışı bir istilayı anlatan romanı.",
+        "en": "Wells's novel of an invasion from another planet."
+      },
+      "blurb": {
+        "tr": "Bir gece İngiltere'nin kırsalına garip bir göktaşı düşer. Meraklı kalabalık başına toplandığında, içinden başka bir gezegenden gelen yaratıklar çıkar ve ölüm ışınlarıyla her şeyi yakmaya başlar. Dev üç bacaklı makineler Londra'ya doğru ilerlerken, bir anlatıcı karısına ulaşmaya çalışır ve insanlığın hiç de dünyanın efendisi olmadığını anlar.",
+        "en": "One night a strange meteor falls in the English countryside. As a curious crowd gathers round it, creatures from another planet emerge and begin burning everything with a heat ray. While giant three-legged machines march on London, a narrator tries to reach his wife, and learns that humankind is not the master of the Earth after all."
+      },
+      "source": "Project Gutenberg #36",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "alices-adventures-in-wonderland",
+      "title": "Alice's Adventures in Wonderland",
+      "authorId": "lewis-carroll",
+      "language": "en",
+      "year": 1865,
+      "words": 29758,
+      "bytes": 189249,
+      "file": "books/alices-adventures-in-wonderland.epub",
+      "about": {
+        "tr": "Lewis Carroll'ın tuhaf ve mantıklı bir masal ülkesini anlatan kitabı.",
+        "en": "Lewis Carroll's tale of a strange and logical dreamland."
+      },
+      "blurb": {
+        "tr": "Sıkıcı bir yaz öğleden sonrası, nehir kıyısında oturan küçük bir kız, yeleği ve cep saatiyle telaşla koşan bir tavşanın peşine düşer ve bir tavşan deliğinden aşağı yuvarlanır. İçtikçe küçüldüğü, yedikçe büyüdüğü, kedilerin sırıttığı, çay partisinin hiç bitmediği ve bir kraliçenin herkesin kafasını kestirmek istediği bir ülkeye düşmüştür. Hem çocukların hem büyüklerin okuduğu bir saçmalık şaheseri.",
+        "en": "On a dull summer afternoon by a river, a little girl follows a rabbit hurrying past in a waistcoat with a pocket watch, and tumbles down a rabbit hole. She lands in a country where drinking makes her shrink and eating makes her grow, cats grin, a tea party never ends and a queen wants everyone's head cut off. A masterpiece of nonsense read by children and adults alike."
+      },
+      "source": "Project Gutenberg #11",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "little-women",
+      "title": "Little Women",
+      "authorId": "alcott",
+      "language": "en",
+      "year": 1868,
+      "words": 189440,
+      "bytes": 743621,
+      "file": "books/little-women.epub",
+      "about": {
+        "tr": "Alcott'ın dört kız kardeşin büyümesini anlatan romanı.",
+        "en": "Alcott's novel of four sisters growing up."
+      },
+      "blurb": {
+        "tr": "Babaları iç savaşta cephedeyken, annelerinin yanında az parayla yaşayan dört kız kardeş: güzel ve sorumlu en büyükleri, yazar olmak isteyen asi ve erkek fatma ikincisi, utangaç ve iyi kalpli üçüncüsü, kendini beğenmiş ama sevimli en küçükleri. Yan komşunun yalnız torunuyla kurulan dostluk, ilk aşklar, kayıplar ve hayallerle, çocukluktan genç kadınlığa uzanan sıcak bir aile romanı.",
+        "en": "With their father away at the Civil War, four sisters live on little money with their mother: the pretty, responsible eldest, the rebellious tomboy second who wants to be a writer, the shy, gentle third and the vain but lovable youngest. A friendship with the lonely grandson next door, first loves, losses and dreams: a warm family novel from childhood to young womanhood."
+      },
+      "source": "Project Gutenberg #514",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "peter-pan",
+      "title": "Peter Pan",
+      "authorId": "barrie",
+      "language": "en",
+      "year": 1911,
+      "words": 50425,
+      "bytes": 392049,
+      "file": "books/peter-pan.epub",
+      "about": {
+        "tr": "Barrie'nin hiç büyümeyen çocuğun masalı.",
+        "en": "Barrie's tale of the boy who never grows up."
+      },
+      "blurb": {
+        "tr": "Londra'da üç kardeşin çocuk odasına, bir gece gölgesini arayan ve hiç büyümeyen bir çocuk uçarak girer. Onlara uçmayı öğretir ve onları ikinci yıldızdan sağa, sabaha kadar dosdoğru giderek ulaşılan bir adaya götürür: kayıp çocukların, deniz kızlarının, Kızılderililerin ve kancalı elli bir korsan kaptanın adasına. Çocukluğun bitişine dair hem neşeli hem hüzünlü bir masal.",
+        "en": "One night a boy who never grows up flies into the nursery of three London children, looking for his shadow. He teaches them to fly and takes them to an island you reach by going second to the right and straight on till morning: home of lost boys, mermaids and a pirate captain with a hook for a hand. A tale about the end of childhood, both joyful and sad."
+      },
+      "source": "Project Gutenberg #16",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-wonderful-wizard-of-oz",
+      "title": "The Wonderful Wizard of Oz",
+      "authorId": "baum",
+      "language": "en",
+      "year": 1900,
+      "words": 42879,
+      "bytes": 350637,
+      "file": "books/the-wonderful-wizard-of-oz.epub",
+      "about": {
+        "tr": "Baum'un renkli bir masal ülkesinde geçen çocuk romanı.",
+        "en": "Baum's children's novel of a colourful fairyland."
+      },
+      "blurb": {
+        "tr": "Kansas'ın gri bozkırlarında yaşayan küçük bir kız, köpeğiyle birlikte bir hortuma kapılır ve evleriyle birlikte büyülü bir ülkeye düşer. Evine dönebilmek için, bütün dilekleri yerine getirebildiği söylenen büyücüyü bulmak üzere sarı tuğlalı bir yolda yürümeye başlar. Yolda beyin isteyen bir korkuluk, kalp isteyen teneke bir oduncu ve cesaret isteyen korkak bir aslan ona katılır.",
+        "en": "A little girl living on the grey Kansas prairie is carried off by a cyclone with her dog, and their house lands in a magical country. To get home, she sets off down a road of yellow brick to find a wizard said to be able to grant any wish. Along the way she is joined by a scarecrow who wants a brain, a tin woodman who wants a heart and a cowardly lion who wants courage."
+      },
+      "source": "Project Gutenberg #55",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "around-the-world-in-eighty-days",
+      "title": "Around the World in Eighty Days",
+      "authorId": "verne",
+      "language": "en",
+      "year": 1873,
+      "translator": "George M. Towle",
+      "words": 66995,
+      "bytes": 442858,
+      "file": "books/around-the-world-in-eighty-days.epub",
+      "about": {
+        "tr": "Jules Verne'in seksen günde dünya turu macerası.",
+        "en": "Jules Verne's race around the globe."
+      },
+      "blurb": {
+        "tr": "Londra'da her şeyi saati saatine yapan soğukkanlı bir İngiliz beyefendi, kulübünde girdiği bir iddia yüzünden servetinin yarısını ortaya koyar: dünyanın çevresini trenle ve gemiyle, üç aydan kısa bir sürede dolaşacaktır. Yeni işe aldığı Fransız uşağıyla aynı akşam yola çıkar. Ama onu bir banka soyguncusu sanan inatçı bir dedektif de peşindedir. Hindistan'dan Amerika'ya, saatle yarışan bir macera.",
+        "en": "In London, a cool-headed English gentleman who does everything by the clock bets half his fortune at his club that he can go round the world by train and steamer in less than three months. He leaves that very evening with his newly hired French valet. But a stubborn detective who takes him for a bank robber is on his trail. An adventure racing the clock from India to America."
+      },
+      "source": "Project Gutenberg #103",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "don-quixote",
+      "title": "Don Quixote",
+      "authorId": "cervantes",
+      "language": "en",
+      "year": 1605,
+      "translator": "John Ormsby",
+      "words": 431981,
+      "bytes": 1694757,
+      "file": "books/don-quixote.epub",
+      "about": {
+        "tr": "Cervantes'in modern romanın ilk örneği sayılan eseri.",
+        "en": "Cervantes's book, often called the first modern novel."
+      },
+      "blurb": {
+        "tr": "İspanya'nın bir köyünde, şövalye romanlarını okumaktan aklını kaçıran yaşlı ve sıska bir soylu, kendini gezgin bir şövalye ilan eder. Paslı bir zırh, zayıf bir at ve şövalyelik vaadine kanan saf bir köylü uşakla yola çıkar; yel değirmenlerini dev, hanları şato, köylü kızları prenses sanır. Hem güldüren hem hüzünlendiren, hayal ile gerçeğin büyük romanı.",
+        "en": "In a Spanish village, a thin old gentleman who has lost his wits from reading tales of chivalry declares himself a knight errant. With rusty armour, a bony horse and a simple farmhand lured by the promise of an island to rule, he sets off, taking windmills for giants, inns for castles and peasant girls for princesses. Funny and sad at once: the great novel of dream and reality."
+      },
+      "source": "Project Gutenberg #996",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "les-miserables",
+      "title": "Les Misérables",
+      "authorId": "hugo",
+      "language": "en",
+      "year": 1862,
+      "translator": "Isabel F. Hapgood",
+      "words": 571687,
+      "bytes": 2035341,
+      "file": "books/les-miserables.epub",
+      "about": {
+        "tr": "Victor Hugo'nun on dokuzuncu yüzyıl Fransa'sını anlatan büyük romanı.",
+        "en": "Victor Hugo's great novel of nineteenth-century France."
+      },
+      "blurb": {
+        "tr": "Bir somun ekmek çaldığı için on dokuz yıl kürek mahkûmu olarak yatan bir adam, serbest kaldığında herkesin kapısını yüzüne kapattığı bir dünyayla karşılaşır. Bir piskoposun ona gösterdiği beklenmedik merhamet hayatını değiştirir; yeni bir kimlikle dürüst bir insan olmaya çalışır. Ama onu asla unutmayan bir polis müfettişi peşini bırakmaz. Yoksulluğun, adaletin ve merhametin destansı romanı.",
+        "en": "A man who spent nineteen years in the galleys for stealing a loaf of bread is released into a world where every door is shut in his face. An unexpected mercy shown him by a bishop changes his life, and under a new name he tries to become an honest man. But a police inspector who never forgets will not let him go. The epic novel of poverty, justice and mercy."
+      },
+      "source": "Project Gutenberg #135",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-count-of-monte-cristo",
+      "title": "The Count of Monte Cristo",
+      "authorId": "dumas",
+      "language": "en",
+      "year": 1844,
+      "words": 464706,
+      "bytes": 1526465,
+      "file": "books/the-count-of-monte-cristo.epub",
+      "about": {
+        "tr": "Dumas'nın intikam üzerine macera romanı.",
+        "en": "Dumas's adventure novel of revenge."
+      },
+      "blurb": {
+        "tr": "Genç ve mutlu bir denizci, kaptan olacağı ve sevdiği kızla evleneceği gün tutuklanır: onu kıskanan üç adamın düzmece bir mektubu yüzünden, bir adadaki kale zindanına atılır. On dört yıl sonra, hücre komşusu yaşlı bir rahibin anlattığı gizli bir hazineyle birlikte kaçmayı başarır. Artık zengin, eğitimli ve tanınmaz biri olarak Paris'e döner ve sabırla intikamını kurar.",
+        "en": "A happy young sailor is arrested on the very day he is to become a captain and marry the girl he loves: a forged letter from three men who envy him lands him in a dungeon in an island fortress. Fourteen years later he escapes, knowing the secret of a hidden treasure told him by the old priest in the next cell. Rich, educated and unrecognisable, he returns to Paris and patiently builds his revenge."
+      },
+      "source": "Project Gutenberg #1184",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "madame-bovary",
+      "title": "Madame Bovary",
+      "authorId": "flaubert",
+      "language": "en",
+      "year": 1857,
+      "translator": "Eleanor Marx-Aveling",
+      "words": 118923,
+      "bytes": 449121,
+      "file": "books/madame-bovary.epub",
+      "about": {
+        "tr": "Flaubert'in taşrada sıkılan bir kadını anlatan romanı.",
+        "en": "Flaubert's novel of a woman bored in the provinces."
+      },
+      "blurb": {
+        "tr": "Manastırda okuduğu romanlarla büyüyen ve tutkulu bir aşk hayal eden bir çiftçi kızı, iyi niyetli ama sıradan bir taşra doktoruyla evlenir. Küçük kasabadaki tekdüze hayat onu boğar. Hayallerindeki hayatı yaşamak için önce bir aşka, sonra bir başkasına, sonra da borca ve lükse sürüklenir. Hayal ile gerçek arasındaki uçurumun acımasız ve kusursuz bir anlatısı.",
+        "en": "A farmer's daughter raised on the romantic novels she read at convent school, who dreams of passionate love, marries a well-meaning but dull country doctor. The monotony of small-town life smothers her. Trying to live the life of her dreams, she drifts into one affair, then another, and then into debt and luxury. A merciless, flawless account of the gulf between dreams and reality."
+      },
+      "source": "Project Gutenberg #2413",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "meditations",
+      "title": "Meditations",
+      "authorId": "marcus-aurelius",
+      "language": "en",
+      "year": 180,
+      "translator": "Meric Casaubon",
+      "words": 80616,
+      "bytes": 454954,
+      "file": "books/meditations.epub",
+      "about": {
+        "tr": "Bir Roma imparatorunun kendine yazdığı Stoacı notlar.",
+        "en": "The Stoic notes a Roman emperor wrote to himself."
+      },
+      "blurb": {
+        "tr": "Sınır boylarında savaşan bir ordunun başındaki dünyanın en güçlü adamı, geceleri çadırında yalnızca kendisi için notlar alır. Öfkeyi nasıl yeneceğini, ölümden neden korkmaması gerektiğini, insanların kötülüğüne nasıl katlanacağını ve elinde olmayan şeyler için üzülmenin neden boşuna olduğunu kendine hatırlatır. Hiç yayımlanmak için yazılmamış, iki bin yıldır okunan bir iç konuşma.",
+        "en": "The most powerful man in the world, leading an army at war on the frontier, writes notes at night in his tent for no one but himself. He reminds himself how to master anger, why he should not fear death, how to bear the wrongs of others and why grieving over what is not in his power is useless. An inner conversation never meant to be published, read for two thousand years."
+      },
+      "source": "Project Gutenberg #2680",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-odyssey",
+      "title": "The Odyssey",
+      "authorId": "homer",
+      "language": "en",
+      "translator": "Samuel Butler",
+      "words": 132870,
+      "bytes": 445840,
+      "file": "books/the-odyssey.epub",
+      "about": {
+        "tr": "Homeros'a atfedilen, bir savaş kahramanının eve dönüş destanı (düzyazı çeviri).",
+        "en": "The epic of a war hero's journey home, credited to Homer (prose translation)."
+      },
+      "blurb": {
+        "tr": "On yıl süren büyük bir savaş biter, ama zekâsıyla ünlü bir kral bir türlü evine dönemez. Tanrıların öfkesiyle on yıl boyunca denizlerde savrulur: tek gözlü bir dev, insanları domuza çeviren bir büyücü, şarkılarıyla denizcileri ölüme çeken yaratıklar... Bu sırada adasında, karısını isteyen küstah talipler sarayını yağmalamakta, oğlu ise babasını aramaya çıkmaktadır. Batı edebiyatının en eski macera hikâyelerinden biri.",
+        "en": "A great war that lasted ten years is over, but a king famous for his cunning cannot get home. The anger of the gods drives him across the seas for ten more years: a one-eyed giant, a sorceress who turns men into pigs, creatures whose songs lure sailors to their deaths... Meanwhile, on his island, arrogant suitors for his wife's hand plunder his palace, and his son sets out to find him. One of the oldest adventure stories in Western literature."
+      },
+      "source": "Project Gutenberg #1727",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "walden",
+      "title": "Walden",
+      "authorId": "thoreau",
+      "language": "en",
+      "year": 1854,
+      "words": 119089,
+      "bytes": 553553,
+      "file": "books/walden.epub",
+      "about": {
+        "tr": "Thoreau'nun ormanda geçirdiği iki yılı anlatan kitabı.",
+        "en": "Thoreau's account of two years in the woods."
+      },
+      "blurb": {
+        "tr": "Bir adam, insanların çoğunun sessiz bir umutsuzluk içinde yaşadığına inanarak bir göl kıyısındaki ormana gider, kendi elleriyle küçük bir kulübe yapar ve iki yıl boyunca orada sade bir hayat sürer. Fasulye eker, gölü ölçer, mevsimleri izler, yalnızlık ve özgürlük üzerine düşünür. Neye gerçekten ihtiyacımız olduğunu soran, hem bir doğa güncesi hem bir yaşama sanatı kitabı.",
+        "en": "Believing that most people lead lives of quiet desperation, a man goes into the woods by a pond, builds a small cabin with his own hands and lives there simply for two years. He grows beans, measures the pond, watches the seasons and thinks about solitude and freedom. Both a nature journal and a book on the art of living, asking what we really need."
+      },
+      "source": "Project Gutenberg #205",
+      "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
+    },
+    {
+      "id": "the-prophet",
+      "title": "The Prophet",
+      "authorId": "gibran",
+      "language": "en",
+      "year": 1923,
+      "words": 15627,
+      "bytes": 325883,
+      "file": "books/the-prophet.epub",
+      "about": {
+        "tr": "Gibran'ın düzyazı şiir biçiminde yazdığı kısa kitabı.",
+        "en": "Gibran's short book of prose poetry."
+      },
+      "blurb": {
+        "tr": "On iki yıldır yabancı bir şehirde yaşayan bir bilge, sonunda onu memleketine götürecek gemiyi görür. Gemiye binmeden önce şehrin halkı etrafına toplanır ve ondan son bir kez konuşmasını ister. Bir kadın aşkı sorar, bir başkası evliliği, çocukları, çalışmayı, acıyı, özgürlüğü ve ölümü. Bilge her soruya kısa, şiirsel bir öğütle cevap verir.",
+        "en": "A wise man who has lived for twelve years in a foreign city at last sees the ship that will take him home. Before he boards, the people of the city gather round and ask him to speak one last time. A woman asks about love, others about marriage, children, work, pain, freedom and death, and he answers each in a short, poetic piece of counsel."
+      },
+      "source": "Project Gutenberg #58585",
       "license": "Public domain (author and translator died more than 70 years ago); Project Gutenberg License"
     }
   ]
