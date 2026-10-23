@@ -4,6 +4,7 @@ Public-domain books and the catalog for the secondhand bookshop (Sahaf) of Aesth
 
 - catalog: `https://umutardaayhan.github.io/speed-reader-books/catalog.json`
 - books: `books/<id>.epub`, resolved against the catalog's address
+- training texts: `https://umutardaayhan.github.io/speed-reader-books/texts.json`, passages from these books (and original texts) that the app adds to its training library
 
 ## What is here
 
@@ -99,3 +100,12 @@ Before adding a book, check both the author's and (for a translation) the transl
 3. Commit and push to `main`. GitHub Pages publishes the repository as it is (`.nojekyll` skips the Jekyll build) within a minute or two; the app asks for a fresh catalog each time the Sahaf opens. (jsDelivr is not used: its `@main` kept serving an old commit for hours, even after purges.)
 
 The app checks every catalog entry and leaves out any with a missing field, an unknown author or a link that is not http(s). Catalog format: see `src/engine/catalog.ts` in the app.
+
+## Adding training texts
+
+The app also reads `texts.json`: training texts, each with four questions, offered in the Library next to the ones built into the app. New ones reach readers without an app release.
+
+1. Add the text to `tools/texts-source.json`. A passage of one of our books gives `"from": { "book", "start", "until" }`: it is copied word for word from `books/<book>.epub`, from the paragraph starting with `start` up to the one starting with `until`, and a reader who downloads the book from the passage starts reading at `until`. Use `"continue": false` for a passage from the middle of a book, so the book starts at its beginning. Book title, author and the Sahaf translation mark come from the catalog. An original text gives `"paragraphs"` instead.
+2. Run `npm run texts` (after `npm run build`, so the EPUBs are current), then commit and push.
+
+The app computes each text's difficulty level itself and leaves out any text with a missing field, a question without four different options, or the id of a text built into the app. Format: see `src/content/remoteTexts.ts` in the app.

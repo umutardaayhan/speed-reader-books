@@ -1,0 +1,566 @@
+{
+ "version": 1,
+ "texts": [
+  {
+   "id": "tr-gerdanlik",
+   "title": "Bir Kâtibin Karısı",
+   "source": "Sahaf çevirisi; Guy de Maupassant, La Parure (Wikisource)",
+   "license": "Public domain original, Sahaf translation",
+   "language": "tr",
+   "genre": "classics",
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "Genç kadın kiminle evlendirilmeye razı oldu?",
+     "options": [
+      "Zengin bir tüccarla",
+      "Bakanlığın küçük bir kâtibiyle",
+      "Bir subayla",
+      "Bir öğretmenle"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q2",
+     "prompt": "Kadın neden durmadan acı çekiyordu?",
+     "options": [
+      "Hasta olduğu için",
+      "Kocası ona kötü davrandığı için",
+      "Bütün lükslere layık doğduğunu hissedip yoksul yaşadığı için",
+      "Ailesinden uzakta olduğu için"
+     ],
+     "correctIndex": 2,
+     "type": "main idea"
+    },
+    {
+     "id": "q3",
+     "prompt": "Akşam yemeğinde kocası neye sevinir?",
+     "options": [
+      "Etli sebze çorbasına",
+      "Bir alabalığa",
+      "Gümüş takımlara",
+      "Bir davetiyeye"
+     ],
+     "correctIndex": 0,
+     "type": "detail"
+    },
+    {
+     "id": "q4",
+     "prompt": "Kocası sade yemeğine sevinirken kadın ne düşlüyordu?",
+     "options": [
+      "Kibar akşam yemeklerini ve pırıl pırıl gümüş takımları",
+      "Çocukluğundaki köyünü",
+      "Yeni bir iş bulmayı",
+      "Uzak bir ülkeye yolculuğu"
+     ],
+     "correctIndex": 0,
+     "type": "inference"
+    }
+   ],
+   "paragraphs": [
+    "Kaderin bir yanlışlığıyla memur ailelerinde doğmuş o güzel ve sevimli kızlardan biriydi. Ne çeyizi vardı, ne bir umudu, ne de zengin ve kibar bir adam tarafından tanınmanın, anlaşılmanın, sevilmenin, evlenilmenin hiçbir yolu; Milli Eğitim Bakanlığı'nın küçük bir kâtibiyle evlendirilmeye razı oldu.",
+    "Süslenemediği için sade giyindi, ama sınıfından düşmüş biri kadar mutsuzdu; çünkü kadınların ne kastı ne soyu vardır; güzellikleri, zarafetleri ve çekicilikleri onlara doğum ve aile yerine geçer. Doğuştan gelen incelikleri, zarafet içgüdüleri, zihinlerinin esnekliği tek hiyerarşileridir ve halk kızlarını en büyük hanımefendilerle eşit kılar.",
+    "Bütün inceliklere ve bütün lükslere layık doğduğunu hissederek durmadan acı çekiyordu. Evinin yoksulluğundan, duvarların sefaletinden, koltukların yıpranmışlığından, kumaşların çirkinliğinden acı çekiyordu. Kendi sınıfından başka bir kadının farkına bile varmayacağı bütün bu şeyler ona işkence ediyor, onu öfkelendiriyordu. Mütevazı ev işlerini gören küçük Bretanyalı hizmetçiyi görmek, içinde umutsuz pişmanlıklar ve çılgınca hayaller uyandırıyordu. Doğu kumaşlarıyla kaplı, yüksek bronz şamdanlarla aydınlatılmış sessiz bekleme salonlarını ve kaloriferin ağır sıcaklığıyla uyuklayan, geniş koltuklarda uyuyan, kısa pantolonlu iki iri uşağı hayal ediyordu. Eski ipeklerle kaplı büyük salonları, paha biçilmez biblolar taşıyan zarif mobilyaları ve en yakın dostlarla, bütün kadınların ilgisini kıskandığı ve arzuladığı tanınmış ve aranan erkeklerle saat beşte sohbet etmek için yapılmış, kokulu, şirin küçük salonları hayal ediyordu.",
+    "Üç günlük bir örtüyle kaplı yuvarlak masada akşam yemeğine oturduğunda, karşısında çorba kâsesinin kapağını açıp büyülenmiş bir tavırla “Ah! Ne güzel etli sebze çorbası! Bundan daha iyisini bilmem...” diyen kocasının önünde, o, kibar akşam yemeklerini, pırıl pırıl gümüş takımları, peri masallarından bir ormanın ortasında eski kişilerle ve tuhaf kuşlarla duvarları dolduran duvar halılarını düşlüyordu; harika tabaklarda sunulan nefis yemekleri, bir alabalığın pembe etini ya da çil kuşu kanatlarını yerken bir sfenks gülümsemesiyle dinlenen fısıltılı iltifatları düşlüyordu."
+   ],
+   "excerpt": {
+    "catalogId": "maupassant-gerdanlik",
+    "book": "Gerdanlık ve Diğer Öyküler",
+    "author": "Guy de Maupassant",
+    "sahafTranslation": true,
+    "continueAt": "Ne giysisi vardı ne mücevheri"
+   }
+  },
+  {
+   "id": "tr-kurk-mantolu-madonna-tablo",
+   "title": "Kürk Mantolu Madonna",
+   "source": "Sabahattin Ali, Kürk Mantolu Madonna (Vikikaynak)",
+   "license": "Public domain",
+   "language": "tr",
+   "genre": "classics",
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "Yazıya göre sergideki tablo hangi esere benziyordu?",
+     "options": [
+      "Leonardo’nun Mona Lisa’sına",
+      "Andrea del Sarto’nun Madonna delle Arpie’sine",
+      "Rafael’in Sistina Madonna’sına",
+      "Botticelli’nin Venüs’üne"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q2",
+     "prompt": "Yazının sahibi tablodaki kadına yarı şaka hangi adı veriyordu?",
+     "options": [
+      "Siyah Gözlü Kadın",
+      "Arpie Meleği",
+      "Kürk Mantolu Madonna",
+      "Sergideki Yabancı"
+     ],
+     "correctIndex": 2,
+     "type": "detail"
+    },
+    {
+     "id": "q3",
+     "prompt": "Anlatıcı ertesi gün ne yaptı?",
+     "options": [
+      "Sergiye yeniden gitti",
+      "Ressama bir mektup yazdı",
+      "Kopya satan bir mağazada Sarto’nun tablosunu aradı",
+      "Gazeteye cevap yazdı"
+     ],
+     "correctIndex": 2,
+     "type": "detail"
+    },
+    {
+     "id": "q4",
+     "prompt": "Anlatıcıya göre Sarto’nun Meryem’ini öbür tasvirlerden ayıran nedir?",
+     "options": [
+      "Daha parlak renklerle yapılmış olması",
+      "Düşünmeyi öğrenmiş, dünyayı küçümseyen bir kadın olması",
+      "Çok daha büyük bir tablo olması",
+      "Yüzünde aşırı bir masumluk bulunması"
+     ],
+     "correctIndex": 1,
+     "type": "inference"
+    }
+   ],
+   "paragraphs": [
+    "Bir sergide ilk defa resim teşhir eden bu genç sanatkârdan oldukça uzun bahsediliyordu. Daha ziyade klâsiklerin yolunda yürümek istediği anlaşılan ressam kadının, hayret verecek kadar büyük bir ifade kabiliyetine malik olduğu, kendi portrelerini yapan sanatkârların çoğunda görülen «güzelleştirme» veya «inadına çirkinleştirme» temayüllerinin onda bulunmadığı söyleniyor, birçok teknik mütalealardan sonra nihayet tablodaki kadının, duruşu ve yüzünün ifadesi bakımından, tuhaf bir tesadüf eseri olarak, Andreas del Sarto’nun Madonna delle Arpie tablosundaki Meryemana tasvirine insanı şaşırtacak kadar çok benzediği iddia ediliyor ve yarı şaka bir ifade ile bu «Kürk Mantolu Madonna» ya muvaffakiyetler temenni edilerek başka bir ressamdan bahse geçiliyordu.",
+    "Ertesi gün ilk işim, meşhur tabloların kopyelerini satan bir mağazaya giderek Arpie Madonna’sını aramak oldu. Büyük bir Sarto albümünün içinde onu buldum. Bir hayli fena basılmış olan kopye fazla bir şey göstermemekle beraber, makale sahibinin hakkı vardı: Kucağında mukaddes çocuğu ile yüksekçe bir yerde oturan, sağındaki sakallı erkekle solundaki genci hiç farketmiyormuş gibi gözlerini yere diken bu Madonna’nın yüzü, başını tutuşu, bakışlarında ve dudaklarında apaçık görünen melal ve kırgınlık ifadesi aynen dün gördüğüm tabloya benziyordu. Albümün bu yaprağını ayrıca sattıkları için hemen alarak odama döndüm. Dikkatle baktığım zaman bu resimde sanat bakımından büyük bir hususiyet bulunduğuna hükmettim. Hayatımda ilk defa böyle bir Madonna görüyordum: Şimdiye kadar tesadüf ettiğim Meryemana tasvirlerinde, lüzumundan biraz fazla tebarüz ettirilen, hattâ mânasızlığa kadar götürülen bir masumluk ifadesi vardı; kucaklarındaki bebeğe bakarken: «Gördünüz mü? Allah Baba bana neler ihsan etti!» demek istiyen küçük çocuklara; veya ismini söyliyemiyecekleri bir adamdan peydahladıkları evlâtlarına gözlerini dikip şaşkın şaşkın gülümsiyen hizmetçi kızlara benzerlerdi. Halbuki Sarto’nun bu tablosundaki Meryem, düşünmeği öğrenmiş, hayat hakkındaki hükümlerini vermiş ve dünyayı istihfaf etmiye başlamış bir kadındı. İki tarafında ibadet eder gibi duran azizlere değil, kucağındaki Mesihe değil, hattâ gökyüzüne de değil, toprağa bakıyor ve muhakkak ki bir şeyler görüyordu."
+   ],
+   "excerpt": {
+    "catalogId": "kurk-mantolu-madonna",
+    "book": "Kürk Mantolu Madonna",
+    "author": "Sabahattin Ali"
+   }
+  },
+  {
+   "id": "tr-kibritci-kiz",
+   "title": "Yılbaşı Gecesi",
+   "source": "Sahaf çevirisi; Hans Christian Andersen, Den lille Pige med Svovlstikkerne (Wikisource)",
+   "license": "Public domain original, Sahaf translation",
+   "language": "tr",
+   "genre": "classics",
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "Hikâye hangi gece geçer?",
+     "options": [
+      "Bayram sabahı",
+      "Yılbaşı gecesi",
+      "Bir yaz akşamı",
+      "Doğum gününde"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q2",
+     "prompt": "Küçük kız terliklerini nasıl kaybetti?",
+     "options": [
+      "Kar altında kalmışlardı",
+      "Annesi onları geri almıştı",
+      "Koşarken biri bulunamadı, ötekini bir oğlan kaptı",
+      "Bir dükkânda unutmuştu"
+     ],
+     "correctIndex": 2,
+     "type": "detail"
+    },
+    {
+     "id": "q3",
+     "prompt": "Kız neden eve gitmeye cesaret edemiyordu?",
+     "options": [
+      "Yolunu kaybetmişti",
+      "Hiç kibrit satamadığı için babası onu döverdi",
+      "Evin kapısı kilitliydi",
+      "Kardeşleriyle kavga etmişti"
+     ],
+     "correctIndex": 1,
+     "type": "inference"
+    },
+    {
+     "id": "q4",
+     "prompt": "İlk kibriti yakınca kız kendini nerede sandı?",
+     "options": [
+      "Büyük bir demir sobanın önünde",
+      "Bir Noel ağacının altında",
+      "Annesinin kucağında",
+      "Bir sofranın başında"
+     ],
+     "correctIndex": 0,
+     "type": "detail"
+    }
+   ],
+   "paragraphs": [
+    "Hava öyle korkunç soğuktu ki; kar yağıyordu ve karanlık bir akşam olmaya başlıyordu; yılın da son akşamıydı, yılbaşı gecesi. Bu soğukta ve bu karanlıkta sokakta başı açık, ayakları çıplak, küçük, yoksul bir kız yürüyordu; evden çıkarken ayağında terlikler vardı gerçi, ama ne işe yarardı! Çok büyük terliklerdi bunlar, en son annesi giymişti, o kadar büyüktü işte; iki araba korkunç bir hızla yanından geçerken küçük kız sokaktan koşarak karşıya geçmeye çalışırken onları kaybetmişti; terliğin biri bulunamadı, ötekini de bir oğlan alıp kaçtı; kendi çocukları olunca onu beşik olarak kullanabileceğini söyledi. İşte küçük kız şimdi soğuktan mosmor kesilmiş çıplak küçük ayaklarıyla yürüyordu; eski bir önlüğün içinde bir yığın kibrit taşıyor, bir demet de elinde tutuyordu; bütün gün kimse ondan kibrit almamıştı; kimse ona bir metelik bile vermemişti; aç ve donmuş bir halde yürüyordu ve öyle perişan görünüyordu ki, zavallıcık! Kar taneleri ensesinde öyle güzel kıvrılan uzun sarı saçlarına düşüyordu, ama o bu süsü hiç düşünmüyordu tabii.",
+    "Bütün pencerelerden ışıklar parlıyordu ve sokakta öyle güzel kızarmış kaz kokusu vardı ki; yılbaşı gecesiydi ya, evet, o bunu düşünüyordu. Biri ötekinden biraz daha sokağa doğru çıkıntı yapan iki evin arasındaki bir köşeye oturdu ve büzüldü; küçük bacaklarını altına toplamıştı, ama daha da çok üşüyordu; eve gitmeye de cesaret edemiyordu, hiç kibrit satmamıştı, tek bir metelik bile kazanmamıştı, babası onu döverdi; evde de soğuktu, başlarının üstünde yalnızca çatı vardı ve en büyük çatlaklara saman ve paçavra tıkanmış olmasına rağmen rüzgâr içeri ıslık çalarak giriyordu. Küçük elleri soğuktan neredeyse tamamen ölmüştü. Ah! Küçük bir kibrit iyi gelebilirdi. Demetten bir tane çekip duvara sürtmeye ve parmaklarını ısıtmaya bir cesaret edebilse. Bir tane çekti: “Çırt!” Nasıl da çıtırdadı, nasıl da yandı! Elini çevresine tuttuğunda sıcak, berrak bir alevdi, küçük bir mum gibi; tuhaf bir ışıktı! Küçük kıza öyle geldi ki parlak pirinç toplu, pirinç gövdeli büyük bir demir sobanın önünde oturuyordu; ateş öyle güzel yanıyor, öyle güzel ısıtıyordu! Hayır, bu da neydi! Küçük kız ayaklarını da ısıtmak için uzatmıştı ki alev söndü, soba kayboldu; elinde yanıp bitmiş kibritin küçük bir parçasıyla oturuyordu."
+   ],
+   "excerpt": {
+    "catalogId": "andersen-kibritci-kiz",
+    "book": "Kibritçi Kız ve Diğer Masallar",
+    "author": "Hans Christian Andersen",
+    "sahafTranslation": true,
+    "continueAt": "Bir yenisini çaktı, yandı, parladı"
+   }
+  },
+  {
+   "id": "tr-iki-dost",
+   "title": "Kuşatılmış Paris",
+   "source": "Sahaf çevirisi; Guy de Maupassant, Deux Amis (Wikisource)",
+   "license": "Public domain original, Sahaf translation",
+   "language": "tr",
+   "genre": "classics",
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "Hikâyenin başında Paris ne durumdadır?",
+     "options": [
+      "Bayram kutluyor",
+      "Kuşatılmış ve açlık çekiyor",
+      "Selden yeni kurtulmuş",
+      "Bir sergiye hazırlanıyor"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q2",
+     "prompt": "Bay Morissot’nun mesleği nedir?",
+     "options": [
+      "Tuhafiyeci",
+      "Asker",
+      "Saatçi",
+      "Balıkçı"
+     ],
+     "correctIndex": 2,
+     "type": "detail"
+    },
+    {
+     "id": "q3",
+     "prompt": "Savaştan önce iki dost pazar günleri ne yapardı?",
+     "options": [
+      "Marante Adası’nda balık tutardı",
+      "Kafede kâğıt oynardı",
+      "Bulvarlarda gezerdi",
+      "Kiliseye giderdi"
+     ],
+     "correctIndex": 0,
+     "type": "main idea"
+    },
+    {
+     "id": "q4",
+     "prompt": "İki dost hiç konuşmadan birbirini nasıl anlayabiliyordu?",
+     "options": [
+      "İşaret dili bildikleri için",
+      "Zevkleri benzer, duyguları aynı olduğu için",
+      "Çocukluktan beri kardeş oldukları için",
+      "Birbirlerine mektup yazdıkları için"
+     ],
+     "correctIndex": 1,
+     "type": "inference"
+    }
+   ],
+   "paragraphs": [
+    "Paris kuşatılmıştı, açlık çekiyor ve can çekişiyordu. Damlarda serçeler iyice azalmış, lağımlar boşalıyordu. İnsanlar ne bulursa yiyordu.",
+    "Ocak ayının aydınlık bir sabahı, elleri üniforma pantolonunun ceplerinde, karnı boş, dış bulvar boyunca kederle dolaşırken, mesleği saatçilik olan ve fırsat buldukça evinden çıkmayı sevmeyen Bay Morissot, dostu olarak tanıdığı bir meslektaşının önünde birden durdu. Bu, su kıyısından bir tanıdığı olan Bay Sauvage'dı.",
+    "Savaştan önce her pazar Morissot gün ağarırken, bir elinde bambu bir olta, sırtında teneke bir kutuyla yola çıkardı. Argenteuil trenine biner, Colombes'da iner, sonra yürüyerek Marante Adası'na giderdi. Hayallerinin bu yerine varır varmaz balık tutmaya başlar, gece olana kadar balık tutardı.",
+    "Her pazar orada, Notre-Dame-de-Lorette Sokağı'nda tuhafiyeci olan, bir başka balık tutma tutkunu, ufak tefek, tombul ve neşeli bir adamla, Bay Sauvage'la karşılaşırdı. Çoğu zaman ellerinde oltaları, ayakları akıntının üstünde sallanır halde yarım günü yan yana geçirirlerdi; ve birbirlerine karşı bir dostluk beslemeye başlamışlardı.",
+    "Bazı günler hiç konuşmazlardı. Bazen sohbet ederlerdi; ama zevkleri benzer, duyguları aynı olduğu için hiçbir şey söylemeden de birbirlerini harika anlarlardı.",
+    "İlkbaharda, sabah saat on sularında, gençleşmiş güneş sakin nehrin üstünde suyla birlikte akan o hafif buğuyu dalgalandırır ve iki tutkun balıkçının sırtına yeni mevsimin güzel sıcaklığını dökerken, Morissot bazen yanındakine “Hey! Ne tatlı bir hava!” der, Bay Sauvage da “Bundan daha güzelini bilmem,” diye cevap verirdi. Bu da birbirlerini anlamaları ve birbirlerine saygı duymaları için yeterdi.",
+    "Sonbaharda, günün sonuna doğru, batan güneşle kana bulanmış gök suya kızıl bulut figürleri attığında, bütün nehri kızıla boyadığında, ufku tutuşturduğunda, iki dostu ateş gibi kıpkırmızı yaptığında ve kış ürpertisiyle titreyen, çoktan kızıllaşmış ağaçları yaldızladığında, Bay Sauvage gülümseyerek Morissot'ya bakar ve “Ne manzara!” derdi. Hayran kalan Morissot da gözlerini mantarından ayırmadan cevap verirdi: “Bulvardan iyidir, değil mi?”",
+    "Birbirlerini tanır tanımaz, böylesine farklı koşullarda yeniden karşılaşmanın heyecanıyla ellerini sımsıkı sıktılar. Bay Sauvage bir iç çekerek mırıldandı: “Neler oluyor neler!” Çok kederli olan Morissot inledi: “Hele şu havaya bak! Bugün yılın ilk güzel günü.”",
+    "Gök gerçekten de masmavi ve ışık doluydu.",
+    "Dalgın ve hüzünlü bir halde yan yana yürümeye başladılar. Morissot yeniden söze girdi: “Ya balık tutmak? Ha! Ne güzel bir anı!”",
+    "Bay Sauvage sordu: “Oraya ne zaman döneceğiz?”"
+   ],
+   "excerpt": {
+    "catalogId": "maupassant-gerdanlik",
+    "book": "Gerdanlık ve Diğer Öyküler",
+    "author": "Guy de Maupassant",
+    "sahafTranslation": true,
+    "continueAt": "Küçük bir kafeye girdiler"
+   }
+  },
+  {
+   "id": "tr-ask-dalgasi",
+   "title": "Kadıköy Vapurunda",
+   "source": "Ömer Seyfettin, Aşk Dalgası (Vikikaynak)",
+   "license": "Public domain",
+   "language": "tr",
+   "genre": "classics",
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "Vapur nereye gidiyordu?",
+     "options": [
+      "Üsküdar’a",
+      "Kadıköy’e",
+      "Adalar’a",
+      "Beşiktaş’a"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q2",
+     "prompt": "Yolculuk hangi ayda geçiyor?",
+     "options": [
+      "Ocak",
+      "Nisan",
+      "Haziran",
+      "Ekim"
+     ],
+     "correctIndex": 2,
+     "type": "detail"
+    },
+    {
+     "id": "q3",
+     "prompt": "Anlatıcı yolculuk boyunca ne yapıyordu?",
+     "options": [
+      "Gazete okuyordu",
+      "Gerçek manzarayı silip hayalinde bambaşka bir dünya kuruyordu",
+      "Yolcularla sohbet ediyordu",
+      "Martılara yem atıyordu"
+     ],
+     "correctIndex": 1,
+     "type": "main idea"
+    },
+    {
+     "id": "q4",
+     "prompt": "Anlatıcının hayal kurmasını en çok hangi yapı besliyordu?",
+     "options": [
+      "Tıbbiye Mektebi",
+      "Selimiye Kışlası",
+      "Kızkulesi",
+      "Bir cami minaresi"
+     ],
+     "correctIndex": 2,
+     "type": "inference"
+    }
+   ],
+   "paragraphs": [
+    "Vapur dopdoluydu. Son düdük öttü. İki yandaki çarklar, dar kafeslerinde birden uyanan alışkın ve müthiş deniz aygırları gibi, hiddetli bir gürültü çıkararak, kımıldandı. Bütün vapur hafifçe sarsıldı. Hava gayet güzeldi. Kadıköy'e gidiyorduk. Nihayet leylâk renkli sisler içinde eriyen Marmara'nın kubbeli, ince minareli uzun, uyumuş ufuklarında, büyük ve beyaz kenarlı bulutlar, parçalanmış köpük dalgaları halinde yavaş yavaş büyüyor, dağılıyor, toplanıyor, derin çukurlarında, yüksek tepelerinde morluklar, koyu mavilikler birikiyordu. Haziranın yakıcı güneşi vapurun, dumanlardan ve yağmurdan esmerleşmiş tentelerine düşüyor, bazı duran ve yine birden esmeye başlayan kararsız rüzgârı sanki ılıklaştırıyor, sanki ona sarhoşluk verici, tahrik edici, şuh ve fettan bir şey katıyordu.",
+    "Uzak ve bilinmez masal adalarından gelmişe benzeyen süt gibi beyaz martılar etrafımızda uçuşuyorlar; çıkardıkları tatlı, derin sesleriyle şehirde kalmış, kalabalıktan, uğraşmalardan, hırslardan, kederlerden bunalmış zavallı insanları kendi vatanlarına, hakikatten pek uzak, tenha, sakin yerlere, biraz aşk ve şiir tatmak için çağırıyorlardı. Lacivert dalgalar içinde bir masal, bir efsane köşkünü andıran Kızkulesi hayalime dokunuyor, ruhumu, hissimi beyaz ve aydınlık dualarıyla uyutarak dimağımdan bütün etrafımın, muhitimin akislerini siliyordu. Artık vapurda olduğumu unutuyordum. Ömrümde her gün birkaç şiir okuyan, düşünen bir adamın o tuhaf, marazî iptilâsıyla etrafımı bozuyor; Üsküdar ve Selimiye yakalarındaki evleri, kubbeleri, minareleri, selvileri, hatta koca Tıbbiye Mektebini ve koca kışlaları silerek hiç görmüyor; onların yerine, alanlarında gümüş, elmas şelâleler akan, serin gölgelerinde çıplak ve pembe çiftler öpüşen, balta girmemiş çam ve kayın ormanları yapıyordum.",
+    "Hakikatte olmayan, yalnız kendi hayalimde vücut verdiğim bu levhaya, bu yüce ve büyük manzaraya bakarak, \"Ah, aşk yeri... Ah, işte aşk yeri...\" diyordum. Martıların, \"Geliniz, uzaklara, şu leylâk renkli sislerin öbür tarafına... Orada sizi beyaz çiçekler, ezelî, yeşil baharlar içinde bekleyen kızlar var, geliniz, haydi oraya...\" diyen ve çok derinlerden acele acele inleyerek gelen seslerini işittikçe hayalim bütün bütün dumanlanıyor, âdeta başım dönüyor. Artık pek aşağılarda kalan Kızkulesi'nin üstünde şeffaf kanatlı binlerce perilerin uçuştuklarını ve gidilse elle tutulabileceklerini açıkça görüyordum. Ansızın omuzuma bir el dokundu. Döndüm."
+   ],
+   "excerpt": {
+    "catalogId": "omer-seyfettin-bomba",
+    "book": "Bomba ve Diğer Hikâyeler",
+    "author": "Ömer Seyfettin",
+    "continueAt": "— Yahu, nedir bu hal"
+   }
+  },
+  {
+   "id": "dracula-opening",
+   "title": "Into the East",
+   "source": "Bram Stoker, Dracula (Project Gutenberg)",
+   "license": "Public domain",
+   "language": "en",
+   "genre": "classics",
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "Which city did the writer leave on 1st May?",
+     "options": [
+      "Vienna",
+      "Munich",
+      "London",
+      "Buda-Pesth"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q2",
+     "prompt": "What did he eat at Klausenburgh?",
+     "options": [
+      "Fish from the Danube",
+      "A chicken done with red pepper",
+      "Bread and cheese",
+      "Roast goose"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q3",
+     "prompt": "Why had he studied books and maps at the British Museum?",
+     "options": [
+      "He was writing a history book",
+      "Knowing the country might matter in dealing with a nobleman there",
+      "Mina had asked him to",
+      "He wanted to become a mapmaker"
+     ],
+     "correctIndex": 1,
+     "type": "inference"
+    },
+    {
+     "id": "q4",
+     "prompt": "What could he not find on any map?",
+     "options": [
+      "The town of Bistritz",
+      "The river Danube",
+      "The exact place of Castle Dracula",
+      "The Carpathian mountains"
+     ],
+     "correctIndex": 2,
+     "type": "detail"
+    }
+   ],
+   "paragraphs": [
+    "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East; the most western of splendid bridges over the Danube, which is here of noble width and depth, took us among the traditions of Turkish rule.",
+    "We left in pretty good time, and came after nightfall to Klausenburgh. Here I stopped for the night at the Hotel Royale. I had for dinner, or rather supper, a chicken done up some way with red pepper, which was very good but thirsty. (Mem., get recipe for Mina.) I asked the waiter, and he said it was called “paprika hendl,” and that, as it was a national dish, I should be able to get it anywhere along the Carpathians. I found my smattering of German very useful here; indeed, I don’t know how I should be able to get on without it.",
+    "Having had some time at my disposal when in London, I had visited the British Museum, and made search among the books and maps in the library regarding Transylvania; it had struck me that some foreknowledge of the country could hardly fail to have some importance in dealing with a nobleman of that country. I find that the district he named is in the extreme east of the country, just on the borders of three states, Transylvania, Moldavia and Bukovina, in the midst of the Carpathian mountains; one of the wildest and least known portions of Europe. I was not able to light on any map or work giving the exact locality of the Castle Dracula, as there are no maps of this country as yet to compare with our own Ordnance Survey maps; but I found that Bistritz, the post town named by Count Dracula, is a fairly well-known place. I shall enter here some of my notes, as they may refresh my memory when I talk over my travels with Mina."
+   ],
+   "excerpt": {
+    "catalogId": "dracula",
+    "book": "Dracula",
+    "author": "Bram Stoker",
+    "continueAt": "In the population of Transylvania"
+   }
+  },
+  {
+   "id": "crime-and-punishment-opening",
+   "title": "The Garret",
+   "source": "Fyodor Dostoevsky, Crime and Punishment, tr. Constance Garnett (Project Gutenberg)",
+   "license": "Public domain",
+   "language": "en",
+   "genre": "classics",
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "When does the story begin?",
+     "options": [
+      "On a cold winter morning",
+      "On a very hot evening early in July",
+      "On a rainy autumn night",
+      "At dawn in spring"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q2",
+     "prompt": "What was the young man’s garret like?",
+     "options": [
+      "A large, sunny room",
+      "More like a cupboard than a room",
+      "A cellar below the street",
+      "A room in a hotel"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q3",
+     "prompt": "Why did he try not to meet his landlady?",
+     "options": [
+      "She was ill",
+      "He was hopelessly in debt to her",
+      "She had insulted him",
+      "She did not speak his language"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q4",
+     "prompt": "According to the text, what really made him avoid people?",
+     "options": [
+      "Simple cowardice",
+      "He had grown absorbed in himself and cut off from others",
+      "He was too busy studying",
+      "He was hiding from the police"
+     ],
+     "correctIndex": 1,
+     "type": "main idea"
+    }
+   ],
+   "paragraphs": [
+    "On an exceptionally hot evening early in July a young man came out of the garret in which he lodged in S. Place and walked slowly, as though in hesitation, towards K. bridge.",
+    "He had successfully avoided meeting his landlady on the staircase. His garret was under the roof of a high, five-storied house and was more like a cupboard than a room. The landlady who provided him with garret, dinners, and attendance, lived on the floor below, and every time he went out he was obliged to pass her kitchen, the door of which invariably stood open. And each time he passed, the young man had a sick, frightened feeling, which made him scowl and feel ashamed. He was hopelessly in debt to his landlady, and was afraid of meeting her.",
+    "This was not because he was cowardly and abject, quite the contrary; but for some time past he had been in an overstrained irritable condition, verging on hypochondria. He had become so completely absorbed in himself, and isolated from his fellows that he dreaded meeting, not only his landlady, but anyone at all. He was crushed by poverty, but the anxieties of his position had of late ceased to weigh upon him. He had given up attending to matters of practical importance; he had lost all desire to do so. Nothing that any landlady could do had a real terror for him. But to be stopped on the stairs, to be forced to listen to her trivial, irrelevant gossip, to pestering demands for payment, threats and complaints, and to rack his brains for excuses, to prevaricate, to lie—no, rather than that, he would creep down the stairs like a cat and slip out unseen.",
+    "This evening, however, on coming out into the street, he became acutely aware of his fears."
+   ],
+   "excerpt": {
+    "catalogId": "crime-and-punishment",
+    "book": "Crime and Punishment",
+    "author": "Fyodor Dostoyevsky",
+    "continueAt": "“I want to attempt a thing like that"
+   }
+  },
+  {
+   "id": "around-the-world-suez",
+   "title": "Waiting at Suez",
+   "source": "Jules Verne, Around the World in Eighty Days, tr. George M. Towle (Project Gutenberg)",
+   "license": "Public domain",
+   "language": "en",
+   "genre": "classics",
+   "questions": [
+    {
+     "id": "q1",
+     "prompt": "When was the “Mongolia” due at Suez?",
+     "options": [
+      "At noon on Sunday",
+      "At eleven o’clock on Wednesday, the 9th of October",
+      "At midnight on Friday",
+      "At dawn on Monday, the 1st of October"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q2",
+     "prompt": "Between which ports did the “Mongolia” sail?",
+     "options": [
+      "London and Calcutta",
+      "Brindisi and Bombay",
+      "Marseilles and Hong Kong",
+      "Suez and Cape Town"
+     ],
+     "correctIndex": 1,
+     "type": "detail"
+    },
+    {
+     "id": "q3",
+     "prompt": "Who is Fix?",
+     "options": [
+      "The British consul at Suez",
+      "The captain of the steamer",
+      "A detective sent from England after a bank robber",
+      "A merchant from Bombay"
+     ],
+     "correctIndex": 2,
+     "type": "main idea"
+    },
+    {
+     "id": "q4",
+     "prompt": "Why is Fix so impatient?",
+     "options": [
+      "He is late for his own ship",
+      "He hopes to win the reward for catching the robber",
+      "The consul has been rude to him",
+      "He is afraid of the sea"
+     ],
+     "correctIndex": 1,
+     "type": "inference"
+    }
+   ],
+   "paragraphs": [
+    "The steamer “Mongolia,” belonging to the Peninsular and Oriental Company, built of iron, of two thousand eight hundred tons burden, and five hundred horse-power, was due at eleven o’clock a.m. on Wednesday, the 9th of October, at Suez. The “Mongolia” plied regularly between Brindisi and Bombay viâ the Suez Canal, and was one of the fastest steamers belonging to the company, always making more than ten knots an hour between Brindisi and Suez, and nine and a half between Suez and Bombay.",
+    "Two men were promenading up and down the wharves, among the crowd of natives and strangers who were sojourning at this once straggling village—now, thanks to the enterprise of M. Lesseps, a fast-growing town. One was the British consul at Suez, who, despite the prophecies of the English Government, and the unfavourable predictions of Stephenson, was in the habit of seeing, from his office window, English ships daily passing to and fro on the great canal, by which the old roundabout route from England to India by the Cape of Good Hope was abridged by at least a half. The other was a small, slight-built personage, with a nervous, intelligent face, and bright eyes peering out from under eyebrows which he was incessantly twitching. He was just now manifesting unmistakable signs of impatience, nervously pacing up and down, and unable to stand still for a moment. This was Fix, one of the detectives who had been dispatched from England in search of the bank robber; it was his task to narrowly watch every passenger who arrived at Suez, and to follow up all who seemed to be suspicious characters, or bore a resemblance to the description of the criminal, which he had received two days before from the police headquarters at London. The detective was evidently inspired by the hope of obtaining the splendid reward which would be the prize of success, and awaited with a feverish impatience, easy to understand, the arrival of the steamer “Mongolia.”"
+   ],
+   "excerpt": {
+    "catalogId": "around-the-world-in-eighty-days",
+    "book": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "continueAt": "“So you say, consul,”"
+   }
+  }
+ ]
+}
